@@ -1,0 +1,37 @@
+# Example charts used by docs/style-sample.md and the chart tests. Lessons use
+# their own file, tools/charts_src/<folder>.yml.
+- name: daily-trend-pullback
+  seed: 7
+  csv: stock-a-daily
+  tf: D
+  start: 2026-01-05
+  price: 100
+  volume: 2000000
+  segments:
+    - {kind: trend, bars: 45, drift: 0.004, vol: 0.011}
+    - {kind: to, bars: 8, price: 108, vol: 0.008, volume: 0.7}
+    - {kind: trend, bars: 30, drift: 0.004, vol: 0.011, volume: 1.2}
+
+- name: daily-gap-and-fvg
+  seed: 3
+  tf: D
+  start: 2026-02-02
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 30, low: 48, high: 52, vol: 0.009}
+    - {kind: bar, open: 0.0, high: 0.012, low: -0.004, close: 0.008}
+    - {kind: bar, open: 0.0, high: 0.062, low: 0.004, close: 0.055, volume: 3.0}
+    - {kind: bar, open: 0.0, high: 0.02, low: 0.005, close: 0.012, volume: 1.6}
+    - {kind: trend, bars: 25, drift: 0.002, vol: 0.01}
+
+- name: intraday-orb
+  seed: 21
+  tf: 5m
+  start: "2026-03-02 09:30"
+  price: 200
+  volume: 120000
+  segments:
+    - {kind: range, bars: 6, low: 198.8, high: 201.2, vol: 0.002}
+    - {kind: trend, bars: 30, drift: 0.0007, vol: 0.0016, volume: 1.2}
+    - {kind: to, bars: 42, price: 202.5, vol: 0.0012, volume: 0.8}

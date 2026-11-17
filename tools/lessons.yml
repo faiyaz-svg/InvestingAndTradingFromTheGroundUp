@@ -1,0 +1,392 @@
+# The book's parts and lessons, in reading order. tools/build_nav.py reads this.
+#
+# Each part: folder, code (a short ticker-style label), group (the site tab),
+# title, summary, before. Each lesson: [slug, "Title", [kind]] or [slug, "Title", [kind, review]].
+# Kinds: idea, skill, strategy, data, canada, code, case, career. Quote every title.
+# Lesson files are docs/<folder>/NN-<slug>.md, numbered by position (01, 02, ...).
+
+groups:
+  - Foundations
+  - Trading
+  - Companies and economy
+  - Investing and derivatives
+  - Markets, data and quant
+  - History and careers
+
+folders:
+  - folder: 01-how-markets-work
+    code: MKT
+    group: Foundations
+    title: "How markets work"
+    summary: "What a share is, where orders go, who takes the other side, and how to read a quote."
+    before: "Nothing. This is the start of the book."
+    lessons:
+      - [what-a-stock-is, "What a stock is and why prices move", [idea]]
+      - [exchanges-and-where-orders-go, "Exchanges and where your order goes", [idea]]
+      - [market-hours-and-auctions, "Market hours and the opening and closing auctions", [idea]]
+      - [bid-ask-and-the-order-book, "Bid, ask and the order book", [idea]]
+      - [order-types, "Order types", [skill]]
+      - [who-is-on-the-other-side, "Who is on the other side of your trade", [idea]]
+      - [settlement-cash-and-margin, "Settlement, cash accounts and margin", [idea]]
+      - [short-selling, "Short selling", [skill]]
+      - [dividends-splits-and-corporate-actions, "Dividends, splits and corporate actions", [idea]]
+      - [indexes-sectors-and-market-cap, "Indexes, sectors and market cap", [idea]]
+      - [reading-a-quote-page, "Reading a quote page", [skill, review]]
+
+  - folder: 02-accounts-currency-and-taxes
+    code: ACCT
+    group: Foundations
+    title: "Accounts, currency and taxes"
+    summary: "Trading US stocks from Canada: which account, USD or CAD, withholding tax, CRA rules and records."
+    before: "Part 1. The math book's lessons on RRSP, TFSA and FHSA and on taxes on investment income help."
+    lessons:
+      - [account-types-for-trading, "Account types for trading", [canada]]
+      - [wealthsimple-and-ibkr, "Wealthsimple and IBKR compared", [canada]]
+      - [usd-vs-cad-and-fx-fees, "USD or CAD, and currency conversion fees", [canada]]
+      - [norberts-gambit-and-cdrs, "Norbert's gambit and CDRs", [canada]]
+      - [currency-risk-on-us-stocks, "Currency risk on US stocks", [canada]]
+      - [us-withholding-tax-and-w-8ben, "US withholding tax and the W-8BEN", [canada]]
+      - [capital-gains-vs-business-income, "Capital gains or business income", [canada]]
+      - [cost-base-in-cad-and-records, "Cost base in CAD and keeping records", [canada]]
+      - [tax-losses-and-superficial-loss, "Tax losses and the superficial loss rule", [canada]]
+      - [margin-rules-in-canada, "Margin rules in Canada", [canada, review]]
+
+  - folder: 03-risk-and-position-sizing
+    code: RISK
+    group: Foundations
+    title: "Risk and position sizing"
+    summary: "How much to risk, how many shares to buy, and how losses and drawdowns add up."
+    before: "Part 1. The math book's probability lessons (expected value) help."
+    lessons:
+      - [risk-first, "Risk first: the math of losses", [idea]]
+      - [r-multiples, "R-multiples", [idea]]
+      - [win-rate-payoff-and-expectancy, "Win rate, payoff and expectancy", [idea]]
+      - [fixed-fractional-sizing, "Position sizing with fixed fractional risk", [skill]]
+      - [where-to-put-the-stop, "Where to put the stop", [skill]]
+      - [slippage-gaps-and-costs, "Slippage, gaps and costs", [idea]]
+      - [portfolio-heat-and-correlation, "Portfolio heat and correlation", [skill]]
+      - [drawdowns-and-risk-of-ruin, "Drawdowns and risk of ruin", [idea]]
+      - [kelly-and-fractional-kelly, "The Kelly criterion and fractional Kelly", [idea]]
+      - [your-trading-plan, "Your trading plan", [skill, review]]
+
+  - folder: 04-psychology-journal-and-paper-trading
+    code: MIND
+    group: Foundations
+    title: "Psychology, the journal and paper trading"
+    summary: "The habits that keep a plan working: rules, a trade journal, reviews and a paper account."
+    before: "Part 3."
+    lessons:
+      - [biases-that-cost-traders, "Biases that cost traders money", [idea]]
+      - [tilt-revenge-and-fomo, "Tilt, revenge trading and FOMO", [idea]]
+      - [rules-and-checklists, "Rules and checklists", [skill]]
+      - [the-trade-journal, "The trade journal", [skill]]
+      - [reviewing-your-trades, "Reviewing your trades", [skill]]
+      - [paper-trading-setup, "Setting up paper trading", [skill]]
+      - [from-paper-to-live, "From paper to live trading", [skill, review]]
+
+  - folder: 05-reading-charts
+    code: CHRT
+    group: Trading
+    title: "Reading charts"
+    summary: "Candles, trend, levels, volume and the common indicators, with what tests found about patterns."
+    before: "Parts 1 and 3."
+    lessons:
+      - [candles-bars-and-timeframes, "Candles, bars and timeframes", [skill]]
+      - [trend-and-market-structure, "Trend and market structure", [skill]]
+      - [support-and-resistance, "Support and resistance", [skill]]
+      - [volume-and-relative-volume, "Volume and relative volume", [skill]]
+      - [moving-averages, "Moving averages", [skill]]
+      - [momentum-indicators, "Momentum indicators: RSI, MACD and stochastics", [skill]]
+      - [volatility-indicators, "Volatility indicators: ATR, Bollinger and Keltner", [skill]]
+      - [vwap-and-anchored-vwap, "VWAP and anchored VWAP", [skill]]
+      - [chart-patterns-and-the-evidence, "Chart patterns and the evidence", [skill]]
+      - [gaps, "Gaps", [skill]]
+      - [multi-timeframe-and-relative-strength, "Multiple timeframes and relative strength", [skill, review]]
+
+  - folder: 06-ict-and-smart-money-tested
+    code: ICT
+    group: Trading
+    title: "ICT and smart money concepts, tested"
+    summary: "Liquidity, fair value gaps, order blocks and sessions: what each idea says and what tests found."
+    before: "Part 5."
+    lessons:
+      - [what-ict-and-smc-claim, "What ICT and smart money concepts claim", [idea]]
+      - [liquidity-and-stop-runs, "Liquidity and stop runs", [strategy]]
+      - [fair-value-gaps, "Fair value gaps", [strategy]]
+      - [order-blocks-and-breakers, "Order blocks and breakers", [strategy]]
+      - [sessions-kill-zones-and-premium-discount, "Sessions, kill zones and premium and discount", [strategy]]
+      - [testing-smc-claims, "Testing smart money claims", [data, review]]
+
+  - folder: 07-swing-trading
+    code: SWNG
+    group: Trading
+    title: "Swing trading"
+    summary: "Trades held for days to weeks: finding setups, entries, stops, targets and a weekly routine."
+    before: "Parts 3 to 5."
+    lessons:
+      - [what-swing-trading-is, "What swing trading is", [idea]]
+      - [scanners-and-watchlists, "Scanners and watchlists", [skill]]
+      - [market-regime-filters, "Market regime filters", [strategy]]
+      - [trend-pullback-setups, "Trend pullback setups", [strategy]]
+      - [breakouts-and-bases, "Breakouts and bases", [strategy]]
+      - [short-term-mean-reversion, "Short-term mean reversion", [strategy]]
+      - [entries-stops-and-targets, "Entries, stops and targets", [skill]]
+      - [managing-the-trade, "Managing the trade", [skill]]
+      - [weekly-swing-routine, "A weekly swing routine", [skill, review]]
+
+  - folder: 08-day-trading
+    code: DAY
+    group: Trading
+    title: "Day trading"
+    summary: "Trades opened and closed the same day: premarket prep, intraday setups, the tape and daily limits."
+    before: "Parts 3 to 5, and part 7 helps."
+    lessons:
+      - [how-day-trading-differs, "How day trading differs", [idea]]
+      - [premarket-prep, "Premarket prep", [skill]]
+      - [intraday-charts-and-vwap, "Intraday charts and VWAP", [skill]]
+      - [opening-range-breakout, "The opening range breakout", [strategy]]
+      - [vwap-reclaims-and-fades, "VWAP reclaims and fades", [strategy]]
+      - [news-momentum-and-halts, "News, momentum and halts", [strategy]]
+      - [level-2-and-time-and-sales, "Level 2 and time and sales", [skill]]
+      - [execution-costs-and-scalping, "Execution costs and scalping", [idea]]
+      - [day-trading-routine-and-limits, "A day trading routine and limits", [skill, review]]
+
+  - folder: 09-company-financials
+    code: FIN
+    group: Companies and economy
+    title: "Company financials"
+    summary: "Reading 10-Ks and 10-Qs: the three statements, margins, returns, debt, dilution and earnings quality."
+    before: "Part 1."
+    lessons:
+      - [filings-and-edgar, "Filings and EDGAR", [data]]
+      - [the-income-statement, "The income statement", [data]]
+      - [the-balance-sheet, "The balance sheet", [data]]
+      - [the-cash-flow-statement, "The cash flow statement", [data]]
+      - [how-the-statements-connect, "How the three statements connect", [data]]
+      - [margins-and-growth, "Margins and growth", [data]]
+      - [returns-on-capital, "Returns on capital", [data]]
+      - [debt-liquidity-and-solvency, "Debt, liquidity and solvency", [data]]
+      - [shares-eps-dilution-and-buybacks, "Shares, EPS, dilution and buybacks", [data]]
+      - [gaap-non-gaap-and-earnings-quality, "GAAP, non-GAAP and earnings quality", [data]]
+      - [earnings-season-and-calls, "Earnings season and earnings calls", [data, review]]
+
+  - folder: 10-valuation-and-research
+    code: VAL
+    group: Companies and economy
+    title: "Valuation and research"
+    summary: "Multiples, enterprise value, free cash flow, discount rates, DCFs and writing a stock pitch."
+    before: "Part 9. The math book's lessons on present value and NPV help."
+    lessons:
+      - [multiples, "Price multiples", [skill]]
+      - [enterprise-value-and-ev-ebitda, "Enterprise value and EV/EBITDA", [skill]]
+      - [free-cash-flow, "Free cash flow", [skill]]
+      - [discount-rates-capm-and-wacc, "Discount rates, CAPM and WACC", [skill]]
+      - [dcf-step-by-step, "A DCF step by step", [skill]]
+      - [reverse-dcf-and-expectations, "Reverse DCF and market expectations", [skill]]
+      - [comparables-and-industry-kpis, "Comparables and industry KPIs", [skill]]
+      - [moats-and-qualitative-research, "Moats and qualitative research", [skill]]
+      - [writing-a-stock-pitch, "Writing a stock pitch", [skill, review]]
+
+  - folder: 11-macro-and-economic-data
+    code: MACRO
+    group: Companies and economy
+    title: "Macro and economic data"
+    summary: "The Fed, inflation, jobs and growth reports, the economic calendar and how markets react."
+    before: "Part 1. The math book's economics lessons (CPI, GDP, unemployment) help."
+    lessons:
+      - [how-the-economy-is-measured, "How the economy is measured", [data]]
+      - [the-fed-and-the-fomc, "The Fed and the FOMC", [idea]]
+      - [interest-rates-and-asset-prices, "Interest rates and asset prices", [idea]]
+      - [inflation-reports, "Inflation reports: CPI, PCE and PPI", [data]]
+      - [the-jobs-report, "The jobs report", [data]]
+      - [growth-data, "Growth data: GDP, retail sales and PMIs", [data]]
+      - [the-economic-calendar, "The economic calendar", [skill]]
+      - [how-markets-react-to-data, "How markets react to data", [idea]]
+      - [the-business-cycle-and-sectors, "The business cycle and sectors", [idea]]
+      - [qe-qt-and-liquidity, "QE, QT and liquidity", [idea]]
+      - [the-bank-of-canada-and-a-macro-week, "The Bank of Canada and a macro week", [canada, review]]
+
+  - folder: 12-bonds-and-the-yield-curve
+    code: BOND
+    group: Companies and economy
+    title: "Bonds and the yield curve"
+    summary: "Bond prices and yields, Treasuries, the yield curve, duration, credit and bond ETFs."
+    before: "Part 11. The math book's lesson on present value, NPV and bond prices helps."
+    lessons:
+      - [bond-prices-and-yields, "Bond prices and yields", [idea]]
+      - [treasuries-and-tips, "Treasuries and TIPS", [idea]]
+      - [the-yield-curve, "The yield curve", [data]]
+      - [duration-and-convexity, "Duration and convexity", [idea]]
+      - [credit-spreads-and-high-yield, "Credit spreads and high yield", [idea]]
+      - [bond-etfs-and-rates-vs-stocks, "Bond ETFs, and rates against stocks", [idea, review]]
+
+  - folder: 13-etfs-portfolios-and-factors
+    code: ETF
+    group: Investing and derivatives
+    title: "ETFs, portfolios and factors"
+    summary: "How ETFs work, which to hold from Canada, allocation, rebalancing, portfolio theory and factors."
+    before: "Parts 2 and 12."
+    lessons:
+      - [how-etfs-work, "How ETFs work", [idea]]
+      - [index-funds-fees-and-tracking, "Index funds, fees and tracking", [idea]]
+      - [us-vs-canadian-listed-etfs, "US-listed or Canadian-listed ETFs", [canada]]
+      - [leveraged-and-inverse-etfs, "Leveraged and inverse ETFs", [idea]]
+      - [asset-allocation, "Asset allocation", [skill]]
+      - [diversification-and-correlation, "Diversification and correlation", [idea]]
+      - [rebalancing, "Rebalancing", [skill]]
+      - [modern-portfolio-theory, "Modern portfolio theory", [idea]]
+      - [factor-investing, "Factor investing", [strategy]]
+      - [a-long-term-portfolio, "A long-term portfolio", [canada, review]]
+
+  - folder: 14-futures
+    code: FUT
+    group: Investing and derivatives
+    title: "Futures"
+    summary: "Contracts, margin and leverage, index futures, rolling, contango and futures from Canada."
+    before: "Parts 3 and 12."
+    lessons:
+      - [what-futures-are, "What futures are", [idea]]
+      - [margin-leverage-and-mark-to-market, "Margin, leverage and mark to market", [idea]]
+      - [index-futures, "Index futures: ES, MES, NQ and MNQ", [idea]]
+      - [expiry-and-rolling, "Expiry and rolling", [skill]]
+      - [contango-backwardation-and-basis, "Contango, backwardation and basis", [idea]]
+      - [futures-hours-and-sessions, "Futures hours and sessions", [skill]]
+      - [futures-in-canada, "Futures in Canada", [canada, review]]
+
+  - folder: 15-options
+    code: OPT
+    group: Investing and derivatives
+    title: "Options"
+    summary: "Calls and puts, pricing, the Greeks, implied volatility, the main strategies and options in Canadian accounts."
+    before: "Parts 3 and 14. The math book's normal distribution lesson helps."
+    lessons:
+      - [calls-and-puts, "Calls and puts", [idea]]
+      - [payoff-diagrams, "Payoff diagrams", [skill]]
+      - [the-chain-and-moneyness, "The options chain and moneyness", [skill]]
+      - [what-sets-an-option-price, "What sets an option's price", [idea]]
+      - [put-call-parity, "Put-call parity", [idea]]
+      - [delta-and-gamma, "Delta and gamma", [idea]]
+      - [theta-vega-and-rho, "Theta, vega and rho", [idea]]
+      - [implied-volatility, "Implied volatility", [idea]]
+      - [covered-calls-and-cash-secured-puts, "Covered calls and cash-secured puts", [strategy]]
+      - [vertical-spreads, "Vertical spreads", [strategy]]
+      - [straddles-and-strangles, "Straddles and strangles", [strategy]]
+      - [iron-condors-and-butterflies, "Iron condors and butterflies", [strategy]]
+      - [calendars-and-diagonals, "Calendars and diagonals", [strategy]]
+      - [assignment-exercise-and-0dte, "Assignment, exercise and 0DTE", [skill]]
+      - [options-in-canadian-accounts, "Options in Canadian accounts", [canada, review]]
+
+  - folder: 16-volatility-and-event-trading
+    code: VOL
+    group: Investing and derivatives
+    title: "Volatility and event trading"
+    summary: "Realized and implied volatility, the VIX, regimes, earnings, data days, opex and rebalances."
+    before: "Part 15."
+    lessons:
+      - [realized-vs-implied-volatility, "Realized and implied volatility", [idea]]
+      - [the-vix-and-term-structure, "The VIX and the term structure", [data]]
+      - [volatility-regimes, "Volatility regimes", [strategy]]
+      - [earnings-trades-and-iv-crush, "Earnings trades and IV crush", [strategy]]
+      - [fomc-cpi-and-data-days, "FOMC, CPI and other data days", [strategy]]
+      - [opex-gamma-and-index-rebalances, "Opex, gamma and index rebalances", [strategy, review]]
+
+  - folder: 17-commodities-forex-and-reits
+    code: CMDTY
+    group: Markets, data and quant
+    title: "Commodities, forex and REITs"
+    summary: "Oil, gold and commodity ETFs, currencies and USD/CAD, and real estate through REITs."
+    before: "Parts 11, 12 and 14."
+    lessons:
+      - [commodity-markets, "Commodity markets", [idea]]
+      - [what-moves-oil-and-gold, "What moves oil and gold", [idea]]
+      - [commodity-etfs-and-roll-costs, "Commodity ETFs and roll costs", [idea]]
+      - [forex-basics, "Forex basics", [idea]]
+      - [what-moves-currencies, "What moves currencies", [idea]]
+      - [trading-forex-from-canada, "Trading forex from Canada", [canada]]
+      - [reits-explained, "REITs explained", [idea]]
+      - [reit-metrics-ffo-and-cap-rates, "REIT metrics: FFO and cap rates", [data]]
+      - [rates-and-real-estate, "Rates and real estate", [idea, review]]
+
+  - folder: 18-crypto
+    code: CRYPTO
+    group: Markets, data and quant
+    title: "Crypto"
+    summary: "Bitcoin, Ethereum and stablecoins, buying crypto in Canada, crypto ETFs, perps and the risks."
+    before: "Parts 2, 3 and 14."
+    lessons:
+      - [what-bitcoin-is, "What bitcoin is", [idea]]
+      - [blockchains-keys-and-wallets, "Blockchains, keys and wallets", [idea]]
+      - [ethereum-stablecoins-and-defi, "Ethereum, stablecoins and DeFi", [idea]]
+      - [buying-crypto-in-canada, "Buying crypto in Canada", [canada]]
+      - [crypto-etfs, "Crypto ETFs", [idea]]
+      - [crypto-market-structure, "Crypto market structure: perps, funding and liquidations", [idea]]
+      - [on-chain-data-and-cycles, "On-chain data and crypto cycles", [data]]
+      - [hacks-and-collapses, "Hacks and collapses", [case]]
+      - [crypto-taxes-and-sizing, "Crypto taxes and position sizing", [canada, review]]
+
+  - folder: 19-data-flows-and-forecasting
+    code: DATA
+    group: Markets, data and quant
+    title: "Data, flows and forecasting"
+    summary: "Free data sources, insider and fund filings, short interest, COT, options flow, forecasting and prediction markets."
+    before: "Parts 9, 14 and 15."
+    lessons:
+      - [free-data-sources, "Free data sources and their licences", [data]]
+      - [insider-trades-form-4, "Insider trades and Form 4", [data]]
+      - [13f-holdings, "13F holdings", [data]]
+      - [short-interest-and-borrow, "Short interest and borrow", [data]]
+      - [commitments-of-traders, "The Commitments of Traders report", [data]]
+      - [options-flow, "Options flow", [data]]
+      - [base-rates-calibration-and-forecast-logs, "Base rates, calibration and forecast logs", [skill]]
+      - [prediction-markets, "Prediction markets", [idea, review]]
+
+  - folder: 20-quant-track-in-python
+    code: QUANT
+    group: Markets, data and quant
+    title: "Quant track in Python"
+    summary: "pandas for prices and fundamentals, returns and volatility, regression, factor sorts and how backtests mislead."
+    before: "Parts 5, 9 and 19. The CS book's Python basics lessons."
+    lessons:
+      - [python-and-pandas-for-prices, "Python and pandas for prices", [code]]
+      - [returns-and-volatility, "Returns and volatility in pandas", [code]]
+      - [indicators-in-pandas, "Indicators in pandas", [code]]
+      - [fundamentals-from-edgar, "Fundamentals from EDGAR", [code]]
+      - [macro-data-from-fred-and-treasury, "Macro data from FRED and Treasury", [code]]
+      - [correlation-beta-and-regression, "Correlation, beta and regression", [code]]
+      - [factor-sorts, "Factor sorts", [code]]
+      - [backtesting-concepts-and-biases, "Backtesting concepts and biases", [idea]]
+      - [overfitting-and-out-of-sample, "Overfitting and out-of-sample testing", [idea]]
+      - [performance-metrics, "Performance metrics", [code, review]]
+
+  - folder: 21-crashes-scams-and-case-studies
+    code: HIST
+    group: History and careers
+    title: "Crashes, scams and case studies"
+    summary: "What broke in the big crashes and blow-ups, the risk lesson from each, and how to spot scams."
+    before: "Parts 3, 12 and 15."
+    lessons:
+      - [1929-and-1987, "1929 and 1987", [case]]
+      - [ltcm-and-the-dot-com-bubble, "LTCM and the dot-com bubble", [case]]
+      - [the-2008-crisis, "The 2008 financial crisis", [case]]
+      - [flash-crash-2010-and-covid-2020, "The 2010 flash crash and the 2020 COVID crash", [case]]
+      - [gamestop-and-meme-stocks, "GameStop and meme stocks", [case]]
+      - [archegos-and-svb, "Archegos and SVB", [case]]
+      - [the-2022-rate-shock, "The 2022 rate shock", [case]]
+      - [pump-and-dumps-finfluencers-and-signal-groups, "Pump and dumps, finfluencers and signal groups", [case]]
+      - [prop-firms-and-checking-registration, "Prop firms and checking registration", [canada, review]]
+
+  - folder: 22-careers-interviews-and-ai
+    code: CAREER
+    group: History and careers
+    title: "Careers, interviews and AI"
+    summary: "Finance jobs and licences, building a track record, interview questions and using AI for research."
+    before: "Parts 9 and 10, and part 15 for trading and quant roles."
+    lessons:
+      - [the-map-of-finance-jobs, "The map of finance jobs", [career]]
+      - [licences-and-designations, "Licences and designations", [career]]
+      - [building-a-track-record, "Building a track record", [career]]
+      - [market-and-stock-pitch-interviews, "Market and stock pitch interviews", [career]]
+      - [accounting-and-valuation-questions, "Accounting and valuation interview questions", [career]]
+      - [probability-and-mental-math-puzzles, "Probability and mental math puzzles", [career]]
+      - [quant-interviews, "Quant interviews", [career]]
+      - [ai-for-market-research, "AI for market research", [career, review]]

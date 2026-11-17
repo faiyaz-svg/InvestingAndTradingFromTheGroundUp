@@ -1,0 +1,13 @@
+site/
+.venv/
+.cache/
+.playwright-mcp/
+__pycache__/
+*.pyc
+node_modules/
+
+# Local previews and scratch output.
+docs/style-sample.md
+docs/assets/figures/_samples/
+tools/checks/_out/
+tools/charts_src/_preview/
