@@ -1,0 +1,234 @@
+/* Chart drills (docs/javascripts/drills.js). Flat and square, theme tokens only. */
+
+.tw-drills {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.tw-d-top {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tw-d-sets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+}
+
+.tw-d-set {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.tw-d-set input {
+  accent-color: var(--tw-accent);
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+}
+
+.tw-d-stats,
+.tw-d-boxes {
+  margin: 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  overflow-wrap: anywhere;
+}
+
+.tw-d-card {
+  border: 1px solid var(--tw-chart-grid);
+  padding: 1rem;
+}
+
+.tw-d-q {
+  margin: 0 0 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--md-default-fg-color);
+}
+
+.tw-d-chart {
+  margin: 0 0 0.8rem;
+  min-height: 120px;
+  border: 1px solid var(--tw-chart-grid);
+  overflow: hidden;
+}
+
+.tw-d-chart .tw-chart-box {
+  width: 100%;
+}
+
+.tw-d-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tw-d-unit {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  color: var(--md-default-fg-color--light);
+}
+
+.tw-d-input {
+  flex: 1 1 8rem;
+  min-width: 0;
+  max-width: 14rem;
+  padding: 0.45rem 0.6rem;
+  font: inherit;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  color: var(--md-default-fg-color);
+  background: transparent;
+  border: 1px solid var(--tw-chart-fg);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.tw-d-input:focus {
+  outline: 2px solid var(--tw-accent);
+  outline-offset: 1px;
+}
+
+.tw-d-btn {
+  padding: 0.45rem 0.9rem;
+  font: inherit;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+  background: transparent;
+  border: 1px solid var(--tw-chart-fg);
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.tw-d-btn:hover:not(:disabled),
+.tw-d-btn:focus-visible {
+  border-color: var(--tw-accent);
+  outline: none;
+  color: var(--tw-accent);
+}
+
+.tw-d-btn:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.tw-d-check,
+.tw-d-next {
+  border-color: var(--tw-accent);
+}
+
+.tw-d-next {
+  margin-top: 0.8rem;
+}
+
+.tw-d-next[hidden] {
+  display: none;
+}
+
+.tw-d-choices {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.tw-d-choice {
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+  text-align: left;
+}
+
+.tw-d-key {
+  flex: none;
+  color: var(--md-default-fg-color--light);
+}
+
+.tw-d-choice.tw-d-correct {
+  border-color: var(--tw-up);
+  border-width: 2px;
+  opacity: 1;
+}
+
+.tw-d-choice.tw-d-picked-wrong {
+  border-color: var(--tw-down);
+  border-width: 2px;
+  opacity: 1;
+}
+
+.tw-d-feedback {
+  margin-top: 0.8rem;
+}
+
+.tw-d-feedback:empty {
+  display: none;
+}
+
+.tw-d-right,
+.tw-d-wrong {
+  padding: 0.6rem 0.8rem;
+  border-left: 4px solid var(--tw-chart-fg);
+}
+
+.tw-d-right {
+  border-left-color: var(--tw-up);
+}
+
+.tw-d-wrong {
+  border-left-color: var(--tw-down);
+}
+
+.tw-d-explain {
+  margin: 0.4rem 0 0;
+  line-height: 1.5;
+}
+
+.tw-d-hint,
+.tw-d-note {
+  color: var(--md-default-fg-color--light);
+}
+
+.tw-d-note {
+  margin: 0.5rem 0;
+}
+
+.tw-drills > .tw-d-top button {
+  justify-self: start;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 480px) {
+  .tw-d-card {
+    padding: 0.7rem;
+  }
+
+  .tw-d-input {
+    max-width: none;
+  }
+
+  .tw-d-row .tw-d-btn {
+    flex: 1 1 100%;
+  }
+}
+
+/* Material styles every bare table (overflow, borders); the chart library draws its canvas inside one. */
+.md-typeset .tw-d-chart table {
+  display: table;
+  overflow: visible;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  font-size: inherit;
+}
+
+.md-typeset .tw-d-chart td {
+  padding: 0;
+  border: 0;
+}

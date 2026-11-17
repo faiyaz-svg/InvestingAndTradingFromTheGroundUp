@@ -1,0 +1,47 @@
+# Sample chart drills over the three example charts. Answers come from
+# tools/make_charts.py samples and the JSON files.
+- id: samp-pullback-low
+  chart: |
+    data: samples/daily-trend-pullback.json
+    show: volume, sma 20
+    range: 2026-02-01 to 2026-04-29
+  q: "The stock rose, pulled back, then rose again. Click the low of the pullback (the lowest price between 2026-03-09 and 2026-03-18)."
+  type: level
+  answer: 100.29
+  tolerance: 0.6
+  explain: "The pullback ran from 2026-03-09 to 2026-03-18 and its lowest low was 100.29. A pullback low that holds is the support level traders watch."
+  reveal: |
+    level: 100.29 | Pullback low
+
+- id: samp-gap-bottom
+  chart: |
+    data: samples/daily-gap-and-fvg.json
+    range: 2026-03-02 to 2026-04-10
+  q: "Three big candles run up from the range. Click the bottom edge of the gap: the high of the first of the three (2026-03-16)."
+  type: level
+  answer: 51.68
+  tolerance: 0.4
+  explain: "The 2026-03-16 candle ends at a high of 51.68. The 2026-03-18 candle never trades below 54.31, so no trades happened between 51.68 and 54.31. That empty band is the gap."
+  reveal: |
+    zone: 51.68-54.31 | 2026-03-16 to 2026-03-18 | Gap
+
+- id: samp-range-low
+  chart: |
+    data: samples/daily-gap-and-fvg.json
+    range: 2026-02-02 to 2026-03-13
+  q: "What was the lowest low in this sideways range (the first 30 bars)?"
+  type: number
+  answer: 48.2
+  tolerance: 0.1
+  unit: "US$"
+  explain: "The lowest low in the first 30 bars was 48.20. The highest high was 51.64."
+
+- id: samp-orb-direction
+  chart: |
+    data: samples/intraday-orb.json
+    show: vwap
+  q: "The first six 5-minute bars (09:30 to 09:55) set the opening range, 199.71 to 200.88. What did price do after that?"
+  type: choice
+  choices: ["Broke above the range and kept rising", "Broke below the range and kept falling", "Stayed inside the range all morning"]
+  answer_choice: 0
+  explain: "From 10:00 price pushed above 200.88 and reached 203.80 by 12:25. That is an opening range breakout to the upside."
