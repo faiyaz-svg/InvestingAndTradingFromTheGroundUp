@@ -9,33 +9,33 @@ The book has 22 parts in six groups. Each part is a folder with an overview page
 | Code | Part | What it covers |
 |---|---|---|
 | **Foundations** | | |
-| [MKT](../01-how-markets-work/index.md) | How markets work | What a share is, where orders go, who takes the other side, and how to read a quote. |
-| [ACCT](../02-accounts-currency-and-taxes/index.md) | Accounts, currency and taxes | Trading US stocks from Canada: which account, USD or CAD, withholding tax, CRA rules and records. |
-| [RISK](../03-risk-and-position-sizing/index.md) | Risk and position sizing | How much to risk, how many shares to buy, and how losses and drawdowns add up. |
-| [MIND](../04-psychology-journal-and-paper-trading/index.md) | Psychology, the journal and paper trading | The habits that keep a plan working: rules, a trade journal, reviews and a paper account. |
+| MKT | How markets work | What a share is, where orders go, who takes the other side, and how to read a quote. |
+| ACCT | Accounts, currency and taxes | Trading US stocks from Canada: which account, USD or CAD, withholding tax, CRA rules and records. |
+| RISK | Risk and position sizing | How much to risk, how many shares to buy, and how losses and drawdowns add up. |
+| MIND | Psychology, the journal and paper trading | The habits that keep a plan working: rules, a trade journal, reviews and a paper account. |
 | **Trading** | | |
-| [CHRT](../05-reading-charts/index.md) | Reading charts | Candles, trend, levels, volume and the common indicators, with what tests found about patterns. |
-| [ICT](../06-ict-and-smart-money-tested/index.md) | ICT and smart money concepts, tested | Liquidity, fair value gaps, order blocks and sessions: what each idea says and what tests found. |
-| [SWNG](../07-swing-trading/index.md) | Swing trading | Trades held for days to weeks: finding setups, entries, stops, targets and a weekly routine. |
-| [DAY](../08-day-trading/index.md) | Day trading | Trades opened and closed the same day: premarket prep, intraday setups, the tape and daily limits. |
+| CHRT | Reading charts | Candles, trend, levels, volume and the common indicators, with what tests found about patterns. |
+| ICT | ICT and smart money concepts, tested | Liquidity, fair value gaps, order blocks and sessions: what each idea says and what tests found. |
+| SWNG | Swing trading | Trades held for days to weeks: finding setups, entries, stops, targets and a weekly routine. |
+| DAY | Day trading | Trades opened and closed the same day: premarket prep, intraday setups, the tape and daily limits. |
 | **Companies and economy** | | |
-| [FIN](../09-company-financials/index.md) | Company financials | Reading 10-Ks and 10-Qs: the three statements, margins, returns, debt, dilution and earnings quality. |
-| [VAL](../10-valuation-and-research/index.md) | Valuation and research | Multiples, enterprise value, free cash flow, discount rates, DCFs and writing a stock pitch. |
-| [MACRO](../11-macro-and-economic-data/index.md) | Macro and economic data | The Fed, inflation, jobs and growth reports, the economic calendar and how markets react. |
-| [BOND](../12-bonds-and-the-yield-curve/index.md) | Bonds and the yield curve | Bond prices and yields, Treasuries, the yield curve, duration, credit and bond ETFs. |
+| FIN | Company financials | Reading 10-Ks and 10-Qs: the three statements, margins, returns, debt, dilution and earnings quality. |
+| VAL | Valuation and research | Multiples, enterprise value, free cash flow, discount rates, DCFs and writing a stock pitch. |
+| MACRO | Macro and economic data | The Fed, inflation, jobs and growth reports, the economic calendar and how markets react. |
+| BOND | Bonds and the yield curve | Bond prices and yields, Treasuries, the yield curve, duration, credit and bond ETFs. |
 | **Investing and derivatives** | | |
-| [ETF](../13-etfs-portfolios-and-factors/index.md) | ETFs, portfolios and factors | How ETFs work, which to hold from Canada, allocation, rebalancing, portfolio theory and factors. |
-| [FUT](../14-futures/index.md) | Futures | Contracts, margin and leverage, index futures, rolling, contango and futures from Canada. |
-| [OPT](../15-options/index.md) | Options | Calls and puts, pricing, the Greeks, implied volatility, the main strategies and options in Canadian accounts. |
-| [VOL](../16-volatility-and-event-trading/index.md) | Volatility and event trading | Realized and implied volatility, the VIX, regimes, earnings, data days, opex and rebalances. |
+| ETF | ETFs, portfolios and factors | How ETFs work, which to hold from Canada, allocation, rebalancing, portfolio theory and factors. |
+| FUT | Futures | Contracts, margin and leverage, index futures, rolling, contango and futures from Canada. |
+| OPT | Options | Calls and puts, pricing, the Greeks, implied volatility, the main strategies and options in Canadian accounts. |
+| VOL | Volatility and event trading | Realized and implied volatility, the VIX, regimes, earnings, data days, opex and rebalances. |
 | **Markets, data and quant** | | |
-| [CMDTY](../17-commodities-forex-and-reits/index.md) | Commodities, forex and REITs | Oil, gold and commodity ETFs, currencies and USD/CAD, and real estate through REITs. |
-| [CRYPTO](../18-crypto/index.md) | Crypto | Bitcoin, Ethereum and stablecoins, buying crypto in Canada, crypto ETFs, perps and the risks. |
-| [DATA](../19-data-flows-and-forecasting/index.md) | Data, flows and forecasting | Free data sources, insider and fund filings, short interest, COT, options flow, forecasting and prediction markets. |
-| [QUANT](../20-quant-track-in-python/index.md) | Quant track in Python | pandas for prices and fundamentals, returns and volatility, regression, factor sorts and how backtests mislead. |
+| CMDTY | Commodities, forex and REITs | Oil, gold and commodity ETFs, currencies and USD/CAD, and real estate through REITs. |
+| CRYPTO | Crypto | Bitcoin, Ethereum and stablecoins, buying crypto in Canada, crypto ETFs, perps and the risks. |
+| DATA | Data, flows and forecasting | Free data sources, insider and fund filings, short interest, COT, options flow, forecasting and prediction markets. |
+| QUANT | Quant track in Python | pandas for prices and fundamentals, returns and volatility, regression, factor sorts and how backtests mislead. |
 | **History and careers** | | |
-| [HIST](../21-crashes-scams-and-case-studies/index.md) | Crashes, scams and case studies | What broke in the big crashes and blow-ups, the risk lesson from each, and how to spot scams. |
-| [CAREER](../22-careers-interviews-and-ai/index.md) | Careers, interviews and AI | Finance jobs and licences, building a track record, interview questions and using AI for research. |
+| HIST | Crashes, scams and case studies | What broke in the big crashes and blow-ups, the risk lesson from each, and how to spot scams. |
+| CAREER | Careers, interviews and AI | Finance jobs and licences, building a track record, interview questions and using AI for research. |
 
 ## Suggested paths
 
