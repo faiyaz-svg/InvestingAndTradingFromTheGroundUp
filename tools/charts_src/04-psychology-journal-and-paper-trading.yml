@@ -1,0 +1,32 @@
+- name: loser-held
+  seed: 401
+  tf: D
+  start: 2026-03-02
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 10, low: 49.6, high: 51.4, vol: 0.006}
+    - {kind: to, bars: 6, price: 48.0, vol: 0.008}
+    - {kind: to, bars: 14, price: 44.5, vol: 0.009}
+
+- name: fomo-chase
+  seed: 402
+  tf: D
+  start: 2026-04-01
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 14, low: 49.2, high: 51.0, vol: 0.006}
+    - {kind: trend, bars: 9, drift: 0.011, vol: 0.008, volume: 1.6}
+    - {kind: to, bars: 8, price: 55.0, vol: 0.01}
+
+- name: paper-fill
+  seed: 403
+  tf: D
+  start: 2026-05-04
+  price: 52
+  volume: 1500000
+  segments:
+    - {kind: trend, bars: 10, drift: -0.004, vol: 0.006}
+    - {kind: bar, open: 0.0, high: 0.004, low: -0.011, close: 0.0, volume: 1.1}
+    - {kind: to, bars: 6, price: 52.5, vol: 0.007}

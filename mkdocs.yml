@@ -135,6 +135,17 @@ nav:
           - "Cost base in CAD and keeping records": 02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md
           - "Tax losses and the superficial loss rule": 02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md
           - "Margin rules in Canada": 02-accounts-currency-and-taxes/10-margin-rules-in-canada.md
+      - "Psychology, the journal and paper trading":
+          - 04-psychology-journal-and-paper-trading/index.md
+          - "Biases that cost traders money": 04-psychology-journal-and-paper-trading/01-biases-that-cost-traders.md
+          - "Tilt, revenge trading and FOMO": 04-psychology-journal-and-paper-trading/02-tilt-revenge-and-fomo.md
+          - "Rules and checklists": 04-psychology-journal-and-paper-trading/03-rules-and-checklists.md
+          - "The trade journal": 04-psychology-journal-and-paper-trading/04-the-trade-journal.md
+          - "Reviewing your trades": 04-psychology-journal-and-paper-trading/05-reviewing-your-trades.md
+          - "Setting up paper trading": 04-psychology-journal-and-paper-trading/06-paper-trading-setup.md
+          - "From paper to live trading": 04-psychology-journal-and-paper-trading/07-from-paper-to-live.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
+      - "Paper trading": practice/paper-trading.md
+      - "Trade journal": practice/trade-journal.md
 # nav:end

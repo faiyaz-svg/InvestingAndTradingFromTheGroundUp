@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 21 of 201. New lessons appear here as they are added.
+Lessons written so far: 28 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -32,3 +32,13 @@ Lessons written so far: 21 of 201. New lessons appear here as they are added.
 - [ ] [Cost base in CAD and keeping records](02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md) (canada)
 - [ ] [Tax losses and the superficial loss rule](02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md) (canada)
 - [ ] [Margin rules in Canada](02-accounts-currency-and-taxes/10-margin-rules-in-canada.md) (canada, review)
+
+### Part 4: Psychology, the journal and paper trading
+
+- [ ] [Biases that cost traders money](04-psychology-journal-and-paper-trading/01-biases-that-cost-traders.md) (idea)
+- [ ] [Tilt, revenge trading and FOMO](04-psychology-journal-and-paper-trading/02-tilt-revenge-and-fomo.md) (idea)
+- [ ] [Rules and checklists](04-psychology-journal-and-paper-trading/03-rules-and-checklists.md) (skill)
+- [ ] [The trade journal](04-psychology-journal-and-paper-trading/04-the-trade-journal.md) (skill)
+- [ ] [Reviewing your trades](04-psychology-journal-and-paper-trading/05-reviewing-your-trades.md) (skill)
+- [ ] [Setting up paper trading](04-psychology-journal-and-paper-trading/06-paper-trading-setup.md) (skill)
+- [ ] [From paper to live trading](04-psychology-journal-and-paper-trading/07-from-paper-to-live.md) (skill, review)
