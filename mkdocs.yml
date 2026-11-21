@@ -101,6 +101,13 @@ extra_css:
 nav:
   - Start here:
       - index.md
+      - "How to use this book": 00-start-here/index.md
+      - "The 30-minute routine": 00-start-here/the-30-minute-routine.md
+      - "Set up your tools": 00-start-here/set-up-your-tools.md
+      - "Canada and the US at a glance": 00-start-here/canada-and-us-at-a-glance.md
+      - "Tickers and symbols": 00-start-here/tickers-and-symbols.md
+      - "Not financial advice": 00-start-here/not-financial-advice.md
+      - "Credits and sources": 00-start-here/credits-and-sources.md
       - "Progress": progress.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
