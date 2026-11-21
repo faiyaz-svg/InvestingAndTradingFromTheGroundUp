@@ -28,7 +28,7 @@ You can also paper trade by hand: write each trade in the journal with the entry
 
 ### Rules that make paper realistic
 
-1. Size by your real account. IBKR paper starts at US$1,000,000, but your real account may be US$25,000. Use the position-sizing formula with the real number (Position sizing with fixed fractional risk<!-- link: ../03-risk-and-position-sizing/04-fixed-fractional-sizing.md -->), not the paper balance.
+1. Size by your real account. IBKR paper starts at US$1,000,000, but your real account may be US$25,000. Use the position-sizing formula with the real number ([Position sizing with fixed fractional risk](../03-risk-and-position-sizing/04-fixed-fractional-sizing.md)), not the paper balance.
 2. Add costs. Take fees from your real broker's schedule, and add slippage to each fill (below).
 3. Count a limit order as filled only if the price trades through it. A buy limit at 49.95 is filled if the stock trades at 49.94 or lower, not if it only touches 49.95.
 4. Run one setup at a time, so the results mean something (lesson 5).
@@ -46,7 +46,7 @@ caption: On May 18 Stock A fell to a low of 49.95 and closed at 50.50. A paper a
 
 ### Adjusting a paper fill for slippage and fees
 
-**Slippage** is the gap between the price you expected and the price you got (Slippage, gaps and costs<!-- link: ../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md -->). On a paper fill, move the price against you by a set amount. For a liquid stock a few cents is reasonable. For a thin stock use more. Pick the number from the stock's usual spread (Bid, ask and the order book, [lesson 4 of part 1](../01-how-markets-work/04-bid-ask-and-the-order-book.md)).
+**Slippage** is the gap between the price you expected and the price you got ([Slippage, gaps and costs](../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md)). On a paper fill, move the price against you by a set amount. For a liquid stock a few cents is reasonable. For a thin stock use more. Pick the number from the stock's usual spread (Bid, ask and the order book, [lesson 4 of part 1](../01-how-markets-work/04-bid-ask-and-the-order-book.md)).
 
 <div class="example" markdown>
 

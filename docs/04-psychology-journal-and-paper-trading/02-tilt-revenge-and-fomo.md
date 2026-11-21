@@ -74,7 +74,7 @@ FOMO enters at the worst place on the chart for the stop. If the stop moves up t
 
 ### Rules that cut the loop
 
-1. A **daily loss limit**: after losing a set amount (for example 2R or 3R), you stop trading for the day. Part 3's Your trading plan<!-- link: ../03-risk-and-position-sizing/10-your-trading-plan.md --> fixes the numbers.
+1. A **daily loss limit**: after losing a set amount (for example 2R or 3R), you stop trading for the day. Part 3's [Your trading plan](../03-risk-and-position-sizing/10-your-trading-plan.md) fixes the numbers.
 2. A **cooling-off rule**: after any loss beyond 1R or any rule break, you step away for a set time (30 minutes) before the next order.
 3. A **missed-trade rule**: if you did not enter at the planned price, you do not chase. You write it in the journal and wait for the next setup.
 4. Size never goes up inside a session. Size changes only at the weekly review.

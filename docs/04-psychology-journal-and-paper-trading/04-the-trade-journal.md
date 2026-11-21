@@ -4,7 +4,7 @@
 
 After this lesson you can set up a trade journal, record each trade in two stages (before and after), and work out its risk, profit or loss and R multiple from the entries.
 
-Before this: [Rules and checklists](03-rules-and-checklists.md), and R-multiples<!-- link: ../03-risk-and-position-sizing/02-r-multiples.md -->. You need: a calculator, and a spreadsheet if you want to build the journal now.
+Before this: [Rules and checklists](03-rules-and-checklists.md), and [R-multiples](../03-risk-and-position-sizing/02-r-multiples.md). You need: a calculator, and a spreadsheet if you want to build the journal now.
 
 ## The idea
 
@@ -71,7 +71,7 @@ The average of the two is (1.99 - 1.01) / 2 = 0.49R. Two trades prove nothing, b
 
 ### What to measure from it
 
-With a few dozen trades the journal gives you a **win rate** (winners divided by all closed trades), an **average win** and **average loss** in R, and an **expectancy**, the average R per trade (Win rate, payoff and expectancy<!-- link: ../03-risk-and-position-sizing/03-win-rate-payoff-and-expectancy.md -->). The practice page [Trade journal](../practice/trade-journal.md) lists every formula and shows how to build the sheet in Excel or Google Sheets. [`trade-journal.xlsx`](../downloads/trade-journal.xlsx) and [`trade-journal.csv`](../downloads/trade-journal.csv) are ready to download.
+With a few dozen trades the journal gives you a **win rate** (winners divided by all closed trades), an **average win** and **average loss** in R, and an **expectancy**, the average R per trade ([Win rate, payoff and expectancy](../03-risk-and-position-sizing/03-win-rate-payoff-and-expectancy.md)). The practice page [Trade journal](../practice/trade-journal.md) lists every formula and shows how to build the sheet in Excel or Google Sheets. [`trade-journal.xlsx`](../downloads/trade-journal.xlsx) and [`trade-journal.csv`](../downloads/trade-journal.csv) are ready to download.
 
 ```mermaid
 flowchart LR

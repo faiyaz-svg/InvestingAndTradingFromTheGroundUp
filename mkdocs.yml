@@ -135,6 +135,18 @@ nav:
           - "Cost base in CAD and keeping records": 02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md
           - "Tax losses and the superficial loss rule": 02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md
           - "Margin rules in Canada": 02-accounts-currency-and-taxes/10-margin-rules-in-canada.md
+      - "Risk and position sizing":
+          - 03-risk-and-position-sizing/index.md
+          - "Risk first: the math of losses": 03-risk-and-position-sizing/01-risk-first.md
+          - "R-multiples": 03-risk-and-position-sizing/02-r-multiples.md
+          - "Win rate, payoff and expectancy": 03-risk-and-position-sizing/03-win-rate-payoff-and-expectancy.md
+          - "Position sizing with fixed fractional risk": 03-risk-and-position-sizing/04-fixed-fractional-sizing.md
+          - "Where to put the stop": 03-risk-and-position-sizing/05-where-to-put-the-stop.md
+          - "Slippage, gaps and costs": 03-risk-and-position-sizing/06-slippage-gaps-and-costs.md
+          - "Portfolio heat and correlation": 03-risk-and-position-sizing/07-portfolio-heat-and-correlation.md
+          - "Drawdowns and risk of ruin": 03-risk-and-position-sizing/08-drawdowns-and-risk-of-ruin.md
+          - "The Kelly criterion and fractional Kelly": 03-risk-and-position-sizing/09-kelly-and-fractional-kelly.md
+          - "Your trading plan": 03-risk-and-position-sizing/10-your-trading-plan.md
       - "Psychology, the journal and paper trading":
           - 04-psychology-journal-and-paper-trading/index.md
           - "Biases that cost traders money": 04-psychology-journal-and-paper-trading/01-biases-that-cost-traders.md

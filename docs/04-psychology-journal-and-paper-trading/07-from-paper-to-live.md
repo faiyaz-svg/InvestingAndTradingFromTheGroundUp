@@ -22,7 +22,7 @@ Write these on one page, with your own numbers, before you start the paper block
 2. You followed the plan on at least 90% of them (27 of 30).
 3. Every trade is in the journal in both stages, with realism rules applied (lesson 6).
 4. No loss is worse than 1.2R, that is, 1R plus a margin for slippage and fees. A bigger loss means a stop was moved or skipped.
-5. The largest drawdown, in R, stayed inside the limit in your plan (Drawdowns and risk of ruin<!-- link: ../03-risk-and-position-sizing/08-drawdowns-and-risk-of-ruin.md -->).
+5. The largest drawdown, in R, stayed inside the limit in your plan ([Drawdowns and risk of ruin](../03-risk-and-position-sizing/08-drawdowns-and-risk-of-ruin.md)).
 6. You have written down the amount you can lose without changing your life, and the live account holds no more than that for trading.
 
 Profit is not on the list. If you meet 1 to 6 and the paper result is also positive, good. If you meet them and the result is flat, the plan still works as a process and the next step is more paper trades or a better setup, not hurrying.

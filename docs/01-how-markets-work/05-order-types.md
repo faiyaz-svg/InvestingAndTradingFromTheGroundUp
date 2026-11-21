@@ -64,7 +64,7 @@ Overnight, bad news arrives and the stock opens at US$47.20. Your stop price was
 1. Market stop: fills near 47.20. Loss = (50.30 - 47.20) x 100 = US$310, which is US$130 more than planned.
 2. Stop-limit with stop 48.50 and limit 48.30: it triggers, but 47.20 is below the 48.30 limit, so it does not fill. You still hold 100 shares, now worth US$4,720, and the loss on paper is the same US$310 until you act.
 
-The stop-limit avoided selling at the bottom of the gap but left the risk open. Neither type removes gap risk. Part 3 sizes positions with it in mind (Slippage, gaps and costs<!-- link: ../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md -->).
+The stop-limit avoided selling at the bottom of the gap but left the risk open. Neither type removes gap risk. Part 3 sizes positions with it in mind ([Slippage, gaps and costs](../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md)).
 
 </div>
 

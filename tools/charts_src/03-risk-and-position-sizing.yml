@@ -1,0 +1,27 @@
+- name: stock-a-pullback
+  seed: 301
+  csv: stock-a-pullback-daily
+  tf: D
+  start: 2026-01-05
+  price: 42
+  volume: 1400000
+  segments:
+    - {kind: trend, bars: 28, drift: 0.0095, vol: 0.008}
+    - {kind: to, bars: 5, price: 47.6, vol: 0.008}
+    - {kind: bar, open: 0.0, high: 0.003, low: -0.0147, close: 0.0105, volume: 1.6}
+    - {kind: to, bars: 4, price: 48.20, vol: 0.006}
+    - {kind: to, bars: 8, price: 51.40, vol: 0.008}
+    - {kind: range, bars: 6, low: 50.4, high: 51.8, vol: 0.006}
+
+- name: stock-a-gap-down
+  seed: 302
+  tf: D
+  start: 2026-03-02
+  price: 43
+  volume: 1400000
+  segments:
+    - {kind: trend, bars: 25, drift: 0.005, vol: 0.008}
+    - {kind: to, bars: 8, price: 48.20, vol: 0.006}
+    - {kind: gap, pct: -0.0643}
+    - {kind: bar, open: -0.0643, high: -0.056, low: -0.0747, close: -0.0685, volume: 3.5}
+    - {kind: range, bars: 8, low: 44.0, high: 45.6, vol: 0.007, volume: 1.4}

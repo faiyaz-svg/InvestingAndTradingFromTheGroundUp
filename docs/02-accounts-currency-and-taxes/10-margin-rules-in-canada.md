@@ -193,4 +193,4 @@ V_call = 18,000 / 0.70 = C$25,714.29, a fall of 14.29%.
 - **Call value**: the position value at which equity equals the requirement.
 - **CIRO margin rules**: the rules that set the minimum margin Canadian investment dealers require.
 
-Next: Risk first: the math of losses<!-- link: ../03-risk-and-position-sizing/01-risk-first.md -->
+Next: [Risk first: the math of losses](../03-risk-and-position-sizing/01-risk-first.md)

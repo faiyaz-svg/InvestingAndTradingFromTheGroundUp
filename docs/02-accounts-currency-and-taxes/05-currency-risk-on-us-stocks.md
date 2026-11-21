@@ -53,7 +53,7 @@ You do not need to hedge to trade. You need to know the exposure: a US$20,000 po
 
 ## Why it matters for a trader
 
-For a swing or day trade lasting hours or days, the exchange rate rarely moves much, and the stock's own move dominates. For a position held for months or years, the currency can be a large part of the result, as the fourth case in the figure shows. It also affects the size you pick: your risk per trade in C$ includes the currency move, a point that part 3 builds on, starting with Risk first<!-- link: ../03-risk-and-position-sizing/01-risk-first.md -->.
+For a swing or day trade lasting hours or days, the exchange rate rarely moves much, and the stock's own move dominates. For a position held for months or years, the currency can be a large part of the result, as the fourth case in the figure shows. It also affects the size you pick: your risk per trade in C$ includes the currency move, a point that part 3 builds on, starting with [Risk first](../03-risk-and-position-sizing/01-risk-first.md).
 
 <div class="canada" markdown>
 

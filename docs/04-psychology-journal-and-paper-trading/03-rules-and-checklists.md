@@ -26,7 +26,7 @@ A rule is usable when it passes three tests.
 2. You can tell at once whether you followed it, with no judgment needed.
 3. You wrote it before the trade, not after.
 
-Rules come in three groups: what you may enter (the setup, the size), what you do while in the trade (the stop, the exit), and what you do between trades (the daily loss limit, the pause from lesson 2). Most of them are decided in your trading plan (Your trading plan<!-- link: ../03-risk-and-position-sizing/10-your-trading-plan.md -->). The checklist is how you apply the plan at the moment of an order.
+Rules come in three groups: what you may enter (the setup, the size), what you do while in the trade (the stop, the exit), and what you do between trades (the daily loss limit, the pause from lesson 2). Most of them are decided in your trading plan ([Your trading plan](../03-risk-and-position-sizing/10-your-trading-plan.md)). The checklist is how you apply the plan at the moment of an order.
 
 ### A pre-trade checklist
 

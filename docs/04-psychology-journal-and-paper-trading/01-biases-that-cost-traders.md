@@ -77,7 +77,7 @@ caption: Stock A traded down through the planned stop on March 17 (low 49.27). T
 1. Set the stop before you enter, and write it down ([Rules and checklists](03-rules-and-checklists.md)).
 2. Ask the sunk cost question: "If I held cash, would I open this trade now?" If no, exit.
 3. Look for one reason the trade is wrong before you enter, and write it in the journal ([The trade journal](04-the-trade-journal.md)).
-4. Measure results in R (a multiple of your planned risk), so a loss beyond 1R shows as a broken rule (see R-multiples<!-- link: ../03-risk-and-position-sizing/02-r-multiples.md -->).
+4. Measure results in R (a multiple of your planned risk), so a loss beyond 1R shows as a broken rule (see [R-multiples](../03-risk-and-position-sizing/02-r-multiples.md)).
 
 ## Common mistakes
 

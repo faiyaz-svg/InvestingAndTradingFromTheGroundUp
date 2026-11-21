@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 28 of 201. New lessons appear here as they are added.
+Lessons written so far: 38 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -32,6 +32,19 @@ Lessons written so far: 28 of 201. New lessons appear here as they are added.
 - [ ] [Cost base in CAD and keeping records](02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md) (canada)
 - [ ] [Tax losses and the superficial loss rule](02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md) (canada)
 - [ ] [Margin rules in Canada](02-accounts-currency-and-taxes/10-margin-rules-in-canada.md) (canada, review)
+
+### Part 3: Risk and position sizing
+
+- [ ] [Risk first: the math of losses](03-risk-and-position-sizing/01-risk-first.md) (idea)
+- [ ] [R-multiples](03-risk-and-position-sizing/02-r-multiples.md) (idea)
+- [ ] [Win rate, payoff and expectancy](03-risk-and-position-sizing/03-win-rate-payoff-and-expectancy.md) (idea)
+- [ ] [Position sizing with fixed fractional risk](03-risk-and-position-sizing/04-fixed-fractional-sizing.md) (skill)
+- [ ] [Where to put the stop](03-risk-and-position-sizing/05-where-to-put-the-stop.md) (skill)
+- [ ] [Slippage, gaps and costs](03-risk-and-position-sizing/06-slippage-gaps-and-costs.md) (idea)
+- [ ] [Portfolio heat and correlation](03-risk-and-position-sizing/07-portfolio-heat-and-correlation.md) (skill)
+- [ ] [Drawdowns and risk of ruin](03-risk-and-position-sizing/08-drawdowns-and-risk-of-ruin.md) (idea)
+- [ ] [The Kelly criterion and fractional Kelly](03-risk-and-position-sizing/09-kelly-and-fractional-kelly.md) (idea)
+- [ ] [Your trading plan](03-risk-and-position-sizing/10-your-trading-plan.md) (skill, review)
 
 ### Part 4: Psychology, the journal and paper trading
 
