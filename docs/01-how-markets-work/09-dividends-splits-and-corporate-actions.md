@@ -112,7 +112,7 @@ A **special dividend** is a one-off payment. A **spin-off** gives shareholders s
 
 ### For Canadians
 
-Dividends on US stocks are paid in USD and can be subject to US withholding tax before they reach you. The rate and how it works by account (RRSP, TFSA, FHSA, non-registered) is covered in Part 2 (US withholding tax and the W-8BEN<!-- link: ../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md -->). Do not plan around a dividend yield until you know what you keep after that tax.
+Dividends on US stocks are paid in USD and can be subject to US withholding tax before they reach you. The rate and how it works by account (RRSP, TFSA, FHSA, non-registered) is covered in Part 2 ([US withholding tax and the W-8BEN](../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md)). Do not plan around a dividend yield until you know what you keep after that tax.
 
 </div>
 

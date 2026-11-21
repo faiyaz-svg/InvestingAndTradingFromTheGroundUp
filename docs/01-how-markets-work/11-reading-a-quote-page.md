@@ -221,4 +221,4 @@ The position is 16,000 x 0.75 = US$12,000. Equity = 12,000 - 8,000 = US$4,000. Y
 - **EPS**: earnings per share, profit divided by shares outstanding.
 - **P/E ratio**: price divided by earnings per share.
 
-Next: Account types for trading<!-- link: ../02-accounts-currency-and-taxes/01-account-types-for-trading.md -->
+Next: [Account types for trading](../02-accounts-currency-and-taxes/01-account-types-for-trading.md)

@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 11 of 201. New lessons appear here as they are added.
+Lessons written so far: 21 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -19,3 +19,16 @@ Lessons written so far: 11 of 201. New lessons appear here as they are added.
 - [ ] [Dividends, splits and corporate actions](01-how-markets-work/09-dividends-splits-and-corporate-actions.md) (idea)
 - [ ] [Indexes, sectors and market cap](01-how-markets-work/10-indexes-sectors-and-market-cap.md) (idea)
 - [ ] [Reading a quote page](01-how-markets-work/11-reading-a-quote-page.md) (skill, review)
+
+### Part 2: Accounts, currency and taxes
+
+- [ ] [Account types for trading](02-accounts-currency-and-taxes/01-account-types-for-trading.md) (canada)
+- [ ] [Wealthsimple and IBKR compared](02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md) (canada)
+- [ ] [USD or CAD, and currency conversion fees](02-accounts-currency-and-taxes/03-usd-vs-cad-and-fx-fees.md) (canada)
+- [ ] [Norbert's gambit and CDRs](02-accounts-currency-and-taxes/04-norberts-gambit-and-cdrs.md) (canada)
+- [ ] [Currency risk on US stocks](02-accounts-currency-and-taxes/05-currency-risk-on-us-stocks.md) (canada)
+- [ ] [US withholding tax and the W-8BEN](02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md) (canada)
+- [ ] [Capital gains or business income](02-accounts-currency-and-taxes/07-capital-gains-vs-business-income.md) (canada)
+- [ ] [Cost base in CAD and keeping records](02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md) (canada)
+- [ ] [Tax losses and the superficial loss rule](02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md) (canada)
+- [ ] [Margin rules in Canada](02-accounts-currency-and-taxes/10-margin-rules-in-canada.md) (canada, review)

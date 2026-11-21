@@ -123,6 +123,18 @@ nav:
           - "Dividends, splits and corporate actions": 01-how-markets-work/09-dividends-splits-and-corporate-actions.md
           - "Indexes, sectors and market cap": 01-how-markets-work/10-indexes-sectors-and-market-cap.md
           - "Reading a quote page": 01-how-markets-work/11-reading-a-quote-page.md
+      - "Accounts, currency and taxes":
+          - 02-accounts-currency-and-taxes/index.md
+          - "Account types for trading": 02-accounts-currency-and-taxes/01-account-types-for-trading.md
+          - "Wealthsimple and IBKR compared": 02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md
+          - "USD or CAD, and currency conversion fees": 02-accounts-currency-and-taxes/03-usd-vs-cad-and-fx-fees.md
+          - "Norbert's gambit and CDRs": 02-accounts-currency-and-taxes/04-norberts-gambit-and-cdrs.md
+          - "Currency risk on US stocks": 02-accounts-currency-and-taxes/05-currency-risk-on-us-stocks.md
+          - "US withholding tax and the W-8BEN": 02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md
+          - "Capital gains or business income": 02-accounts-currency-and-taxes/07-capital-gains-vs-business-income.md
+          - "Cost base in CAD and keeping records": 02-accounts-currency-and-taxes/08-cost-base-in-cad-and-records.md
+          - "Tax losses and the superficial loss rule": 02-accounts-currency-and-taxes/09-tax-losses-and-superficial-loss.md
+          - "Margin rules in Canada": 02-accounts-currency-and-taxes/10-margin-rules-in-canada.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
 # nav:end

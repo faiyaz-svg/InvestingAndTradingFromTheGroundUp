@@ -81,7 +81,7 @@ After the gap the price traded between 52.55 and 54.85 for the next 12 sessions.
 
 ### For Canadians
 
-A company can list its shares on a Canadian exchange (priced in CAD), a US exchange (priced in USD), or both. The shares are the same ownership, but you pay in the currency of the listing you trade. Part 2 covers how to pick a currency and what conversion costs (USD or CAD, and currency conversion fees<!-- link: ../02-accounts-currency-and-taxes/03-usd-vs-cad-and-fx-fees.md -->).
+A company can list its shares on a Canadian exchange (priced in CAD), a US exchange (priced in USD), or both. The shares are the same ownership, but you pay in the currency of the listing you trade. Part 2 covers how to pick a currency and what conversion costs ([USD or CAD, and currency conversion fees](../02-accounts-currency-and-taxes/03-usd-vs-cad-and-fx-fees.md)).
 
 </div>
 

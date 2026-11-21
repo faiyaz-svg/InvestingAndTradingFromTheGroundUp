@@ -61,7 +61,7 @@ Half a cent a share is small, and on a thin-spread stock it is typical. It still
 
 ### For Canadians
 
-Canada has its own rules. CIRO is the self-regulator for Canadian dealers, and it sets best execution expectations for them ([CIRO guidance on best execution](https://www.ciro.ca/node/10664)). Orders in US-listed stocks go through the US system described above. Read your broker's disclosure to see how it routes US-listed orders and whether it is paid for them. Wealthsimple and IBKR Canada are compared in Part 2 (Wealthsimple and IBKR compared<!-- link: ../02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md -->).
+Canada has its own rules. CIRO is the self-regulator for Canadian dealers, and it sets best execution expectations for them ([CIRO guidance on best execution](https://www.ciro.ca/node/10664)). Orders in US-listed stocks go through the US system described above. Read your broker's disclosure to see how it routes US-listed orders and whether it is paid for them. Wealthsimple and IBKR Canada are compared in Part 2 ([Wealthsimple and IBKR compared](../02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md)).
 
 </div>
 

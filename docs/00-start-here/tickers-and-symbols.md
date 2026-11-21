@@ -17,7 +17,7 @@ A stock listed on the Toronto Stock Exchange (TSX) can share a letter code with 
 
 Some companies trade on both countries' exchanges under the same or different codes. Check the exchange and the currency on the quote before you buy. A Canadian listing is priced in CAD and the US listing in USD.
 
-A Canadian depositary receipt (CDR) is a CAD-priced share that tracks a US stock, listed in Canada. It is covered in Norbert's gambit and CDRs<!-- link: ../02-accounts-currency-and-taxes/04-norberts-gambit-and-cdrs.md -->.
+A Canadian depositary receipt (CDR) is a CAD-priced share that tracks a US stock, listed in Canada. It is covered in [Norbert's gambit and CDRs](../02-accounts-currency-and-taxes/04-norberts-gambit-and-cdrs.md).
 
 ## Index symbols and the ETF that tracks them
 

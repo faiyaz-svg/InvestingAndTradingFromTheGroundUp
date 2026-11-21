@@ -58,7 +58,7 @@ For years, FINRA's pattern day trader rule required US$25,000 in equity for a ma
 
 ### For Canadians
 
-Canadian brokers follow CIRO's margin rules, not Regulation T, and the rates and eligible securities are set by CIRO's lists with broker-specific limits on top. Part 2 covers them (Margin rules in Canada<!-- link: ../02-accounts-currency-and-taxes/10-margin-rules-in-canada.md -->). IBKR Canada does not allow margin trading in registered accounts such as a TFSA or RRSP, so margin means a non-registered account ([IBKR Canada registered account information](https://www.interactivebrokers.ca/en/accounts/rsp_tfsa_information.php), as of 2026; check the page for the FHSA). Shorting (lesson 8) also needs a margin account.
+Canadian brokers follow CIRO's margin rules, not Regulation T, and the rates and eligible securities are set by CIRO's lists with broker-specific limits on top. Part 2 covers them ([Margin rules in Canada](../02-accounts-currency-and-taxes/10-margin-rules-in-canada.md)). IBKR Canada does not allow margin trading in registered accounts such as a TFSA or RRSP, so margin means a non-registered account ([IBKR Canada registered account information](https://www.interactivebrokers.ca/en/accounts/rsp_tfsa_information.php), as of 2026; check the page for the FHSA). Shorting (lesson 8) also needs a margin account.
 
 </div>
 

@@ -20,7 +20,7 @@ SIPC and CIPF cover the loss of your cash and securities if a broker fails. Neit
 
 Both markets close at 4 p.m. ET and both settle in one business day, so the order and settlement rules in part 1 apply to a US stock and to a Canadian one. Market hours, extended sessions and the opening and closing auctions are in [Market hours and the opening and closing auctions](../01-how-markets-work/03-market-hours-and-auctions.md). Settlement and its effect on a cash account is in [Settlement, cash accounts and margin](../01-how-markets-work/07-settlement-cash-and-margin.md).
 
-The tax row is the one that surprises people. How the 15% works, the form you sign and which accounts it touches is in US withholding tax and the W-8BEN<!-- link: ../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md -->. This page does not say whether the 15% can be recovered in a TFSA or an FHSA, because we could not confirm that from an official page. That lesson covers it with sources.
+The tax row is the one that surprises people. How the 15% works, the form you sign and which accounts it touches is in [US withholding tax and the W-8BEN](../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md). This page does not say whether the 15% can be recovered in a TFSA or an FHSA, because we could not confirm that from an official page. That lesson covers it with sources.
 
 The two central banks are in part 11: The Fed and the FOMC<!-- link: ../11-macro-and-economic-data/02-the-fed-and-the-fomc.md --> and The Bank of Canada and a macro week<!-- link: ../11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md -->.
 
@@ -36,7 +36,7 @@ A Canadian investor typically has some mix of these accounts. All of them can ho
 | Cash account | A taxable account where you trade only with money you have. |
 | Margin account | A taxable account where you can borrow from the broker to trade. |
 
-Account rules, limits and the choice between them are in Account types for trading<!-- link: ../02-accounts-currency-and-taxes/01-account-types-for-trading.md -->. The two brokers the book uses are compared in Wealthsimple and IBKR compared<!-- link: ../02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md -->.
+Account rules, limits and the choice between them are in [Account types for trading](../02-accounts-currency-and-taxes/01-account-types-for-trading.md). The two brokers the book uses are compared in [Wealthsimple and IBKR compared](../02-accounts-currency-and-taxes/02-wealthsimple-and-ibkr.md).
 
 ## US accounts you will hear about
 

@@ -4,7 +4,7 @@ This book is for one kind of reader: a computer science student or graduate in C
 
 ## How the book is organised
 
-The book has 22 parts in six groups. Each part is a folder with an overview page, a diagnostic and a set of short lessons. The parts run in reading order, but later groups can be read in different orders (see the paths below).
+The book has 22 parts in six groups. Each part is a folder with an overview page (with a cheat sheet) and a set of short lessons. The parts run in reading order, but later groups can be read in different orders (see the paths below). The table on the [home page](../index.md) links each part.
 
 | Code | Part | What it covers |
 |---|---|---|
