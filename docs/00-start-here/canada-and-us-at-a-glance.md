@@ -18,7 +18,7 @@ SIPC and CIPF cover the loss of your cash and securities if a broker fails. Neit
 
 ## What the rows mean for you
 
-Both markets close at 4 p.m. ET and both settle in one business day, so the order and settlement rules in part 1 apply to a US stock and to a Canadian one. Market hours, extended sessions and the opening and closing auctions are in Market hours and the opening and closing auctions<!-- link: ../01-how-markets-work/03-market-hours-and-auctions.md -->. Settlement and its effect on a cash account is in Settlement, cash accounts and margin<!-- link: ../01-how-markets-work/07-settlement-cash-and-margin.md -->.
+Both markets close at 4 p.m. ET and both settle in one business day, so the order and settlement rules in part 1 apply to a US stock and to a Canadian one. Market hours, extended sessions and the opening and closing auctions are in [Market hours and the opening and closing auctions](../01-how-markets-work/03-market-hours-and-auctions.md). Settlement and its effect on a cash account is in [Settlement, cash accounts and margin](../01-how-markets-work/07-settlement-cash-and-margin.md).
 
 The tax row is the one that surprises people. How the 15% works, the form you sign and which accounts it touches is in US withholding tax and the W-8BEN<!-- link: ../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md -->. This page does not say whether the 15% can be recovered in a TFSA or an FHSA, because we could not confirm that from an official page. That lesson covers it with sources.
 

@@ -136,6 +136,7 @@ def chart_issues(spec_lines: list[tuple[int, str]]) -> list[str]:
     issues = []
     data_path = None
     levels = []
+    times = []  # (line, time text) from range, marker, zone spans and lines
     for no, line in spec_lines:
         s = line.strip()
         if not s or s.startswith("#"):
@@ -163,6 +164,15 @@ def chart_issues(spec_lines: list[tuple[int, str]]) -> list[str]:
         elif key == "marker":
             if val.count("|") != 2 or val.split("|")[1].strip() not in ("above", "below"):
                 issues.append(f"{no}: chart fence: marker needs 'time | above or below | text'")
+            times.append((no, val.split("|")[0].strip()))
+        elif key == "range":
+            times += [(no, x.strip()) for x in val.split(" to ")]
+        if key == "zone" and val.count("|") >= 2:
+            times += [(no, x.strip()) for x in val.split("|")[1].split(" to ")]
+        if key == "line":
+            m2 = re.match(r"^(\S+(?: \d\d:\d\d)?)\s+[\d.]+\s+to\s+(\S+(?: \d\d:\d\d)?)\s+[\d.]+", val)
+            if m2:
+                times += [(no, m2.group(1)), (no, m2.group(2))]
     if not data_path:
         issues.append(f"{spec_lines[0][0] if spec_lines else 0}: chart fence without data")
         return issues
@@ -177,6 +187,13 @@ def chart_issues(spec_lines: list[tuple[int, str]]) -> list[str]:
     for lno, price in levels:
         if not lo * 0.9 <= price <= hi * 1.1:
             issues.append(f"{lno}: chart level {price} is far outside the data ({lo} to {hi})")
+    # Dates in the fence must fall inside the data (daily and weekly data; intraday times are skipped).
+    if isinstance(bars[0][0], str):
+        first, last = bars[0][0], bars[-1][0]
+        for tno, when in times:
+            day = when[:10]
+            if re.match(r"^\d{4}-\d\d-\d\d$", day) and not first <= day <= last:
+                issues.append(f"{tno}: chart date {day} is outside the data ({first} to {last})")
     return issues
 
 

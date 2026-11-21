@@ -1,0 +1,54 @@
+- name: earnings-gap
+  seed: 101
+  tf: D
+  start: 2026-07-06
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 20, low: 48.5, high: 51.5, vol: 0.008}
+    - {kind: gap, pct: 0.08}
+    - {kind: bar, open: 0.0, high: 0.095, low: 0.07, close: 0.085, volume: 4.0}
+    - {kind: range, bars: 12, low: 52.8, high: 55.5, vol: 0.008, volume: 1.2}
+
+- name: opening-gap-5m
+  seed: 102
+  tf: 5m
+  start: "2026-03-02 09:30"
+  price: 100
+  volume: 100000
+  segments:
+    - {kind: range, bars: 78, low: 99.2, high: 100.8, vol: 0.0015}
+    - {kind: gap, pct: 0.02}
+    - {kind: range, bars: 78, low: 100.7, high: 102.2, vol: 0.0015}
+
+- name: order-types
+  seed: 103
+  tf: D
+  start: 2026-10-01
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: trend, bars: 25, drift: 0.002, vol: 0.009}
+
+- name: stock-a-split
+  seed: 104
+  csv: stock-a-split-daily
+  tf: D
+  start: 2026-09-08
+  price: 200
+  volume: 800000
+  segments:
+    - {kind: trend, bars: 25, drift: 0.002, vol: 0.009}
+    - {kind: gap, pct: -0.5}
+    - {kind: range, bars: 15, low: 111, high: 117, vol: 0.009, volume: 2.0}
+
+- name: ex-dividend
+  seed: 105
+  tf: D
+  start: 2026-08-03
+  price: 50
+  volume: 1200000
+  segments:
+    - {kind: range, bars: 15, low: 49.2, high: 51.0, vol: 0.006}
+    - {kind: gap, pct: -0.02002}
+    - {kind: range, bars: 10, low: 48.0, high: 49.3, vol: 0.006}

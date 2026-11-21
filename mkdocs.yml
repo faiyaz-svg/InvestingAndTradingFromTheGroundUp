@@ -109,6 +109,20 @@ nav:
       - "Not financial advice": 00-start-here/not-financial-advice.md
       - "Credits and sources": 00-start-here/credits-and-sources.md
       - "Progress": progress.md
+  - "Foundations":
+      - "How markets work":
+          - 01-how-markets-work/index.md
+          - "What a stock is and why prices move": 01-how-markets-work/01-what-a-stock-is.md
+          - "Exchanges and where your order goes": 01-how-markets-work/02-exchanges-and-where-orders-go.md
+          - "Market hours and the opening and closing auctions": 01-how-markets-work/03-market-hours-and-auctions.md
+          - "Bid, ask and the order book": 01-how-markets-work/04-bid-ask-and-the-order-book.md
+          - "Order types": 01-how-markets-work/05-order-types.md
+          - "Who is on the other side of your trade": 01-how-markets-work/06-who-is-on-the-other-side.md
+          - "Settlement, cash accounts and margin": 01-how-markets-work/07-settlement-cash-and-margin.md
+          - "Short selling": 01-how-markets-work/08-short-selling.md
+          - "Dividends, splits and corporate actions": 01-how-markets-work/09-dividends-splits-and-corporate-actions.md
+          - "Indexes, sectors and market cap": 01-how-markets-work/10-indexes-sectors-and-market-cap.md
+          - "Reading a quote page": 01-how-markets-work/11-reading-a-quote-page.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
 # nav:end

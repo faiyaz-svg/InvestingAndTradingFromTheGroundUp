@@ -21,7 +21,7 @@ A Canadian depositary receipt (CDR) is a CAD-priced share that tracks a US stock
 
 ## Index symbols and the ETF that tracks them
 
-An index is a number calculated from a basket of stocks. You cannot buy it directly. SPX is the symbol many platforms use for the S&P 500 index, and SPY is a different thing: an ETF that holds the stocks and trades like a share. Their prices differ, and the ETF has a fee and a tracking gap. Platforms differ in how they write an index (SPX, ^GSPC or $SPX), so check that the chart says "index" and not "ETF". See Indexes, sectors and market cap<!-- link: ../01-how-markets-work/10-indexes-sectors-and-market-cap.md -->.
+An index is a number calculated from a basket of stocks. You cannot buy it directly. SPX is the symbol many platforms use for the S&P 500 index, and SPY is a different thing: an ETF that holds the stocks and trades like a share. Their prices differ, and the ETF has a fee and a tracking gap. Platforms differ in how they write an index (SPX, ^GSPC or $SPX), so check that the chart says "index" and not "ETF". See [Indexes, sectors and market cap](../01-how-markets-work/10-indexes-sectors-and-market-cap.md).
 
 ## Option symbols
 
