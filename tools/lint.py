@@ -244,6 +244,8 @@ def check(path: Path) -> list[str]:
             issues.append(f"{no}: curly quote")
         if EMOJI.search(line):
             issues.append(f"{no}: emoji or symbol")
+        if re.search("[\x00-\x08\x0b\x0c\x0e-\x1f]", line):
+            issues.append(f"{no}: control character (a lost backslash, such as \\b or \\f in LaTeX?)")
         if in_fence:
             fence_lines.append((no, line))
             continue

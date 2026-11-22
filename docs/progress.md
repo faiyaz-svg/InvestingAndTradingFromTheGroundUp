@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 104 of 201. New lessons appear here as they are added.
+Lessons written so far: 110 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -146,3 +146,12 @@ Lessons written so far: 104 of 201. New lessons appear here as they are added.
 - [ ] [The business cycle and sectors](11-macro-and-economic-data/09-the-business-cycle-and-sectors.md) (idea)
 - [ ] [QE, QT and liquidity](11-macro-and-economic-data/10-qe-qt-and-liquidity.md) (idea)
 - [ ] [The Bank of Canada and a macro week](11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md) (canada, review)
+
+### Part 12: Bonds and the yield curve
+
+- [ ] [Bond prices and yields](12-bonds-and-the-yield-curve/01-bond-prices-and-yields.md) (idea)
+- [ ] [Treasuries and TIPS](12-bonds-and-the-yield-curve/02-treasuries-and-tips.md) (idea)
+- [ ] [The yield curve](12-bonds-and-the-yield-curve/03-the-yield-curve.md) (data)
+- [ ] [Duration and convexity](12-bonds-and-the-yield-curve/04-duration-and-convexity.md) (idea)
+- [ ] [Credit spreads and high yield](12-bonds-and-the-yield-curve/05-credit-spreads-and-high-yield.md) (idea)
+- [ ] [Bond ETFs, and rates against stocks](12-bonds-and-the-yield-curve/06-bond-etfs-and-rates-vs-stocks.md) (idea, review)

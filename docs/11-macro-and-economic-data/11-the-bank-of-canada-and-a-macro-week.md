@@ -190,4 +190,4 @@ Any one of: the cycle phase is dated after the fact, each cycle has different ca
 - **USD/CAD**: the number of Canadian dollars one US dollar buys.
 - **Rate differential**: the gap between expected policy rates in two countries.
 
-Next: Bond prices and yields<!-- link: ../12-bonds-and-the-yield-curve/01-bond-prices-and-yields.md -->
+Next: [Bond prices and yields](../12-bonds-and-the-yield-curve/01-bond-prices-and-yields.md)

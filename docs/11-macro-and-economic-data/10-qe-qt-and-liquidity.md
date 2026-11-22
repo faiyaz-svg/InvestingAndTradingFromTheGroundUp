@@ -57,7 +57,7 @@ Traders use **liquidity** in two ways, and both appear in this part. In Part 1 i
 
 Commentary often says that "liquidity" explains stock prices: more reserves, higher stocks. Treat that as a loose claim. Prices also respond to profits, rates and risk appetite, and these move together, so the balance sheet's own effect is hard to separate. This lesson cites no test showing that weekly changes in the balance sheet predict stock returns.
 
-What the balance sheet does affect, more directly, is the Treasury market and long-term yields, which Part 12 covers (Treasuries and TIPS<!-- link: ../12-bonds-and-the-yield-curve/02-treasuries-and-tips.md -->, and The yield curve<!-- link: ../12-bonds-and-the-yield-curve/03-the-yield-curve.md -->).
+What the balance sheet does affect, more directly, is the Treasury market and long-term yields, which Part 12 covers ([Treasuries and TIPS](../12-bonds-and-the-yield-curve/02-treasuries-and-tips.md), and [The yield curve](../12-bonds-and-the-yield-curve/03-the-yield-curve.md)).
 
 ## Common mistakes
 

@@ -40,8 +40,8 @@ Before this part: Part 5.
 | \( \text{level}_k = H - k\,(H-L) \) | \(H\) swing high, \(L\) swing low, \(k\) fraction | Retracement level of a rising swing |
 | \( k = 0.5 \) | | Equilibrium |
 | \( k = 0.62 \) to \( 0.79 \) | 0.705 is the middle | Optimal trade entry zone |
-| \( t = \bar{x} / (s/\sqrt{n}) \) | \(\bar{x}\) mean R, \(s\) standard deviation of R, \(n\) trades | Is the edge distinguishable from zero |
-| \( n = (t\,s/\bar{x})^2 \) | | Trades needed for a target t |
+| \( t = \bar{x} / (s/\sqrt{n}) \) | \(\bar{x}\) mean R, \(s\) standard deviation of R, \(n\) trades | Is the edge distinguishable from zero |
+| \( n = (t\,s/\bar{x})^2 \) | | Trades needed for a target t |
 
 ### Times (ET, Toronto)
 
