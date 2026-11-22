@@ -178,6 +178,17 @@ nav:
           - "Order blocks and breakers": 06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md
           - "Sessions, kill zones and premium and discount": 06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md
           - "Testing smart money claims": 06-ict-and-smart-money-tested/06-testing-smc-claims.md
+      - "Day trading":
+          - 08-day-trading/index.md
+          - "How day trading differs": 08-day-trading/01-how-day-trading-differs.md
+          - "Premarket prep": 08-day-trading/02-premarket-prep.md
+          - "Intraday charts and VWAP": 08-day-trading/03-intraday-charts-and-vwap.md
+          - "The opening range breakout": 08-day-trading/04-opening-range-breakout.md
+          - "VWAP reclaims and fades": 08-day-trading/05-vwap-reclaims-and-fades.md
+          - "News, momentum and halts": 08-day-trading/06-news-momentum-and-halts.md
+          - "Level 2 and time and sales": 08-day-trading/07-level-2-and-time-and-sales.md
+          - "Execution costs and scalping": 08-day-trading/08-execution-costs-and-scalping.md
+          - "A day trading routine and limits": 08-day-trading/09-day-trading-routine-and-limits.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

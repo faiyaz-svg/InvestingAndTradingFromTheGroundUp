@@ -1,0 +1,210 @@
+# Part 8 chart drills. Answers come from tools/make_charts.py 08-day-trading and the JSON files.
+- id: day-orb-range-high
+  chart: |
+    data: 08-day-trading/orb-win.json
+    show: volume
+    range: 2026-09-18 09:30 to 2026-09-18 11:00
+  q: "The opening range is the high and low of the first 5-minute bar (9:30). Click the range high."
+  type: level
+  answer: 42.90
+  tolerance: 0.15
+  explain: "The 9:30 bar ran from a low of 42.30 to a high of 42.90. A long trigger sits one cent above the high, at 42.91."
+  reveal: |
+    level: 42.90 | Range high
+
+- id: day-orb-range-low
+  chart: |
+    data: 08-day-trading/orb-win.json
+    show: volume
+    range: 2026-09-18 09:30 to 2026-09-18 11:00
+  q: "Click the low of the opening range (the first 5-minute bar)."
+  type: level
+  answer: 42.30
+  tolerance: 0.15
+  explain: "The low of the 9:30 bar was 42.30. The stop for a long goes two cents below it, at 42.28."
+  reveal: |
+    level: 42.30 | Range low
+
+- id: day-orb-stop
+  chart: |
+    data: 08-day-trading/orb-win.json
+    range: 2026-09-18 09:30 to 2026-09-18 11:00
+  q: "The first bar closed above its open, so the trade is long. The stop is two cents below the range low. What is the stop price?"
+  type: number
+  answer: 42.28
+  tolerance: 0.011
+  unit: "US$"
+  explain: "The range low is 42.30, and 42.30 - 0.02 = 42.28."
+
+- id: day-orb-risk
+  chart: |
+    data: 08-day-trading/orb-win.json
+    range: 2026-09-18 09:30 to 2026-09-18 11:00
+  q: "The buy stop is at 42.91 (one cent above the range high) and the stop is at 42.28. What is the risk per share?"
+  type: number
+  answer: 0.63
+  tolerance: 0.006
+  unit: "US$"
+  explain: "42.91 - 42.28 = 0.63 per share."
+
+- id: day-orb-shares
+  chart: |
+    data: 08-day-trading/orb-win.json
+    range: 2026-09-18 09:30 to 2026-09-18 11:00
+  q: "Account US$25,000, risk 1% (US$250). Risk per share is 0.63. How many shares (round down)?"
+  type: number
+  answer: 396
+  tolerance: 0.5
+  explain: "250 / 0.63 = 396.8, so 396 shares. One R is 396 x 0.63 = US$249.48."
+
+- id: day-orb-setup
+  chart: |
+    data: 08-day-trading/orb-win.json
+    show: volume
+    range: 2026-09-18 09:30 to 2026-09-18 11:30
+  q: "A stock gaps up on news and the first 5-minute bar closes above its open. Price leaves the first bar's high at 9:55 and keeps climbing. Which setup is this?"
+  type: choice
+  choices: ["Opening range breakout (long)", "VWAP fade (short)", "VWAP reclaim after a morning below the line", "Rule 201 short sale"]
+  answer_choice: 0
+  explain: "The entry is a break above the high of the first 5-minute bar, which is the opening range breakout. The first bar's high was 42.90 and the buy stop was 42.91."
+
+- id: day-orb-fail-stop
+  chart: |
+    data: 08-day-trading/orb-fail.json
+    range: 2026-09-21 09:30 to 2026-09-21 11:30
+  q: "The opening range of this stock is 30.55 to 31.00. For a long with a stop two cents below the range low, click the stop price."
+  type: level
+  answer: 30.53
+  tolerance: 0.1
+  explain: "30.55 - 0.02 = 30.53. The 10:15 bar traded as low as 30.37, through this stop."
+  reveal: |
+    level: 30.53 | Stop
+
+- id: day-orb-fail-r
+  chart: |
+    data: 08-day-trading/orb-fail.json
+    range: 2026-09-21 09:30 to 2026-09-21 11:30
+  q: "Entry 31.01, stop 30.53, but the stop order filled at 30.50. What is the result in R, before fees? (Enter a negative number.)"
+  type: number
+  answer: -1.06
+  tolerance: 0.01
+  unit: "R"
+  explain: "Loss per share = 31.01 - 30.50 = 0.51. Risk per share = 0.48. 0.51 / 0.48 = 1.0625, so about -1.06R."
+
+- id: day-reclaim-base-low
+  chart: |
+    data: 08-day-trading/vwap-reclaim.json
+    show: vwap
+    range: 2026-09-22 09:30 to 2026-09-22 12:20
+  q: "The stock closed under VWAP until the 12:20 bar. For the stop, find the lowest low of the six bars before the 12:20 bar (11:50 to 12:15). Click it."
+  type: level
+  answer: 58.18
+  tolerance: 0.12
+  explain: "The lowest low of the six bars from 11:50 to 12:15 was 58.18. The stop is two cents below, at 58.16."
+  reveal: |
+    level: 58.18 | Base low
+
+- id: day-reclaim-bar
+  chart: |
+    data: 08-day-trading/vwap-reclaim.json
+    show: vwap
+    range: 2026-09-22 09:30 to 2026-09-22 13:00
+  q: "After a morning below VWAP, which 5-minute bar is the reclaim bar, the first to close above VWAP?"
+  type: choice
+  choices: ["11:55", "12:20", "12:55", "13:30"]
+  answer_choice: 1
+  explain: "The 12:20 bar closed at 58.96 against a VWAP of 58.92. Every bar from 9:35 to 12:15 closed below the line."
+
+- id: day-reclaim-target
+  chart: |
+    data: 08-day-trading/vwap-reclaim.json
+    show: vwap
+    range: 2026-09-22 09:30 to 2026-09-22 13:00
+  q: "Entry 58.98, stop 58.16. What is the 2R target price?"
+  type: number
+  answer: 60.62
+  tolerance: 0.03
+  unit: "US$"
+  explain: "Risk = 0.82. 2R = 1.64. 58.98 + 1.64 = 60.62."
+
+- id: day-fade-high
+  chart: |
+    data: 08-day-trading/vwap-fade.json
+    show: vwap
+    range: 2026-09-23 09:30 to 2026-09-23 11:00
+  q: "The stock ran 3% above VWAP and a bar closed at the bottom of its range. Click the high of that rejection bar (the high of the day). The stop goes two cents above it."
+  type: level
+  answer: 26.42
+  tolerance: 0.1
+  explain: "The 10:00 bar made the day's high at 26.42 and closed at 26.15, its low. The stop is 26.44."
+  reveal: |
+    level: 26.42 | Rejection bar high
+
+- id: day-fade-shares
+  chart: |
+    data: 08-day-trading/vwap-fade.json
+    show: vwap
+    range: 2026-09-23 09:30 to 2026-09-23 11:00
+  q: "Short at 26.14 with a stop at 26.44. Account US$25,000, risk 1%. How many shares (round down)?"
+  type: number
+  answer: 833
+  tolerance: 0.5
+  explain: "Risk per share = 0.30. 250 / 0.30 = 833.3, so 833 shares."
+
+- id: day-fade-side
+  chart: |
+    data: 08-day-trading/vwap-fade.json
+    show: vwap
+    range: 2026-09-23 09:30 to 2026-09-23 11:00
+  q: "A VWAP fade after a stock runs far above the line is a trade in which direction, and where is the target?"
+  type: choice
+  choices: ["Short, with the target at VWAP", "Long, with the target at the day's high", "Short, with the target at the open", "Long, with the target at VWAP"]
+  answer_choice: 0
+  explain: "A fade sells the stall and aims at VWAP. Here the target was 25.70, just above VWAP at the entry bar."
+
+- id: day-news-push
+  chart: |
+    data: 08-day-trading/news-momentum.json
+    show: vwap
+    range: 2026-09-24 09:30 to 2026-09-24 09:45
+  q: "The stock opened at 13.80 on news. Click the high of the first push (the highest price in the first five minutes)."
+  type: level
+  answer: 14.75
+  tolerance: 0.1
+  explain: "The first five 1-minute bars reached 14.75 at 9:34. The buy stop is one cent above, at 14.76."
+  reveal: |
+    level: 14.75 | First push
+
+- id: day-news-pullback
+  chart: |
+    data: 08-day-trading/news-momentum.json
+    show: vwap
+    range: 2026-09-24 09:30 to 2026-09-24 09:45
+  q: "Click the low of the first pullback (9:35 to 9:40). The stop goes two cents below it."
+  type: level
+  answer: 13.98
+  tolerance: 0.1
+  explain: "The pullback low was 13.98 at 9:40. The stop is 13.96."
+  reveal: |
+    level: 13.98 | Pullback low
+
+- id: day-news-shares
+  chart: |
+    data: 08-day-trading/news-momentum.json
+    range: 2026-09-24 09:30 to 2026-09-24 09:45
+  q: "Buy stop 14.76, stop 13.96, account US$25,000, risk 1%. How many shares (round down)?"
+  type: number
+  answer: 312
+  tolerance: 0.5
+  explain: "Risk per share = 0.80. 250 / 0.80 = 312.5, so 312 shares."
+
+- id: day-gap-percent
+  chart: |
+    data: 08-day-trading/premarket-gapper.json
+    range: 2026-09-16 13:00 to 2026-09-17 10:30
+  q: "The prior close was 19.97 and the next open was 21.57. What is the gap, in percent?"
+  type: number
+  answer: 8.0
+  tolerance: 0.2
+  unit: "%"
+  explain: "(21.57 - 19.97) / 19.97 = 0.0801, so +8.0%."

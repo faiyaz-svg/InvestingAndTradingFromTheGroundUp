@@ -1,0 +1,109 @@
+# Part 8, Day trading. All prices are made up. Times are New York time.
+- name: day-rhythm
+  seed: 801
+  tf: 5m
+  start: "2026-09-15 09:30"
+  price: 50
+  volume: 100000
+  segments:
+    - {kind: to, bars: 12, price: 51.2, vol: 0.0035, volume: 1.4}
+    - {kind: range, bars: 48, low: 50.9, high: 51.5, vol: 0.0012, volume: 0.9}
+    - {kind: to, bars: 18, price: 52.0, vol: 0.0025, volume: 1.2}
+
+- name: premarket-gapper
+  seed: 802
+  tf: 5m
+  start: "2026-09-16 09:30"
+  price: 20
+  volume: 60000
+  segments:
+    - {kind: range, bars: 78, low: 19.4, high: 20.4, vol: 0.002, volume: 0.6}
+    - {kind: gap, pct: 0.08}
+    - {kind: bar, open: 0.0, high: 0.0916, low: 0.0741, close: 0.0866, volume: 8.0}
+    - {kind: to, bars: 5, price: 21.95, vol: 0.003, wick: 0.0015, volume: 5.0}
+    - {kind: to, bars: 12, price: 21.5, vol: 0.003, volume: 4.0}
+    - {kind: to, bars: 60, price: 22.3, vol: 0.002, volume: 3.0}
+
+- name: vwap-1m
+  seed: 803
+  csv: stock-a-1m
+  tf: 1m
+  start: "2026-09-17 09:30"
+  price: 80
+  volume: 25000
+  segments:
+    - {kind: to, bars: 25, price: 80.9, vol: 0.0006, volume: 1.6}
+    - {kind: to, bars: 40, price: 80.3, vol: 0.0005, volume: 0.9}
+    - {kind: to, bars: 55, price: 81.2, vol: 0.0005, volume: 1.0}
+
+- name: orb-win
+  seed: 804
+  csv: stock-a-orb-5m
+  tf: 5m
+  start: "2026-09-18 09:30"
+  price: 42.40
+  volume: 150000
+  segments:
+    - {kind: bar, open: 0.0, high: 0.0118, low: -0.00236, close: 0.00943, volume: 5.0}
+    - {kind: to, bars: 4, price: 42.55, vol: 0.0007, wick: 0.0002, volume: 1.5}
+    - {kind: bar, open: 0.0, high: 0.020, low: -0.001, close: 0.0176, volume: 3.0}
+    - {kind: to, bars: 10, price: 44.0, vol: 0.0012, wick: 0.0004, volume: 1.8}
+    - {kind: to, bars: 6, price: 44.35, vol: 0.0012, wick: 0.0004, volume: 1.4}
+    - {kind: range, bars: 56, low: 43.7, high: 44.6, vol: 0.0015, volume: 0.8}
+
+- name: orb-fail
+  seed: 805
+  tf: 5m
+  start: "2026-09-21 09:30"
+  price: 30.60
+  volume: 150000
+  segments:
+    - {kind: bar, open: 0.0, high: 0.01307, low: -0.00163, close: 0.01144, volume: 5.0}
+    - {kind: to, bars: 3, price: 30.85, vol: 0.0006, wick: 0.0002, volume: 1.5}
+    - {kind: bar, open: 0.0, high: 0.0087, low: -0.0016, close: 0.0016, volume: 1.8}
+    - {kind: to, bars: 4, price: 30.60, vol: 0.0007, wick: 0.0002, volume: 1.4}
+    - {kind: bar, open: 0.0, high: 0.0, low: -0.0075, close: -0.0065, volume: 2.0}
+    - {kind: range, bars: 68, low: 30.0, high: 30.6, vol: 0.0015, volume: 0.8}
+
+- name: vwap-reclaim
+  seed: 806
+  tf: 5m
+  start: "2026-09-22 09:30"
+  price: 60
+  volume: 120000
+  segments:
+    - {kind: to, bars: 12, price: 58.2, vol: 0.0025, volume: 1.4}
+    - {kind: range, bars: 18, low: 57.8, high: 58.6, vol: 0.0015, volume: 0.8}
+    - {kind: to, bars: 6, price: 59.2, vol: 0.0015, volume: 1.5}
+    - {kind: to, bars: 4, price: 59.05, vol: 0.0008, wick: 0.0003, volume: 0.9}
+    - {kind: to, bars: 14, price: 61.6, vol: 0.0015, volume: 1.4}
+    - {kind: range, bars: 24, low: 61.2, high: 61.9, vol: 0.0012, volume: 0.8}
+
+- name: vwap-fade
+  seed: 807
+  tf: 5m
+  start: "2026-09-23 09:30"
+  price: 25
+  volume: 120000
+  segments:
+    - {kind: to, bars: 6, price: 26.3, vol: 0.003, volume: 2.0}
+    - {kind: bar, open: 0.0, high: 0.0046, low: -0.0054, close: -0.0057, volume: 1.4}
+    - {kind: bar, open: 0.0, high: 0.0, low: -0.0066, close: -0.0062, volume: 1.6}
+    - {kind: to, bars: 6, price: 25.7, vol: 0.002, volume: 1.2}
+    - {kind: to, bars: 6, price: 25.85, vol: 0.002, volume: 1.0}
+    - {kind: to, bars: 12, price: 25.4, vol: 0.0015, volume: 1.0}
+    - {kind: range, bars: 46, low: 25.25, high: 25.6, vol: 0.0012, volume: 0.7}
+
+- name: news-momentum
+  seed: 808
+  tf: 1m
+  start: "2026-09-24 09:30"
+  price: 13.8
+  volume: 90000
+  segments:
+    - {kind: to, bars: 5, price: 14.6, vol: 0.012, volume: 3.0}
+    - {kind: to, bars: 6, price: 14.0, vol: 0.006, volume: 1.2}
+    - {kind: bar, open: 0.0, high: 0.04, low: 0.0, close: 0.035, volume: 2.5}
+    - {kind: to, bars: 10, price: 16.5, vol: 0.006, volume: 2.0}
+    - {kind: to, bars: 8, price: 16.0, vol: 0.005, volume: 1.2}
+    - {kind: to, bars: 30, price: 16.2, vol: 0.004, volume: 1.0}

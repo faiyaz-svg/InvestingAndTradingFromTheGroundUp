@@ -77,7 +77,7 @@ The steeper a side is, the more shares sit close to the price and the less your 
 
 The smallest price step a stock can quote is the **tick**. For US stocks priced at US$1 or more it is one cent today. The SEC adopted a half-cent tick for certain tightly quoted stocks in 2024, and moved the compliance date to November 2027 (see [SEC press release 2024-137](https://www.sec.gov/newsroom/press-releases/2024-137) and the [Morrison Foerster summary](https://www.mofo.com/pdf/resources/insights/260612-sec-proposes-landmark-rollback-of-core-regulation), as of 2026).
 
-**Level 1** data shows the best bid, best ask, their sizes and the last trade. **Level 2** data shows several price levels of the book, like the table above. Part 8 uses it for trading (Level 2 and time and sales<!-- link: ../08-day-trading/07-level-2-and-time-and-sales.md -->).
+**Level 1** data shows the best bid, best ask, their sizes and the last trade. **Level 2** data shows several price levels of the book, like the table above. Part 8 uses it for trading ([Level 2 and time and sales](../08-day-trading/07-level-2-and-time-and-sales.md)).
 
 <details class="code" markdown>
 <summary>In code</summary>

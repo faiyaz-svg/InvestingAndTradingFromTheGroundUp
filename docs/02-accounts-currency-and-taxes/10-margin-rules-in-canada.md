@@ -48,6 +48,10 @@ The figure shows four loan sizes. Look at where each line crosses the dashed 30%
 ![Equity as a share of the position against the fall in value, with calls at 4.8% and 28.6% falls for the two larger loans](../assets/figures/02-accounts-currency-and-taxes/margin-call-dark.svg#only-dark)
 ![Equity as a share of the position against the fall in value, with calls at 4.8% and 28.6% falls for the two larger loans](../assets/figures/02-accounts-currency-and-taxes/margin-call-light.svg#only-light)
 
+### Day trading and the US rule
+
+US content often mentions the pattern day trader rule ([Settlement, cash accounts and margin](../01-how-markets-work/07-settlement-cash-and-margin.md)). FINRA rules bind US broker-dealers. A Canadian dealer follows CIRO's margin rules, and we found no CIRO rule that counts day trades. Check your broker's own intraday policy (as of 2026).
+
 ## Choosing an account
 
 The part's rules give a way to choose:

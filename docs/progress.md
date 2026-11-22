@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 55 of 201. New lessons appear here as they are added.
+Lessons written so far: 64 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -80,3 +80,15 @@ Lessons written so far: 55 of 201. New lessons appear here as they are added.
 - [ ] [Order blocks and breakers](06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md) (strategy)
 - [ ] [Sessions, kill zones and premium and discount](06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md) (strategy)
 - [ ] [Testing smart money claims](06-ict-and-smart-money-tested/06-testing-smc-claims.md) (data, review)
+
+### Part 8: Day trading
+
+- [ ] [How day trading differs](08-day-trading/01-how-day-trading-differs.md) (idea)
+- [ ] [Premarket prep](08-day-trading/02-premarket-prep.md) (skill)
+- [ ] [Intraday charts and VWAP](08-day-trading/03-intraday-charts-and-vwap.md) (skill)
+- [ ] [The opening range breakout](08-day-trading/04-opening-range-breakout.md) (strategy)
+- [ ] [VWAP reclaims and fades](08-day-trading/05-vwap-reclaims-and-fades.md) (strategy)
+- [ ] [News, momentum and halts](08-day-trading/06-news-momentum-and-halts.md) (strategy)
+- [ ] [Level 2 and time and sales](08-day-trading/07-level-2-and-time-and-sales.md) (skill)
+- [ ] [Execution costs and scalping](08-day-trading/08-execution-costs-and-scalping.md) (idea)
+- [ ] [A day trading routine and limits](08-day-trading/09-day-trading-routine-and-limits.md) (skill, review)
