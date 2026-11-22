@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 110 of 201. New lessons appear here as they are added.
+Lessons written so far: 120 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -155,3 +155,18 @@ Lessons written so far: 110 of 201. New lessons appear here as they are added.
 - [ ] [Duration and convexity](12-bonds-and-the-yield-curve/04-duration-and-convexity.md) (idea)
 - [ ] [Credit spreads and high yield](12-bonds-and-the-yield-curve/05-credit-spreads-and-high-yield.md) (idea)
 - [ ] [Bond ETFs, and rates against stocks](12-bonds-and-the-yield-curve/06-bond-etfs-and-rates-vs-stocks.md) (idea, review)
+
+## Investing and derivatives
+
+### Part 13: ETFs, portfolios and factors
+
+- [ ] [How ETFs work](13-etfs-portfolios-and-factors/01-how-etfs-work.md) (idea)
+- [ ] [Index funds, fees and tracking](13-etfs-portfolios-and-factors/02-index-funds-fees-and-tracking.md) (idea)
+- [ ] [US-listed or Canadian-listed ETFs](13-etfs-portfolios-and-factors/03-us-vs-canadian-listed-etfs.md) (canada)
+- [ ] [Leveraged and inverse ETFs](13-etfs-portfolios-and-factors/04-leveraged-and-inverse-etfs.md) (idea)
+- [ ] [Asset allocation](13-etfs-portfolios-and-factors/05-asset-allocation.md) (skill)
+- [ ] [Diversification and correlation](13-etfs-portfolios-and-factors/06-diversification-and-correlation.md) (idea)
+- [ ] [Rebalancing](13-etfs-portfolios-and-factors/07-rebalancing.md) (skill)
+- [ ] [Modern portfolio theory](13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md) (idea)
+- [ ] [Factor investing](13-etfs-portfolios-and-factors/09-factor-investing.md) (strategy)
+- [ ] [A long-term portfolio](13-etfs-portfolios-and-factors/10-a-long-term-portfolio.md) (canada, review)

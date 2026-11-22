@@ -8,7 +8,7 @@ Before this: [Bond prices and yields](01-bond-prices-and-yields.md), [Duration a
 
 ## The idea
 
-Individual bonds are hard to buy in small amounts and in variety. A **bond ETF** is a fund that holds hundreds or thousands of bonds and sells shares that trade on an exchange like a stock. Part 13 covers how an ETF is built (How ETFs work<!-- link: ../13-etfs-portfolios-and-factors/01-how-etfs-work.md -->). Here we need only what a bond ETF reports.
+Individual bonds are hard to buy in small amounts and in variety. A **bond ETF** is a fund that holds hundreds or thousands of bonds and sells shares that trade on an exchange like a stock. Part 13 covers how an ETF is built ([How ETFs work](../13-etfs-portfolios-and-factors/01-how-etfs-work.md)). Here we need only what a bond ETF reports.
 
 ### What the fund page tells you
 

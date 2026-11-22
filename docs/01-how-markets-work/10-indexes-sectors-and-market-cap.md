@@ -77,7 +77,7 @@ Companies are grouped by what they do. The Global Industry Classification Standa
 
 ### For Canadians
 
-Canada's main broad index is the S&P/TSX Composite. Its rules are on the S&P Dow Jones Indices site. You can own an index through an ETF (exchange-traded fund), which Part 13 explains (How ETFs work<!-- link: ../13-etfs-portfolios-and-factors/01-how-etfs-work.md -->). You can also own US index ETFs from a Canadian account, where the currency and tax rules in Part 2 apply.
+Canada's main broad index is the S&P/TSX Composite. Its rules are on the S&P Dow Jones Indices site. You can own an index through an ETF (exchange-traded fund), which Part 13 explains ([How ETFs work](../13-etfs-portfolios-and-factors/01-how-etfs-work.md)). You can also own US index ETFs from a Canadian account, where the currency and tax rules in Part 2 apply.
 
 </div>
 

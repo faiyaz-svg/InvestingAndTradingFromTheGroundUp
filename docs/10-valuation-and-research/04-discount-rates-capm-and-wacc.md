@@ -25,7 +25,7 @@ The **cost of equity** is the return shareholders require for holding the stock.
 - \(\beta\) (beta) measures how much the stock has moved with the market. It is the slope from regressing the stock's returns on the market's returns, often 5 years of monthly returns against the S&P 500. A beta of 1.4 means the stock tended to move 1.4% for each 1% market move. Data sites publish betas, and different sites give different values because the window and the index differ.
 - ERP is the **equity risk premium**: the extra return investors expect from the stock market over the risk-free rate. It cannot be observed. It is an assumption. Aswath Damodaran (NYU Stern) publishes his implied estimates by year back to 1960, computed two ways, on [his data page](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/implpr.html). Other sources give other numbers. This book uses 4.5% for the example and says so wherever it matters.
 
-The idea behind CAPM is that only risk you cannot diversify away earns a premium (Modern portfolio theory<!-- link: ../13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md -->). Its record in data is mixed, so treat it as a convention that gives a sensible number, not as a law.
+The idea behind CAPM is that only risk you cannot diversify away earns a premium ([Modern portfolio theory](../13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md)). Its record in data is mixed, so treat it as a convention that gives a sensible number, not as a law.
 
 Northwind (beta 1.0, assumed for the example): \(k_e\) = 4.92% + 1.0 x 4.5% = 9.42%.
 

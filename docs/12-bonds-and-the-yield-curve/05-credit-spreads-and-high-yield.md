@@ -81,7 +81,7 @@ Spreads change every day. They widen when investors expect more defaults or want
 
 If Bond B has a modified duration of 7 and its spread widens by 50 basis points while Treasury yields do not change, its price falls about 7 x 0.005 = 3.5%. A corporate bondholder takes two risks: the Treasury yield and the spread. They can move in opposite directions. In a market scare, Treasury yields can fall while spreads widen, so the two effects partly offset each other.
 
-Part 13 shows how bond funds hold these bonds in a portfolio (How ETFs work<!-- link: ../13-etfs-portfolios-and-factors/01-how-etfs-work.md -->).
+Part 13 shows how bond funds hold these bonds in a portfolio ([How ETFs work](../13-etfs-portfolios-and-factors/01-how-etfs-work.md)).
 
 ## Common mistakes
 

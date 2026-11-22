@@ -246,6 +246,19 @@ nav:
           - "Duration and convexity": 12-bonds-and-the-yield-curve/04-duration-and-convexity.md
           - "Credit spreads and high yield": 12-bonds-and-the-yield-curve/05-credit-spreads-and-high-yield.md
           - "Bond ETFs, and rates against stocks": 12-bonds-and-the-yield-curve/06-bond-etfs-and-rates-vs-stocks.md
+  - "Investing and derivatives":
+      - "ETFs, portfolios and factors":
+          - 13-etfs-portfolios-and-factors/index.md
+          - "How ETFs work": 13-etfs-portfolios-and-factors/01-how-etfs-work.md
+          - "Index funds, fees and tracking": 13-etfs-portfolios-and-factors/02-index-funds-fees-and-tracking.md
+          - "US-listed or Canadian-listed ETFs": 13-etfs-portfolios-and-factors/03-us-vs-canadian-listed-etfs.md
+          - "Leveraged and inverse ETFs": 13-etfs-portfolios-and-factors/04-leveraged-and-inverse-etfs.md
+          - "Asset allocation": 13-etfs-portfolios-and-factors/05-asset-allocation.md
+          - "Diversification and correlation": 13-etfs-portfolios-and-factors/06-diversification-and-correlation.md
+          - "Rebalancing": 13-etfs-portfolios-and-factors/07-rebalancing.md
+          - "Modern portfolio theory": 13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md
+          - "Factor investing": 13-etfs-portfolios-and-factors/09-factor-investing.md
+          - "A long-term portfolio": 13-etfs-portfolios-and-factors/10-a-long-term-portfolio.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md
