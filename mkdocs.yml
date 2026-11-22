@@ -259,6 +259,15 @@ nav:
           - "Modern portfolio theory": 13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md
           - "Factor investing": 13-etfs-portfolios-and-factors/09-factor-investing.md
           - "A long-term portfolio": 13-etfs-portfolios-and-factors/10-a-long-term-portfolio.md
+      - "Futures":
+          - 14-futures/index.md
+          - "What futures are": 14-futures/01-what-futures-are.md
+          - "Margin, leverage and mark to market": 14-futures/02-margin-leverage-and-mark-to-market.md
+          - "Index futures: ES, MES, NQ and MNQ": 14-futures/03-index-futures.md
+          - "Expiry and rolling": 14-futures/04-expiry-and-rolling.md
+          - "Contango, backwardation and basis": 14-futures/05-contango-backwardation-and-basis.md
+          - "Futures hours and sessions": 14-futures/06-futures-hours-and-sessions.md
+          - "Futures in Canada": 14-futures/07-futures-in-canada.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

@@ -213,4 +213,4 @@ Earnings yield = 1 / 16 = 6.25%. Gap = 2.25 percentage points. One limit: the bo
 - **Equity risk premium**: the extra return investors expect from stocks over the risk-free rate.
 - **Earnings yield**: earnings divided by price, the inverse of the P/E ratio.
 
-Next: [How ETFs work](../13-etfs-portfolios-and-factors/01-how-etfs-work.md)<!-- link: ../13-etfs-portfolios-and-factors/01-how-etfs-work.md -->
+Next: [How ETFs work](../13-etfs-portfolios-and-factors/01-how-etfs-work.md)

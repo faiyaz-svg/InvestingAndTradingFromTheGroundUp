@@ -1,0 +1,28 @@
+# Part 14, Futures. All prices are made up. A made-up micro index future (MXF) with
+# the same specs as the Micro E-mini S&P 500 (multiplier US$5, tick 0.25). Times are New York time.
+- name: mxf-5m
+  seed: 1401
+  csv: mxf-5m
+  tf: 5m
+  start: "2026-09-16 09:30"
+  price: 6000
+  volume: 4000
+  segments:
+    - {kind: to, bars: 10, price: 5994, vol: 0.0006, volume: 1.4}
+    - {kind: range, bars: 20, low: 5992, high: 6000, vol: 0.0005, volume: 0.9}
+    - {kind: to, bars: 14, price: 6012, vol: 0.0005, volume: 1.2}
+    - {kind: range, bars: 14, low: 6008, high: 6016, vol: 0.0004, volume: 0.8}
+    - {kind: to, bars: 20, price: 6030, vol: 0.0005, volume: 1.1}
+
+- name: mxf-roll-daily
+  seed: 1402
+  csv: mxf-roll-daily
+  tf: D
+  start: 2026-07-06
+  price: 5900
+  volume: 600000
+  segments:
+    - {kind: trend, bars: 30, drift: 0.0018, vol: 0.006}
+    - {kind: to, bars: 19, price: 6010, vol: 0.005}
+    - {kind: gap, pct: 0.00674}
+    - {kind: to, bars: 10, price: 6060, vol: 0.005}

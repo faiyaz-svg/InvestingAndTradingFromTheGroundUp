@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 120 of 201. New lessons appear here as they are added.
+Lessons written so far: 127 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -170,3 +170,13 @@ Lessons written so far: 120 of 201. New lessons appear here as they are added.
 - [ ] [Modern portfolio theory](13-etfs-portfolios-and-factors/08-modern-portfolio-theory.md) (idea)
 - [ ] [Factor investing](13-etfs-portfolios-and-factors/09-factor-investing.md) (strategy)
 - [ ] [A long-term portfolio](13-etfs-portfolios-and-factors/10-a-long-term-portfolio.md) (canada, review)
+
+### Part 14: Futures
+
+- [ ] [What futures are](14-futures/01-what-futures-are.md) (idea)
+- [ ] [Margin, leverage and mark to market](14-futures/02-margin-leverage-and-mark-to-market.md) (idea)
+- [ ] [Index futures: ES, MES, NQ and MNQ](14-futures/03-index-futures.md) (idea)
+- [ ] [Expiry and rolling](14-futures/04-expiry-and-rolling.md) (skill)
+- [ ] [Contango, backwardation and basis](14-futures/05-contango-backwardation-and-basis.md) (idea)
+- [ ] [Futures hours and sessions](14-futures/06-futures-hours-and-sessions.md) (skill)
+- [ ] [Futures in Canada](14-futures/07-futures-in-canada.md) (canada, review)

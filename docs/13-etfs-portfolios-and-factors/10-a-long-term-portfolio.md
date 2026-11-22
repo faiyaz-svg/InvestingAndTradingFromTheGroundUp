@@ -217,4 +217,4 @@ When prices rise during the 12 months. It won about two-thirds of the time in th
 - **Dollar-cost averaging**: investing equal amounts at regular dates.
 - **One-page plan**: a written summary of your goal, mix, funds, accounts and rules.
 
-Next: What futures are<!-- link: ../14-futures/01-what-futures-are.md -->
+Next: [What futures are](../14-futures/01-what-futures-are.md)

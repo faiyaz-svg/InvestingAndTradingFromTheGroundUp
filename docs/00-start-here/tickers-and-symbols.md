@@ -50,7 +50,7 @@ A futures symbol is the product code, then a month letter, then a year digit. Th
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Month | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 
-ESZ6 is the ES product (the E-mini S&P 500 future), expiring in December (Z), in a year ending in 6 (2026 if you read it in 2026). Some platforms write two year digits: ESZ26. The roll between expiry months is in Expiry and rolling<!-- link: ../14-futures/04-expiry-and-rolling.md -->, and the main index futures are in Index futures: ES, MES, NQ and MNQ<!-- link: ../14-futures/03-index-futures.md -->.
+ESZ6 is the ES product (the E-mini S&P 500 future), expiring in December (Z), in a year ending in 6 (2026 if you read it in 2026). Some platforms write two year digits: ESZ26. The roll between expiry months is in [Expiry and rolling](../14-futures/04-expiry-and-rolling.md), and the main index futures are in [Index futures: ES, MES, NQ and MNQ](../14-futures/03-index-futures.md).
 
 ## Crypto pairs and currency pairs
 
