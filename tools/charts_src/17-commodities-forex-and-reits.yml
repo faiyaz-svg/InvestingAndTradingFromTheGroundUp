@@ -1,0 +1,45 @@
+# Part 17, Commodities, forex and REITs. All prices are made up.
+# usdcad-daily: a made-up USD/CAD rate (1.3700 means C$1.3700 per US$1), 4 decimals, one pip is 0.0001.
+# oil-daily: a made-up front-month oil future in US$ per barrel.
+# reit-daily: a made-up REIT, "REIT A", in US$.
+- name: usdcad-daily
+  seed: 1701
+  csv: usdcad-daily
+  tf: D
+  decimals: 4
+  start: 2026-09-01
+  price: 1.3700
+  volume: 1000000
+  segments:
+    - {kind: range, bars: 20, low: 1.3640, high: 1.3760, vol: 0.0014}
+    - {kind: gap, pct: -0.0060}
+    - {kind: bar, open: -0.006, high: -0.0055, low: -0.0090, close: -0.0075, volume: 2.5}
+    - {kind: to, bars: 13, price: 1.3480, vol: 0.0012, volume: 1.2}
+    - {kind: range, bars: 8, low: 1.3440, high: 1.3540, vol: 0.0012}
+    - {kind: to, bars: 12, price: 1.3650, vol: 0.0012}
+
+- name: oil-daily
+  seed: 1702
+  csv: oil-daily
+  tf: D
+  start: 2026-08-03
+  price: 70.0
+  volume: 300000
+  segments:
+    - {kind: range, bars: 22, low: 68.5, high: 72.0, vol: 0.008}
+    - {kind: gap, pct: 0.045}
+    - {kind: bar, open: 0.045, high: 0.050, low: 0.040, close: 0.047, volume: 3.0}
+    - {kind: trend, bars: 8, drift: 0.0035, vol: 0.007, volume: 1.4}
+    - {kind: range, bars: 14, low: 74.0, high: 78.0, vol: 0.009}
+
+- name: reit-daily
+  seed: 1703
+  csv: reit-daily
+  tf: D
+  start: 2026-06-01
+  price: 38.0
+  volume: 800000
+  segments:
+    - {kind: range, bars: 20, low: 37.0, high: 39.5, vol: 0.007}
+    - {kind: to, bars: 22, price: 31.5, vol: 0.009, volume: 1.2}
+    - {kind: range, bars: 12, low: 30.5, high: 32.5, vol: 0.008}

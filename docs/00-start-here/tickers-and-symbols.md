@@ -56,7 +56,7 @@ ESZ6 is the ES product (the E-mini S&P 500 future), expiring in December (Z), in
 
 A crypto pair names the coin and the currency it is priced in: BTC-USD is the price of one bitcoin in US dollars. Some platforms write BTC/USD or BTCUSD. Crypto is covered in What bitcoin is<!-- link: ../18-crypto/01-what-bitcoin-is.md -->.
 
-A currency pair is written base/quote. USD/CAD tells you how many Canadian dollars one US dollar costs. If USD/CAD is 1.40 (a made-up number), then US$1 buys C$1.40, and C$1 buys 1/1.40 = US$0.714. When USD/CAD rises, the US dollar gets stronger against the Canadian dollar. See Forex basics<!-- link: ../17-commodities-forex-and-reits/04-forex-basics.md -->.
+A currency pair is written base/quote. USD/CAD tells you how many Canadian dollars one US dollar costs. If USD/CAD is 1.40 (a made-up number), then US$1 buys C$1.40, and C$1 buys 1/1.40 = US$0.714. When USD/CAD rises, the US dollar gets stronger against the Canadian dollar. See [Forex basics](../17-commodities-forex-and-reits/04-forex-basics.md).
 
 ## Abbreviations the book uses
 

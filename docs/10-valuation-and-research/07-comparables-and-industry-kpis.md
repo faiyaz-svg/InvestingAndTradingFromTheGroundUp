@@ -68,11 +68,11 @@ A bank earns the gap between what it charges on loans and pays on deposits. The 
 
 ### Energy
 
-Oil and gas producers report **proved reserves**: estimated amounts of oil and gas that can be recovered from known fields under current conditions with reasonable certainty. The estimates are revised each year. Reserve life = reserves / annual output: 600 million barrels of oil equivalent at 50 million a year gives 12 years. The **breakeven price** is the oil price at which a project earns zero: lifting cost 12 + royalties and taxes 6 + development capex 22 + overhead and interest 5 = US$45 a barrel. At US$70 the margin is US$25 a barrel, and at US$50 it is US$5. Energy stocks follow the commodity price, so a P/E taken at a peak says little (What moves oil and gold<!-- link: ../17-commodities-forex-and-reits/02-what-moves-oil-and-gold.md -->).
+Oil and gas producers report **proved reserves**: estimated amounts of oil and gas that can be recovered from known fields under current conditions with reasonable certainty. The estimates are revised each year. Reserve life = reserves / annual output: 600 million barrels of oil equivalent at 50 million a year gives 12 years. The **breakeven price** is the oil price at which a project earns zero: lifting cost 12 + royalties and taxes 6 + development capex 22 + overhead and interest 5 = US$45 a barrel. At US$70 the margin is US$25 a barrel, and at US$50 it is US$5. Energy stocks follow the commodity price, so a P/E taken at a peak says little ([What moves oil and gold](../17-commodities-forex-and-reits/02-what-moves-oil-and-gold.md)).
 
 ### REITs
 
-Real estate investment trusts use funds from operations (FFO) in place of earnings. The lesson REIT metrics: FFO and cap rates<!-- link: ../17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md --> covers them in part 17.
+Real estate investment trusts use funds from operations (FFO) in place of earnings. The lesson [REIT metrics: FFO and cap rates](../17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md) covers them in part 17.
 
 ## In code
 

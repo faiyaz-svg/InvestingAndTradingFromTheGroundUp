@@ -33,7 +33,7 @@ Compare the Fed: also eight meetings a year, with an SEP at four of them (lesson
 
 ### How a gap between the two banks moves USD/CAD
 
-**USD/CAD** is the number of Canadian dollars one US dollar buys. When investors expect US rates to be higher than Canadian rates, US dollar assets pay more, and demand for US dollars tends to rise, which tends to raise USD/CAD. The key input is the expected gap in policy rates, not the current gap. Other things move USD/CAD too, including oil prices and risk appetite. Part 17 covers currencies (What moves currencies<!-- link: ../17-commodities-forex-and-reits/05-what-moves-currencies.md -->).
+**USD/CAD** is the number of Canadian dollars one US dollar buys. When investors expect US rates to be higher than Canadian rates, US dollar assets pay more, and demand for US dollars tends to rise, which tends to raise USD/CAD. The key input is the expected gap in policy rates, not the current gap. Other things move USD/CAD too, including oil prices and risk appetite. Part 17 covers currencies ([What moves currencies](../17-commodities-forex-and-reits/05-what-moves-currencies.md)).
 
 <div class="example" markdown>
 

@@ -268,6 +268,18 @@ nav:
           - "Contango, backwardation and basis": 14-futures/05-contango-backwardation-and-basis.md
           - "Futures hours and sessions": 14-futures/06-futures-hours-and-sessions.md
           - "Futures in Canada": 14-futures/07-futures-in-canada.md
+  - "Markets, data and quant":
+      - "Commodities, forex and REITs":
+          - 17-commodities-forex-and-reits/index.md
+          - "Commodity markets": 17-commodities-forex-and-reits/01-commodity-markets.md
+          - "What moves oil and gold": 17-commodities-forex-and-reits/02-what-moves-oil-and-gold.md
+          - "Commodity ETFs and roll costs": 17-commodities-forex-and-reits/03-commodity-etfs-and-roll-costs.md
+          - "Forex basics": 17-commodities-forex-and-reits/04-forex-basics.md
+          - "What moves currencies": 17-commodities-forex-and-reits/05-what-moves-currencies.md
+          - "Trading forex from Canada": 17-commodities-forex-and-reits/06-trading-forex-from-canada.md
+          - "REITs explained": 17-commodities-forex-and-reits/07-reits-explained.md
+          - "REIT metrics: FFO and cap rates": 17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md
+          - "Rates and real estate": 17-commodities-forex-and-reits/09-rates-and-real-estate.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

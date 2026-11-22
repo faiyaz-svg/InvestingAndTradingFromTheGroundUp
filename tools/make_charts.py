@@ -12,6 +12,7 @@ never changes unless the description does.
       start: 2026-01-05      # intraday: "2026-03-02 09:30" (New York time)
       price: 100             # first open
       volume: 2000000        # typical volume per bar
+      decimals: 2            # optional: price decimals (4 for a currency pair such as USD/CAD)
       segments:
         - {kind: trend, bars: 40, drift: 0.004, vol: 0.012}
         - {kind: to, bars: 8, price: 104, vol: 0.01, volume: 0.7}
@@ -147,6 +148,7 @@ def make_closes(seg: dict, last: float, rng: np.random.Generator) -> list[float]
 def build(chart: dict) -> tuple[dict, list[dict]]:
     rng = np.random.default_rng(int(chart["seed"]))
     tf = str(chart.get("tf", "D"))
+    dec = int(chart.get("decimals", 2))
     base_vol = float(chart.get("volume", 1_000_000))
     price = float(chart["price"])
     if tf == "D":
@@ -199,19 +201,22 @@ def build(chart: dict) -> tuple[dict, list[dict]]:
                 "kind": kind,
                 "bars": f"{first + 1}-{len(bars)}",
                 "times": f"{fmt_time(seg_bars[0][0], tf)} to {fmt_time(seg_bars[-1][0], tf)}",
-                "close": f"{seg_bars[0][4]:.2f} -> {seg_bars[-1][4]:.2f}",
-                "low": round(min(b[3] for b in seg_bars), 2),
-                "high": round(max(b[2] for b in seg_bars), 2),
+                "close": f"{seg_bars[0][4]:.{dec}f} -> {seg_bars[-1][4]:.{dec}f}",
+                "low": round(min(b[3] for b in seg_bars), dec),
+                "high": round(max(b[2] for b in seg_bars), dec),
             }
         )
 
     rows = []
     for t, o, h, lo, c, v in bars:
-        o, h, lo, c = (round(x, 2) for x in (o, h, lo, c))
+        o, h, lo, c = (round(x, dec) for x in (o, h, lo, c))
         h = max(h, o, c)
         lo = min(lo, o, c)
         rows.append([out_time(t, tf), o, h, lo, c, int(round(v, -2))])
-    return {"tf": tf, "synthetic": True, "bars": rows}, summary
+    out = {"tf": tf, "synthetic": True, "bars": rows}
+    if dec != 2:
+        out["decimals"] = dec
+    return out, summary
 
 
 def out_time(t, tf: str):
@@ -228,11 +233,12 @@ def write_csv(name: str, data: dict) -> None:
     """The bars as a CSV for the In code snippets: date (or datetime, New York time), OHLCV."""
     DATA.mkdir(parents=True, exist_ok=True)
     head = "datetime" if data["tf"] in INTRADAY_MINUTES else "date"
+    dec = int(data.get("decimals", 2))
     lines = [f"{head},open,high,low,close,volume"]
     for t, o, h, lo, c, v in data["bars"]:
         if data["tf"] in INTRADAY_MINUTES:
             t = datetime.fromtimestamp(t, tz=timezone.utc).strftime("%Y-%m-%d %H:%M")
-        lines.append(f"{t},{o:.2f},{h:.2f},{lo:.2f},{c:.2f},{v}")
+        lines.append(f"{t},{o:.{dec}f},{h:.{dec}f},{lo:.{dec}f},{c:.{dec}f},{v}")
     out = DATA / f"{name}.csv"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print("   csv", out.relative_to(ROOT).as_posix())

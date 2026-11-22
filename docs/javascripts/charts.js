@@ -411,6 +411,11 @@
       main.setData(bars)
     }
 
+    if (data.decimals) {
+      const d = Number(data.decimals)
+      main.applyOptions({ priceFormat: { type: "price", precision: d, minMove: Math.pow(10, -d) } })
+    }
+
     const closes = bars.map((b) => b.close)
     const lineOpts = (color, width) => ({
       color,

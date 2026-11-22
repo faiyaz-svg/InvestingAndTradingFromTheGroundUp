@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 127 of 201. New lessons appear here as they are added.
+Lessons written so far: 136 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -180,3 +180,17 @@ Lessons written so far: 127 of 201. New lessons appear here as they are added.
 - [ ] [Contango, backwardation and basis](14-futures/05-contango-backwardation-and-basis.md) (idea)
 - [ ] [Futures hours and sessions](14-futures/06-futures-hours-and-sessions.md) (skill)
 - [ ] [Futures in Canada](14-futures/07-futures-in-canada.md) (canada, review)
+
+## Markets, data and quant
+
+### Part 17: Commodities, forex and REITs
+
+- [ ] [Commodity markets](17-commodities-forex-and-reits/01-commodity-markets.md) (idea)
+- [ ] [What moves oil and gold](17-commodities-forex-and-reits/02-what-moves-oil-and-gold.md) (idea)
+- [ ] [Commodity ETFs and roll costs](17-commodities-forex-and-reits/03-commodity-etfs-and-roll-costs.md) (idea)
+- [ ] [Forex basics](17-commodities-forex-and-reits/04-forex-basics.md) (idea)
+- [ ] [What moves currencies](17-commodities-forex-and-reits/05-what-moves-currencies.md) (idea)
+- [ ] [Trading forex from Canada](17-commodities-forex-and-reits/06-trading-forex-from-canada.md) (canada)
+- [ ] [REITs explained](17-commodities-forex-and-reits/07-reits-explained.md) (idea)
+- [ ] [REIT metrics: FFO and cap rates](17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md) (data)
+- [ ] [Rates and real estate](17-commodities-forex-and-reits/09-rates-and-real-estate.md) (idea, review)

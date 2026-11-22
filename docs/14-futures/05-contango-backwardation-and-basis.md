@@ -61,7 +61,7 @@ For commodities, carry includes storage and insurance costs, and a benefit of ho
 
 ## Why it matters when you hold
 
-Convergence has a cost for long holders in contango. Suppose a fund holds the three-month contract at 81.40, spot stays at 80.00, and it rolls each quarter. Each roll gives up 1.40, which is 1.40 / 80.00 = 1.75% of price. Four rolls cost about 7.0% in a year (1.75% x 4), even if spot never moves. This is **roll yield** (negative in contango, positive in backwardation). It matters for commodity funds, covered in Part 17 (Commodity markets<!-- link: ../17-commodities-forex-and-reits/01-commodity-markets.md -->, Commodity ETFs and roll costs<!-- link: ../17-commodities-forex-and-reits/03-commodity-etfs-and-roll-costs.md -->). For an index future the carry is the net of interest and dividends, which was 2.7% a year in this lesson's example, so the drag is smaller than the commodity case above.
+Convergence has a cost for long holders in contango. Suppose a fund holds the three-month contract at 81.40, spot stays at 80.00, and it rolls each quarter. Each roll gives up 1.40, which is 1.40 / 80.00 = 1.75% of price. Four rolls cost about 7.0% in a year (1.75% x 4), even if spot never moves. This is **roll yield** (negative in contango, positive in backwardation). It matters for commodity funds, covered in Part 17 ([Commodity markets](../17-commodities-forex-and-reits/01-commodity-markets.md), [Commodity ETFs and roll costs](../17-commodities-forex-and-reits/03-commodity-etfs-and-roll-costs.md)). For an index future the carry is the net of interest and dividends, which was 2.7% a year in this lesson's example, so the drag is smaller than the commodity case above.
 
 <div class="canada" markdown>
 
