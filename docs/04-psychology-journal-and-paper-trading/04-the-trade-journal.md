@@ -25,7 +25,7 @@ Record each trade twice. Fill in the first stage before you place the order, and
 | Before | Date, ticker, setup, direction (long or short), entry price, stop price, target price, shares, risk in dollars, one reason the trade could fail, how you feel in one word |
 | After | Exit price, fees, profit or loss in dollars, R, whether you followed the plan (yes or no), what you did differently, screenshots of the chart at entry and at exit, notes |
 
-A **setup** is a named pattern with fixed rules for entry, stop and target, such as a pullback in an uptrend (see Trend pullback setups<!-- link: ../07-swing-trading/04-trend-pullback-setups.md -->). Use a short list of setup names you choose in advance. If every trade gets a new name, you cannot compare them later.
+A **setup** is a named pattern with fixed rules for entry, stop and target, such as a pullback in an uptrend (see [Trend pullback setups](../07-swing-trading/04-trend-pullback-setups.md)). Use a short list of setup names you choose in advance. If every trade gets a new name, you cannot compare them later.
 
 The "followed the plan" field is the most useful one. It splits your results into trades made by the plan and trades made by your mood, which is the split the review in the next lesson depends on.
 

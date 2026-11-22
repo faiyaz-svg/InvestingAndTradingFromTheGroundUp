@@ -1,0 +1,195 @@
+{
+ "set": "07-swing-trading",
+ "items": [
+  {
+   "id": "swng-pb-low",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-03",
+   "q": "Stock A had a high of 56.80 on March 26 and then fell for five days. Click the pullback low, the lowest price since that high.",
+   "type": "level",
+   "answer": 51.3,
+   "tolerance": 0.45,
+   "explain": "The lowest low since the March 26 high is 51.30, on April 2. It also went under the 20-day average, which is what the setup asks for.",
+   "reveal": "level: 51.30 | Pullback low"
+  },
+  {
+   "id": "swng-pb-prior-high",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-03",
+   "q": "The trend pullback setup uses the prior high as its target. Click it.",
+   "type": "level",
+   "answer": 56.8,
+   "tolerance": 0.45,
+   "explain": "The highest high of the last 20 bars before the pullback is 56.80, on March 26.",
+   "reveal": "level: 56.80 | Prior high (target)"
+  },
+  {
+   "id": "swng-pb-entry",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-03",
+   "q": "April 3 is the trigger bar: it closes at 52.60, above the previous high of 52.50. Its high is 52.80. At what price is the buy stop for the next session (one cent above the trigger bar's high)?",
+   "type": "number",
+   "answer": 52.81,
+   "tolerance": 0.005,
+   "unit": "US$",
+   "explain": "52.80 + 0.01 = 52.81. The order is good for the next session only."
+  },
+  {
+   "id": "swng-pb-stop",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-03",
+   "q": "The pullback low is 51.30 and the 14-day ATR is 0.9758. The stop is the low minus 0.25 ATR, rounded down to the cent. What is it?",
+   "type": "number",
+   "answer": 51.05,
+   "tolerance": 0.005,
+   "unit": "US$",
+   "explain": "51.30 - 0.25 x 0.9758 = 51.056, which rounds down to 51.05."
+  },
+  {
+   "id": "swng-pb-shares",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-10\nlevel: 52.81 | Entry\nlevel: 51.05 | Stop",
+   "q": "Account US$25,000, risk 1%. Entry 52.81 and stop 51.05. How many shares?",
+   "type": "number",
+   "answer": 142,
+   "tolerance": 0.5,
+   "explain": "Risk per share is 1.76. 250 / 1.76 = 142.05, so 142 shares."
+  },
+  {
+   "id": "swng-pb-r",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-03-16 to 2026-04-10\nlevel: 52.81 | Entry\nlevel: 51.05 | Stop\nlevel: 56.80 | Target",
+   "q": "The trade exits at the target of 56.80 on April 10. What is the result in R?",
+   "type": "number",
+   "answer": 2.27,
+   "tolerance": 0.02,
+   "explain": "The gain is 56.80 - 52.81 = 3.99 per share and the risk is 1.76, so 3.99 / 1.76 = 2.27R."
+  },
+  {
+   "id": "swng-pb-gap-loss",
+   "chart": "data: 07-swing-trading/stock-b-pullback-loss.json\nshow: ema 20, sma 50\nrange: 2026-04-13 to 2026-05-11\nlevel: 35.84 | Entry\nlevel: 34.62 | Stop",
+   "q": "Stock B was bought at 35.84 with a stop at 34.62. On May 7 it opened at 34.47, below the stop. What is the result in R, if the stop filled at the open?",
+   "type": "number",
+   "answer": -1.12,
+   "tolerance": 0.02,
+   "explain": "The loss per share is 35.84 - 34.47 = 1.37 and one R is 1.22, so the result is -1.12R. A gap through the stop costs more than 1R."
+  },
+  {
+   "id": "swng-setup-pullback",
+   "chart": "data: 07-swing-trading/stock-a-pullback-win.json\nshow: ema 20, sma 50\nrange: 2026-02-23 to 2026-04-03",
+   "q": "Which of the book's three setups does this chart show on April 3?",
+   "type": "choice",
+   "choices": [
+    "Trend pullback",
+    "Breakout from a base",
+    "Short-term mean reversion"
+   ],
+   "answer_choice": 0,
+   "explain": "The stock is in an uptrend above a rising 50-day average, it pulled back for five days to the 20-day average, and the last bar closed above the previous high. That is the trend pullback trigger."
+  },
+  {
+   "id": "swng-setup-breakout",
+   "chart": "data: 07-swing-trading/stock-a-base-breakout.json\nshow: volume, sma 50\nrange: 2026-01-26 to 2026-03-27",
+   "q": "Which setup does this chart show on March 27?",
+   "type": "choice",
+   "choices": [
+    "Trend pullback",
+    "Breakout from a base",
+    "Short-term mean reversion"
+   ],
+   "answer_choice": 1,
+   "explain": "Price traded in a 31-bar band under a pivot of 40.69, volume dried up, and on March 27 it closed above the pivot on 3.58 times the average volume."
+  },
+  {
+   "id": "swng-setup-rsi2",
+   "chart": "data: 07-swing-trading/stock-a-rsi2-win.json\nshow: sma 5, sma 200, rsi 2\nrange: 2026-02-02 to 2026-03-03",
+   "q": "Which setup does this chart show on March 3?",
+   "type": "choice",
+   "choices": [
+    "Trend pullback",
+    "Breakout from a base",
+    "Short-term mean reversion"
+   ],
+   "answer_choice": 2,
+   "explain": "The close is far above the 200-day average, there were three down closes, and RSI(2) is 4.47, the first close under 10. That is the mean reversion trigger."
+  },
+  {
+   "id": "swng-bo-pivot",
+   "chart": "data: 07-swing-trading/stock-a-base-breakout.json\nshow: volume, sma 50\nrange: 2026-01-26 to 2026-03-26",
+   "q": "The advance peaked on February 12 and the stock has traded under that high since. Click the pivot, the highest high of the base.",
+   "type": "level",
+   "answer": 40.69,
+   "tolerance": 0.4,
+   "explain": "The pivot is the February 12 high, 40.69. A close above it, on at least 1.5 times the 20-day average volume, is the trigger.",
+   "reveal": "level: 40.69 | Pivot"
+  },
+  {
+   "id": "swng-bo-base-low",
+   "chart": "data: 07-swing-trading/stock-a-base-breakout.json\nshow: volume, sma 50\nrange: 2026-02-09 to 2026-03-26",
+   "q": "What was the lowest low of the base, from February 12 to March 26?",
+   "type": "number",
+   "answer": 36.57,
+   "tolerance": 0.1,
+   "unit": "US$",
+   "explain": "The lowest low was 36.57, which is 10.1% under the pivot of 40.69. The rule allows a depth of up to 15%."
+  },
+  {
+   "id": "swng-bo-stop",
+   "chart": "data: 07-swing-trading/stock-a-base-breakout.json\nshow: volume, sma 50\nrange: 2026-02-09 to 2026-03-30\nlevel: 40.69 | Pivot",
+   "q": "The breakout stop is the pivot minus one ATR, rounded down to the cent. The pivot is 40.69 and the ATR is 0.6248. What is the stop?",
+   "type": "number",
+   "answer": 40.06,
+   "tolerance": 0.005,
+   "unit": "US$",
+   "explain": "40.69 - 0.6248 = 40.065, which rounds down to 40.06."
+  },
+  {
+   "id": "swng-bo-fail-exit",
+   "chart": "data: 07-swing-trading/stock-b-breakout-fail.json\nshow: volume, sma 50\nrange: 2026-03-02 to 2026-04-15\nlevel: 31.13 | Pivot\nlevel: 30.68 | Stop",
+   "q": "Stock B broke out on April 10 and was bought at 31.94. On April 15 it closes at 31.01, under the pivot of 31.13, and its low of 30.94 is above the stop of 30.68. What does the setup say to do?",
+   "type": "choice",
+   "choices": [
+    "Hold, because the stop was not hit",
+    "Sell at the next open",
+    "Buy more at the lower price"
+   ],
+   "answer_choice": 1,
+   "explain": "Rule 7 says that any close under the pivot before the target means a sale at the next open. Here that is 30.91 on April 16, a loss of 0.82R."
+  },
+  {
+   "id": "swng-regime-filter",
+   "chart": "data: 07-swing-trading/index-x-regime.json\nshow: sma 50, sma 200\nrange: 2025-10-01 to 2026-02-06",
+   "q": "On January 23, 2026, Index X closes at 3,347.24 and its 200-day average is about 4,165. What does the 200-day filter say about new long trades?",
+   "type": "choice",
+   "choices": [
+    "Favourable: take pullback and breakout setups",
+    "Unfavourable: no new pullback or breakout longs"
+   ],
+   "answer_choice": 1,
+   "explain": "The close is under the average, so trend is unfavourable. The index first closed under its average on December 16, 2025, and did not close above it again until April 27, 2026."
+  },
+  {
+   "id": "swng-regime-days",
+   "chart": "data: 07-swing-trading/index-x-regime.json\nshow: sma 200\nrange: 2025-11-03 to 2026-05-22",
+   "q": "Index X first closes under its 200-day average on December 16, 2025 and next closes above it on April 27, 2026. How many sessions was it under, counting December 16?",
+   "type": "number",
+   "answer": 94,
+   "tolerance": 0.5,
+   "explain": "From December 16, 2025 to April 24, 2026 there are 94 sessions. A trader who took new longs only above the average took none in that time."
+  },
+  {
+   "id": "swng-rsi2-exit",
+   "chart": "data: 07-swing-trading/stock-a-rsi2-win.json\nshow: sma 5, sma 200, rsi 2\nrange: 2026-02-23 to 2026-03-09",
+   "q": "Stock A was bought at the March 4 open. March 4 closed at 57.48, under the 5-day average of 57.84. March 5 closes at 58.48, above the 5-day average of 57.70. At what price does the setup exit?",
+   "type": "number",
+   "answer": 58.48,
+   "tolerance": 0.02,
+   "unit": "US$",
+   "explain": "The exit is the close of the first session above the 5-day average, here March 5 at 58.48. With an entry of 56.41 and a risk of 1.89 per share, that is +1.10R."
+  },
+  {
+   "id": "swng-rsi2-stop",
+   "chart": "data: 07-swing-trading/stock-b-rsi2-loss.json\nshow: sma 5, sma 200, rsi 2\nrange: 2026-02-23 to 2026-03-20",
+   "q": "Stock B was bought at the March 17 open of 53.55. The ATR is 0.8826. The stop is the entry minus 2 ATR, rounded down to the cent. What is it?",
+   "type": "number",
+   "answer": 51.78,
+   "tolerance": 0.005,
+   "unit": "US$",
+   "explain": "53.55 - 2 x 0.8826 = 51.785, which rounds down to 51.78. On March 18 the price traded down to 51.01 and the stop filled, a loss of 1R."
+  }
+ ]
+}

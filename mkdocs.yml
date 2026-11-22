@@ -178,6 +178,17 @@ nav:
           - "Order blocks and breakers": 06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md
           - "Sessions, kill zones and premium and discount": 06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md
           - "Testing smart money claims": 06-ict-and-smart-money-tested/06-testing-smc-claims.md
+      - "Swing trading":
+          - 07-swing-trading/index.md
+          - "What swing trading is": 07-swing-trading/01-what-swing-trading-is.md
+          - "Scanners and watchlists": 07-swing-trading/02-scanners-and-watchlists.md
+          - "Market regime filters": 07-swing-trading/03-market-regime-filters.md
+          - "Trend pullback setups": 07-swing-trading/04-trend-pullback-setups.md
+          - "Breakouts and bases": 07-swing-trading/05-breakouts-and-bases.md
+          - "Short-term mean reversion": 07-swing-trading/06-short-term-mean-reversion.md
+          - "Entries, stops and targets": 07-swing-trading/07-entries-stops-and-targets.md
+          - "Managing the trade": 07-swing-trading/08-managing-the-trade.md
+          - "A weekly swing routine": 07-swing-trading/09-weekly-swing-routine.md
       - "Day trading":
           - 08-day-trading/index.md
           - "How day trading differs": 08-day-trading/01-how-day-trading-differs.md

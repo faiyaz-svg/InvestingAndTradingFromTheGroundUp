@@ -183,4 +183,4 @@ The best of 100 no-edge rules averages about 2.5 in the simulation above. Count 
 - **Data snooping**: finding a pattern by searching many rules on the same data.
 - **t-statistic**: the mean result divided by its standard error.
 
-Next: What swing trading is<!-- link: ../07-swing-trading/01-what-swing-trading-is.md -->
+Next: [What swing trading is](../07-swing-trading/01-what-swing-trading-is.md)

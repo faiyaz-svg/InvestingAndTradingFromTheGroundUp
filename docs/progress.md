@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 75 of 201. New lessons appear here as they are added.
+Lessons written so far: 84 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -80,6 +80,18 @@ Lessons written so far: 75 of 201. New lessons appear here as they are added.
 - [ ] [Order blocks and breakers](06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md) (strategy)
 - [ ] [Sessions, kill zones and premium and discount](06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md) (strategy)
 - [ ] [Testing smart money claims](06-ict-and-smart-money-tested/06-testing-smc-claims.md) (data, review)
+
+### Part 7: Swing trading
+
+- [ ] [What swing trading is](07-swing-trading/01-what-swing-trading-is.md) (idea)
+- [ ] [Scanners and watchlists](07-swing-trading/02-scanners-and-watchlists.md) (skill)
+- [ ] [Market regime filters](07-swing-trading/03-market-regime-filters.md) (strategy)
+- [ ] [Trend pullback setups](07-swing-trading/04-trend-pullback-setups.md) (strategy)
+- [ ] [Breakouts and bases](07-swing-trading/05-breakouts-and-bases.md) (strategy)
+- [ ] [Short-term mean reversion](07-swing-trading/06-short-term-mean-reversion.md) (strategy)
+- [ ] [Entries, stops and targets](07-swing-trading/07-entries-stops-and-targets.md) (skill)
+- [ ] [Managing the trade](07-swing-trading/08-managing-the-trade.md) (skill)
+- [ ] [A weekly swing routine](07-swing-trading/09-weekly-swing-routine.md) (skill, review)
 
 ### Part 8: Day trading
 
