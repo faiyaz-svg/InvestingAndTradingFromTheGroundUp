@@ -27,7 +27,7 @@ A tighter stop gives a bigger position, and the same cost per share is a bigger 
 
 You avoid the overnight gap from Part 3 ([Slippage, gaps and costs](../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md)). A position held at 4:00 p.m. ET can open the next morning far from its close, and a day trade never faces that. You still face gaps inside the day: a news release, a halt, or a thin moment when a stop fills far from its price (lessons 6 and 7).
 
-You also gain many more decisions per week and give up time. A day trade needs your attention while it is open. The busy part of the day is the first two hours after 9:30 a.m. ET, which is 9:30 a.m. in Toronto too. If you cannot sit at a screen then, the swing trading part (Part 7) fits a 30-minute day better<!-- link: ../07-swing-trading/01-what-swing-trading-is.md -->.
+You also gain many more decisions per week and give up time. A day trade needs your attention while it is open. The busy part of the day is the first two hours after 9:30 a.m. ET, which is 9:30 a.m. in Toronto too. If you cannot sit at a screen then, swing trading fits a 30-minute day better (see [What swing trading is](../07-swing-trading/01-what-swing-trading-is.md)).
 
 ### The rhythm of the day
 

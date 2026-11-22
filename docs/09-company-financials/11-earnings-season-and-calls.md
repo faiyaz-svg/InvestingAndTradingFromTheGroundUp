@@ -196,4 +196,4 @@ Guidance below consensus, shrinking margins, weak cash flow or a worse tone on t
 - **Earnings surprise**: the reported figure minus consensus, in dollars or percent.
 - **Implied move**: the size of the earnings-day move that options prices suggest.
 
-Next: Price multiples<!-- link: ../10-valuation-and-research/01-multiples.md -->
+Next: [Price multiples](../10-valuation-and-research/01-multiples.md)

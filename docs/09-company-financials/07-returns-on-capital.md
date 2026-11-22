@@ -45,7 +45,7 @@ ROE is higher than ROA because part of the funding is debt and other liabilities
 
 ### What ROIC means
 
-A company creates value for shareholders when its ROIC is above its **cost of capital**, the return that its lenders and shareholders require. Northwind's ROIC of 23.2% is far above any plausible cost of capital (Part 10 shows how to estimate one: Discount rates, CAPM and WACC<!-- link: ../10-valuation-and-research/04-discount-rates-capm-and-wacc.md -->). A company with an ROIC below its cost of capital destroys value by growing, because each new dollar invested earns less than it costs.
+A company creates value for shareholders when its ROIC is above its **cost of capital**, the return that its lenders and shareholders require. Northwind's ROIC of 23.2% is far above any plausible cost of capital (Part 10 shows how to estimate one: [Discount rates, CAPM and WACC](../10-valuation-and-research/04-discount-rates-capm-and-wacc.md)). A company with an ROIC below its cost of capital destroys value by growing, because each new dollar invested earns less than it costs.
 
 ### DuPont
 

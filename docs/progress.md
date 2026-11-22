@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 84 of 201. New lessons appear here as they are added.
+Lessons written so far: 93 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -120,3 +120,15 @@ Lessons written so far: 84 of 201. New lessons appear here as they are added.
 - [ ] [Shares, EPS, dilution and buybacks](09-company-financials/09-shares-eps-dilution-and-buybacks.md) (data)
 - [ ] [GAAP, non-GAAP and earnings quality](09-company-financials/10-gaap-non-gaap-and-earnings-quality.md) (data)
 - [ ] [Earnings season and earnings calls](09-company-financials/11-earnings-season-and-calls.md) (data, review)
+
+### Part 10: Valuation and research
+
+- [ ] [Price multiples](10-valuation-and-research/01-multiples.md) (skill)
+- [ ] [Enterprise value and EV/EBITDA](10-valuation-and-research/02-enterprise-value-and-ev-ebitda.md) (skill)
+- [ ] [Free cash flow](10-valuation-and-research/03-free-cash-flow.md) (skill)
+- [ ] [Discount rates, CAPM and WACC](10-valuation-and-research/04-discount-rates-capm-and-wacc.md) (skill)
+- [ ] [A DCF step by step](10-valuation-and-research/05-dcf-step-by-step.md) (skill)
+- [ ] [Reverse DCF and market expectations](10-valuation-and-research/06-reverse-dcf-and-expectations.md) (skill)
+- [ ] [Comparables and industry KPIs](10-valuation-and-research/07-comparables-and-industry-kpis.md) (skill)
+- [ ] [Moats and qualitative research](10-valuation-and-research/08-moats-and-qualitative-research.md) (skill)
+- [ ] [Writing a stock pitch](10-valuation-and-research/09-writing-a-stock-pitch.md) (skill, review)

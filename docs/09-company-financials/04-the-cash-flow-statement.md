@@ -86,7 +86,7 @@ Northwind's FCF is 205 - 80 = US$125 million, which is 125 / 1,150 = 10.9% of re
 ![Northwind FY2025 cash bridge from net income of 165 to operating cash flow of 205 to free cash flow of 125](../assets/figures/09-company-financials/cash-bridge-dark.svg#only-dark)
 ![Northwind FY2025 cash bridge from net income of 165 to operating cash flow of 205 to free cash flow of 125](../assets/figures/09-company-financials/cash-bridge-light.svg#only-light)
 
-Northwind returned 100 + 30 = US$130 million to shareholders, more than its US$125 million of FCF, and paid down 25 of debt. The gap came out of the cash balance. A company can do that for a year or two. Doing it for many years needs borrowing. Part 10 uses FCF in valuation (Free cash flow<!-- link: ../10-valuation-and-research/03-free-cash-flow.md -->).
+Northwind returned 100 + 30 = US$130 million to shareholders, more than its US$125 million of FCF, and paid down 25 of debt. The gap came out of the cash balance. A company can do that for a year or two. Doing it for many years needs borrowing. Part 10 uses FCF in valuation ([Free cash flow](../10-valuation-and-research/03-free-cash-flow.md)).
 
 Stock-based pay is a real cost paid in shares, and CFO adds it back. If the company had paid those employees in cash, FCF would be 125 - 30 = US$95 million. Lesson 9 returns to this.
 

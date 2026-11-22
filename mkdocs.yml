@@ -214,6 +214,17 @@ nav:
           - "Shares, EPS, dilution and buybacks": 09-company-financials/09-shares-eps-dilution-and-buybacks.md
           - "GAAP, non-GAAP and earnings quality": 09-company-financials/10-gaap-non-gaap-and-earnings-quality.md
           - "Earnings season and earnings calls": 09-company-financials/11-earnings-season-and-calls.md
+      - "Valuation and research":
+          - 10-valuation-and-research/index.md
+          - "Price multiples": 10-valuation-and-research/01-multiples.md
+          - "Enterprise value and EV/EBITDA": 10-valuation-and-research/02-enterprise-value-and-ev-ebitda.md
+          - "Free cash flow": 10-valuation-and-research/03-free-cash-flow.md
+          - "Discount rates, CAPM and WACC": 10-valuation-and-research/04-discount-rates-capm-and-wacc.md
+          - "A DCF step by step": 10-valuation-and-research/05-dcf-step-by-step.md
+          - "Reverse DCF and market expectations": 10-valuation-and-research/06-reverse-dcf-and-expectations.md
+          - "Comparables and industry KPIs": 10-valuation-and-research/07-comparables-and-industry-kpis.md
+          - "Moats and qualitative research": 10-valuation-and-research/08-moats-and-qualitative-research.md
+          - "Writing a stock pitch": 10-valuation-and-research/09-writing-a-stock-pitch.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

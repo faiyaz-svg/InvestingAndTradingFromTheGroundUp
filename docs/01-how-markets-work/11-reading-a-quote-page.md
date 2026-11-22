@@ -59,7 +59,7 @@ For Stock A: 2,100,000 / 1,500,000 = 1.4, so 40% busier than usual. Part 5 uses 
 
 \[ \text{P/E} = \frac{P}{\text{EPS}} = \frac{50.30}{2.50} = 20.1 \]
 
-It tells you how many dollars the market pays for each dollar of yearly profit. Part 10 covers it in full (Price multiples<!-- link: ../10-valuation-and-research/01-multiples.md -->). Pages differ on whether EPS uses reported or adjusted profit.
+It tells you how many dollars the market pays for each dollar of yearly profit. Part 10 covers it in full ([Price multiples](../10-valuation-and-research/01-multiples.md)). Pages differ on whether EPS uses reported or adjusted profit.
 
 The dividend shows the yearly dividend and the **dividend yield**: 2.00 / 50.30 = 4.0% (lesson 9). The **next ex-dividend date** tells you the last day to buy to receive it: for December 3, 2026 it is Wednesday, December 2.
 

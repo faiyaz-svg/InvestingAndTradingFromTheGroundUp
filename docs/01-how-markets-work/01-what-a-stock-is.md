@@ -116,7 +116,7 @@ A company can list its shares on a Canadian exchange (priced in CAD), a US excha
 <details class="solution" markdown>
 <summary>Answer</summary>
 
-Earnings per share = 250 / 100 = US$2.50. The market pays 50 / 2.50 = 20 dollars for each dollar of yearly earnings per share. This ratio is the price-to-earnings ratio, covered in Part 10 (Price multiples<!-- link: ../10-valuation-and-research/01-multiples.md -->).
+Earnings per share = 250 / 100 = US$2.50. The market pays 50 / 2.50 = 20 dollars for each dollar of yearly earnings per share. This ratio is the price-to-earnings ratio, covered in Part 10 ([Price multiples](../10-valuation-and-research/01-multiples.md)).
 
 </details>
 
