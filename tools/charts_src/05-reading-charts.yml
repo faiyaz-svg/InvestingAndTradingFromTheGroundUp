@@ -1,0 +1,313 @@
+# Part 5, Reading charts. All prices are made up.
+- name: candle-anatomy
+  seed: 31
+  tf: D
+  start: 2026-03-02
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 14, low: 49, high: 51, vol: 0.006}
+    - {kind: bar, open: 0.0, high: 0.034, low: -0.003, close: 0.030, volume: 1.8}
+    - {kind: bar, open: 0.0, high: 0.012, low: -0.011, close: 0.0005, volume: 1.0}
+    - {kind: bar, open: 0.0, high: 0.004, low: -0.030, close: 0.003, volume: 1.4}
+    - {kind: bar, open: 0.0, high: 0.033, low: -0.003, close: 0.002, volume: 1.4}
+    - {kind: bar, open: 0.0, high: 0.002, low: -0.032, close: -0.030, volume: 1.8}
+    - {kind: range, bars: 6, low: 49, high: 52, vol: 0.006}
+
+- name: stock-a-daily
+  seed: 41
+  csv: stock-a-daily-h1
+  tf: D
+  start: 2026-01-05
+  price: 40
+  volume: 2000000
+  segments:
+    - {kind: to, bars: 22, price: 44.5, vol: 0.009}
+    - {kind: to, bars: 8, price: 42.4, vol: 0.008, volume: 0.75}
+    - {kind: to, bars: 25, price: 49.5, vol: 0.009, volume: 1.1}
+    - {kind: to, bars: 10, price: 46.8, vol: 0.008, volume: 0.75}
+    - {kind: to, bars: 25, price: 54.5, vol: 0.009, volume: 1.1}
+    - {kind: to, bars: 10, price: 51.5, vol: 0.008, volume: 0.8}
+    - {kind: to, bars: 25, price: 58.5, vol: 0.009, volume: 1.2}
+
+- name: uptrend-structure
+  seed: 52
+  tf: D
+  start: 2026-01-05
+  price: 40
+  volume: 1800000
+  segments:
+    - {kind: to, bars: 12, price: 44, vol: 0.007}
+    - {kind: to, bars: 6, price: 41.8, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 12, price: 47.5, vol: 0.007}
+    - {kind: to, bars: 7, price: 44.8, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 12, price: 51.5, vol: 0.007}
+    - {kind: to, bars: 7, price: 48.6, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 9, price: 54.5, vol: 0.007}
+    - {kind: to, bars: 9, price: 47.0, vol: 0.008, volume: 1.3}
+    - {kind: to, bars: 6, price: 50.5, vol: 0.007}
+    - {kind: to, bars: 9, price: 44.0, vol: 0.008, volume: 1.2}
+
+- name: downtrend-structure
+  seed: 53
+  tf: D
+  start: 2026-02-02
+  price: 60
+  volume: 1800000
+  segments:
+    - {kind: to, bars: 10, price: 55.5, vol: 0.007}
+    - {kind: to, bars: 6, price: 58.0, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 11, price: 52.0, vol: 0.007}
+    - {kind: to, bars: 6, price: 55.0, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 11, price: 48.5, vol: 0.007}
+    - {kind: to, bars: 6, price: 51.5, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 10, price: 45.5, vol: 0.007}
+
+- name: sideways
+  seed: 54
+  tf: D
+  start: 2026-02-02
+  price: 30
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 55, low: 28.5, high: 31.5, vol: 0.008}
+
+- name: range-sr
+  seed: 61
+  tf: D
+  start: 2026-01-05
+  price: 104
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 6, price: 107.2, vol: 0.005}
+    - {kind: to, bars: 8, price: 100.8, vol: 0.005, volume: 0.9}
+    - {kind: to, bars: 8, price: 107.0, vol: 0.005, volume: 0.9}
+    - {kind: to, bars: 7, price: 100.9, vol: 0.005, volume: 0.8}
+    - {kind: to, bars: 8, price: 107.1, vol: 0.005, volume: 0.8}
+    - {kind: to, bars: 7, price: 101.1, vol: 0.005, volume: 0.8}
+    - {kind: to, bars: 8, price: 106.9, vol: 0.005, volume: 0.8}
+    - {kind: to, bars: 4, price: 111.2, vol: 0.004, volume: 2.2}
+    - {kind: to, bars: 8, price: 107.9, vol: 0.005, volume: 0.9}
+    - {kind: to, bars: 16, price: 116.5, vol: 0.007, volume: 1.2}
+
+- name: breakout-volume
+  seed: 71
+  tf: D
+  start: 2026-01-05
+  price: 51
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 30, low: 49.5, high: 54, vol: 0.007, volume: 0.9}
+    - {kind: bar, open: 0.0, high: 0.050, low: -0.002, close: 0.045, volume: 3.4}
+    - {kind: trend, bars: 12, drift: 0.003, vol: 0.007, volume: 1.4}
+
+- name: false-breakout
+  seed: 72
+  tf: D
+  start: 2026-01-05
+  price: 51
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 30, low: 49.5, high: 54, vol: 0.007, volume: 0.9}
+    - {kind: bar, open: 0.0, high: 0.050, low: -0.002, close: 0.036, volume: 0.9}
+    - {kind: to, bars: 3, price: 52.5, vol: 0.005, volume: 0.9}
+    - {kind: to, bars: 10, price: 49.0, vol: 0.007, volume: 1.2}
+
+- name: ma-cross
+  seed: 81
+  tf: D
+  start: 2025-09-01
+  price: 62
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 35, price: 52, vol: 0.008}
+    - {kind: range, bars: 40, low: 50, high: 56, vol: 0.011}
+    - {kind: to, bars: 50, price: 70, vol: 0.008}
+    - {kind: range, bars: 20, low: 66.5, high: 71, vol: 0.008}
+    - {kind: to, bars: 40, price: 55, vol: 0.009}
+
+- name: sma-vs-ema
+  seed: 82
+  tf: D
+  start: 2026-01-05
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 45, price: 62, vol: 0.006}
+    - {kind: to, bars: 12, price: 55.5, vol: 0.006, volume: 1.4}
+    - {kind: to, bars: 15, price: 54, vol: 0.006}
+
+- name: rsi-divergence
+  seed: 91
+  tf: D
+  start: 2026-01-05
+  price: 100
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 28, price: 128, vol: 0.022}
+    - {kind: to, bars: 9, price: 119, vol: 0.015, volume: 0.9}
+    - {kind: to, bars: 16, price: 130, vol: 0.014, volume: 0.8}
+    - {kind: to, bars: 14, price: 114, vol: 0.013, volume: 1.4}
+
+- name: squeeze
+  seed: 101
+  csv: stock-a-squeeze-daily
+  tf: D
+  start: 2026-01-05
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 30, low: 47, high: 53, vol: 0.014}
+    - {kind: range, bars: 35, low: 50.2, high: 51.2, vol: 0.0035, wick: 0.0012, volume: 0.6}
+    - {kind: to, bars: 5, price: 54.5, vol: 0.006, volume: 2.2}
+    - {kind: trend, bars: 22, drift: 0.004, vol: 0.013, volume: 1.4}
+
+- name: vwap-trend-day
+  seed: 111
+  csv: stock-a-5m-trend-day
+  tf: 5m
+  start: "2026-03-02 09:30"
+  price: 80
+  volume: 90000
+  segments:
+    - {kind: to, bars: 12, price: 80.6, vol: 0.0012}
+    - {kind: to, bars: 30, price: 80.9, vol: 0.0008, volume: 0.8}
+    - {kind: to, bars: 36, price: 82.4, vol: 0.0009}
+
+- name: vwap-chop-day
+  seed: 112
+  tf: 5m
+  start: "2026-03-03 09:30"
+  price: 80
+  volume: 90000
+  segments:
+    - {kind: range, bars: 78, low: 79.5, high: 80.6, vol: 0.0012}
+
+- name: avwap-anchor
+  seed: 121
+  tf: D
+  start: 2026-01-05
+  price: 56
+  volume: 1800000
+  segments:
+    - {kind: to, bars: 25, price: 46, vol: 0.008}
+    - {kind: to, bars: 14, price: 53, vol: 0.007, volume: 1.3}
+    - {kind: to, bars: 8, price: 49.0, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 14, price: 57, vol: 0.007, volume: 1.2}
+    - {kind: to, bars: 8, price: 52.6, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 14, price: 61, vol: 0.007, volume: 1.2}
+
+- name: bull-flag
+  seed: 131
+  tf: D
+  start: 2026-02-02
+  price: 40
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 12, low: 39, high: 41, vol: 0.007}
+    - {kind: to, bars: 10, price: 46, vol: 0.006, volume: 1.8}
+    - {kind: to, bars: 8, price: 44.6, vol: 0.005, volume: 0.6}
+    - {kind: bar, open: 0.0, high: 0.045, low: -0.002, close: 0.040, volume: 2.4}
+    - {kind: to, bars: 10, price: 51, vol: 0.006, volume: 1.3}
+
+- name: ascending-triangle
+  seed: 132
+  tf: D
+  start: 2026-02-02
+  price: 52
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 8, price: 59.6, vol: 0.006}
+    - {kind: to, bars: 6, price: 55, vol: 0.006, volume: 0.9}
+    - {kind: to, bars: 6, price: 59.5, vol: 0.005, volume: 0.8}
+    - {kind: to, bars: 5, price: 56.6, vol: 0.005, volume: 0.7}
+    - {kind: to, bars: 5, price: 59.4, vol: 0.005, volume: 0.7}
+    - {kind: to, bars: 4, price: 57.9, vol: 0.004, volume: 0.6}
+    - {kind: to, bars: 3, price: 59.3, vol: 0.004, volume: 0.6}
+    - {kind: bar, open: 0.0, high: 0.035, low: -0.002, close: 0.030, volume: 2.6}
+    - {kind: to, bars: 8, price: 64, vol: 0.006, volume: 1.2}
+
+- name: head-and-shoulders
+  seed: 133
+  tf: D
+  start: 2026-01-05
+  price: 44
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 15, price: 54, vol: 0.006}
+    - {kind: to, bars: 6, price: 50.5, vol: 0.006, volume: 0.9}
+    - {kind: to, bars: 9, price: 59.5, vol: 0.006}
+    - {kind: to, bars: 9, price: 50.8, vol: 0.006, volume: 1.1}
+    - {kind: to, bars: 7, price: 54.5, vol: 0.006, volume: 0.7}
+    - {kind: to, bars: 7, price: 49.0, vol: 0.007, volume: 1.4}
+    - {kind: to, bars: 8, price: 44, vol: 0.007, volume: 1.2}
+
+- name: double-top
+  seed: 134
+  tf: D
+  start: 2026-01-05
+  price: 44
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 20, price: 59.5, vol: 0.006}
+    - {kind: to, bars: 9, price: 53.5, vol: 0.006, volume: 0.9}
+    - {kind: to, bars: 9, price: 59.3, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 6, price: 52.0, vol: 0.007, volume: 1.4}
+    - {kind: to, bars: 8, price: 48.5, vol: 0.007, volume: 1.2}
+
+- name: failed-double-top
+  seed: 135
+  tf: D
+  start: 2026-01-05
+  price: 44
+  volume: 1500000
+  segments:
+    - {kind: to, bars: 20, price: 59.5, vol: 0.006}
+    - {kind: to, bars: 9, price: 53.5, vol: 0.006, volume: 0.9}
+    - {kind: to, bars: 9, price: 59.3, vol: 0.006, volume: 0.8}
+    - {kind: to, bars: 5, price: 52.8, vol: 0.006, volume: 1.2}
+    - {kind: to, bars: 12, price: 62.8, vol: 0.007, volume: 1.2}
+    - {kind: to, bars: 8, price: 66, vol: 0.006, volume: 1.1}
+
+- name: gap-types
+  seed: 141
+  tf: D
+  start: 2026-01-05
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: range, bars: 24, low: 48.5, high: 52, vol: 0.008, wick: 0.002}
+    - {kind: gap, pct: 0.02}
+    - {kind: bar, open: 0.0, high: 0.026, low: 0.0185, close: 0.021, volume: 1.0}
+    - {kind: to, bars: 3, price: 51.0, vol: 0.004, volume: 1.0}
+    - {kind: range, bars: 8, low: 49, high: 52, vol: 0.007, wick: 0.002}
+    - {kind: gap, pct: 0.05}
+    - {kind: bar, open: 0.0, high: 0.075, low: 0.044, close: 0.068, volume: 3.6}
+    - {kind: to, bars: 14, price: 58, vol: 0.007, volume: 1.3, wick: 0.002}
+    - {kind: gap, pct: 0.03}
+    - {kind: bar, open: 0.0, high: 0.05, low: 0.027, close: 0.045, volume: 1.8}
+    - {kind: to, bars: 9, price: 64, vol: 0.006, volume: 1.2, wick: 0.002}
+    - {kind: gap, pct: 0.035}
+    - {kind: bar, open: 0.0, high: 0.045, low: 0.032, close: 0.036, volume: 4.2}
+    - {kind: bar, open: 0.0, high: 0.002, low: -0.045, close: -0.04, volume: 2.2}
+    - {kind: to, bars: 8, price: 58.5, vol: 0.008, volume: 1.4}
+
+- name: rs-stock
+  seed: 151
+  tf: D
+  start: 2026-01-05
+  price: 50
+  volume: 1500000
+  segments:
+    - {kind: trend, bars: 60, drift: 0.0030, vol: 0.010}
+    - {kind: trend, bars: 60, drift: -0.0001, vol: 0.010}
+
+- name: rs-index
+  seed: 152
+  tf: D
+  start: 2026-01-05
+  price: 4000
+  volume: 900000000
+  segments:
+    - {kind: trend, bars: 60, drift: 0.0011, vol: 0.005}
+    - {kind: trend, bars: 60, drift: 0.0014, vol: 0.005}

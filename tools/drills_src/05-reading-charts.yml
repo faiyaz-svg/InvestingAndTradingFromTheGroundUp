@@ -1,0 +1,424 @@
+# Part 5 chart drills. Answers computed from docs/assets/charts/05-reading-charts/*.json.
+- id: chrt-range-resistance
+  chart: 'data: 05-reading-charts/range-sr.json
+
+    show: volume
+
+    range: 2026-01-05 to 2026-03-13
+
+    '
+  q: 'Stock A moves in a range. Click the resistance level: the highest high of the three swing highs in this range.'
+  type: level
+  answer: 107.77
+  tolerance: 0.5
+  explain: The highest high in the range is 107.77 (the swing highs are 107.28, 107.28 and 107.77). Resistance is a zone, so a click within 0.50 counts.
+  reveal: 'zone: 107.28-107.77 | Resistance zone'
+- id: chrt-range-support
+  chart: 'data: 05-reading-charts/range-sr.json
+
+    show: volume
+
+    range: 2026-01-05 to 2026-03-13
+
+    '
+  q: 'Click the support level: the lowest low of the three swing lows in this range.'
+  type: level
+  answer: 100.22
+  tolerance: 0.5
+  explain: The lowest low is 100.22. The three swing lows are 100.22, 100.79 and 100.53, so support is the zone 100.22 to 100.79.
+  reveal: 'zone: 100.22-100.79 | Support zone'
+- id: chrt-invalidation
+  chart: 'data: 05-reading-charts/uptrend-structure.json
+
+    range: 2026-01-05 to 2026-04-03
+
+    '
+  q: 'Stock A is in an uptrend. Click the invalidation level: the last higher low (the swing low of March 24). A close below it ends the uptrend call.'
+  type: level
+  answer: 48.43
+  tolerance: 0.5
+  explain: The swing low of March 24 is 48.43, above the earlier lows of 41.61 and 44.71. A close below 48.43 would break the structure.
+  reveal: 'level: 48.43 | Last higher low'
+- id: chrt-flag-high
+  chart: 'data: 05-reading-charts/bull-flag.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-13
+
+    '
+  q: 'Stock A rose sharply and has drifted down for eight bars on low volume. Click the breakout level: the top of the flag (the pole''s high).'
+  type: level
+  answer: 46.21
+  tolerance: 0.4
+  explain: The pole's high on March 3 is 46.21, and the flag has stayed below it. A close above 46.21 on high volume is the trigger.
+  reveal: 'level: 46.21 | Flag high'
+- id: chrt-flag-stop
+  chart: 'data: 05-reading-charts/bull-flag.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-13
+
+    '
+  q: 'You plan to buy a break above the flag. Click the level the stop goes just below: the lowest low of the flag (March 4 to March 13).'
+  type: level
+  answer: 44.57
+  tolerance: 0.4
+  explain: The flag's lowest low is 44.57. A stop goes a little below it, such as 44.40 for an entry at 46.30.
+  reveal: 'level: 44.57 | Flag low'
+- id: chrt-hs-neckline
+  chart: 'data: 05-reading-charts/head-and-shoulders.json
+
+    range: 2026-01-05 to 2026-03-13
+
+    '
+  q: 'Stock A has made a left shoulder, a head and a right shoulder. Click the neckline: the level of the two lows between the peaks (about 50.5).'
+  type: level
+  answer: 50.5
+  tolerance: 0.6
+  explain: The lows between the peaks are 50.33 (February 2) and 50.75 (February 27). The neckline is near 50.50. A close below it is the trigger.
+  reveal: 'level: 50.50 | Neckline'
+- id: chrt-double-top-low
+  chart: 'data: 05-reading-charts/double-top.json
+
+    range: 2026-01-05 to 2026-02-27
+
+    '
+  q: Two peaks near 59.5 have formed. Click the low between them. A close below it triggers the double top.
+  type: level
+  answer: 53.48
+  tolerance: 0.5
+  explain: The low between the peaks (February 12) is 53.48. The height from there to the peaks is 6.22, which gives the measured target 47.26.
+  reveal: 'level: 53.48 | Neckline'
+- id: chrt-triangle-top
+  chart: 'data: 05-reading-charts/ascending-triangle.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-24
+
+    '
+  q: The highs are flat while the lows rise. Click the flat top, the highest high of the three peaks.
+  type: level
+  answer: 59.78
+  tolerance: 0.4
+  explain: The highest of the three peaks is 59.78 (peaks 59.78, 59.77 and 59.51). The breakout trigger is a close above it.
+  reveal: 'level: 59.78 | Flat top'
+- id: chrt-breakaway-gap-edge
+  chart: 'data: 05-reading-charts/gap-types.json
+
+    show: volume
+
+    range: 2026-02-12 to 2026-03-10
+
+    '
+  q: 'On February 24 the price jumps out of a range. Click the top edge of the gap area: the low of the February 24 bar.'
+  type: level
+  answer: 53.6
+  tolerance: 0.4
+  explain: The February 24 bar never trades below 53.60, and the previous bar's high is 51.37. No trades happened between 51.37 and 53.60.
+  reveal: 'zone: 51.37-53.60 | 2026-02-23 to 2026-02-24 | Gap area'
+- id: chrt-avwap-anchor
+  chart: 'data: 05-reading-charts/avwap-anchor.json
+
+    range: 2026-01-05 to 2026-03-06
+
+    '
+  q: A trader wants to anchor a VWAP to the swing low of this fall. Click the price of that low (the lowest low of the chart so far).
+  type: level
+  answer: 45.68
+  tolerance: 0.5
+  explain: The swing low is 45.68 on February 6, 2026. An anchored VWAP started there is the average price paid since that low.
+  reveal: 'level: 45.68 | Anchor low'
+- id: chrt-trend-up
+  chart: 'data: 05-reading-charts/uptrend-structure.json
+
+    range: 2026-01-05 to 2026-03-31
+
+    '
+  q: Mark the swing highs and lows (5 bars each side). What is the trend?
+  type: choice
+  choices:
+  - Uptrend
+  - Downtrend
+  - Range
+  answer_choice: 0
+  explain: 'Swing highs rise (44.17, 47.78, 51.76) and swing lows rise (41.61, 44.71, 48.43): higher highs and higher lows, an uptrend.'
+- id: chrt-trend-down
+  chart: 'data: 05-reading-charts/downtrend-structure.json
+
+    '
+  q: What is the trend?
+  type: choice
+  choices:
+  - Uptrend
+  - Downtrend
+  - Range
+  answer_choice: 1
+  explain: 'Swing highs fall (58.11, 55.04, 51.81) and swing lows fall (55.30, 51.92, 48.33): lower highs and lower lows, a downtrend.'
+- id: chrt-trend-range
+  chart: 'data: 05-reading-charts/sideways.json
+
+    '
+  q: What is the trend?
+  type: choice
+  choices:
+  - Uptrend
+  - Downtrend
+  - Range
+  answer_choice: 2
+  explain: 'The price stays between 29.00 and 31.03 for 55 bars with no higher highs or lower lows, and the first and last closes are 29.77 and 29.84: a range.'
+- id: chrt-structure-break
+  chart: 'data: 05-reading-charts/uptrend-structure.json
+
+    range: 2026-03-02 to 2026-05-07
+
+    '
+  q: Stock A rose in an uptrend with a last higher low of 48.43. On April 15 it closes at 48.21. What does that close mean?
+  type: choice
+  choices:
+  - The uptrend continues
+  - 'A break of structure: the close is below the last higher low'
+  - A new range has started
+  answer_choice: 1
+  explain: A close below the last higher low (48.43) ends the uptrend call. The next swing low (46.84) was lower, and the swing high of April 24 (50.61) was below 54.77.
+- id: chrt-pattern-flag
+  chart: 'data: 05-reading-charts/bull-flag.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-13
+
+    '
+  q: Which pattern is forming?
+  type: choice
+  choices:
+  - Bull flag
+  - Head and shoulders
+  - Double top
+  - Ascending triangle
+  answer_choice: 0
+  explain: A sharp rise (39.91 to 46.21) followed by a shallow drift down on low volume is a bull flag.
+- id: chrt-pattern-hs
+  chart: 'data: 05-reading-charts/head-and-shoulders.json
+
+    range: 2026-01-05 to 2026-03-13
+
+    '
+  q: Which pattern is this?
+  type: choice
+  choices:
+  - Bull flag
+  - Head and shoulders
+  - Double top
+  - Ascending triangle
+  answer_choice: 1
+  explain: Peaks of 54.21, 59.56 and 54.73 with the middle one highest, and lows near 50.5 between them, make a head and shoulders.
+- id: chrt-gap-breakaway
+  chart: 'data: 05-reading-charts/gap-types.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-06
+
+    '
+  q: The gap on February 24 opens 5.0% above the previous close, out of a range, on 5,400,000 shares (4.0 times the 20-day average). Which gap type is it?
+  type: choice
+  choices:
+  - Common
+  - Breakaway
+  - Runaway
+  - Exhaustion
+  answer_choice: 1
+  explain: A gap out of a range on heavy volume is a breakaway gap. The gap area (51.37 to 53.60) is never revisited in this data.
+- id: chrt-gap-runaway
+  chart: 'data: 05-reading-charts/gap-types.json
+
+    show: volume
+
+    range: 2026-03-02 to 2026-03-27
+
+    '
+  q: The gap on March 17 opens 3.0% higher in the middle of a rise, on 1.2 times the usual volume. Which gap type is it?
+  type: choice
+  choices:
+  - Common
+  - Breakaway
+  - Runaway
+  - Exhaustion
+  answer_choice: 2
+  explain: A gap in the middle of a trend on moderate volume is a runaway gap. It stays unfilled (58.06 to 59.57).
+- id: chrt-volume-confirms
+  chart: 'data: 05-reading-charts/breakout-volume.json
+
+    show: volume
+
+    range: 2026-01-05 to 2026-02-16
+
+    '
+  q: On February 16 the price closes above the range high (52.72). The volume is 5,100,000 and the 20-day average is 1,531,450. Does volume support the breakout?
+  type: choice
+  choices:
+  - Yes, RVOL is above 3
+  - No, RVOL is below 1
+  - Not enough information
+  answer_choice: 0
+  explain: RVOL = 5,100,000 / 1,531,450 = 3.33. The bar traded more than three times the usual volume, which supports the breakout.
+- id: chrt-volume-weak
+  chart: 'data: 05-reading-charts/false-breakout.json
+
+    show: volume
+
+    range: 2026-01-05 to 2026-02-16
+
+    '
+  q: On February 16 the price closes above the range high (52.74). The volume is 1,350,000 and the 20-day average is 1,375,660. Does volume support the breakout?
+  type: choice
+  choices:
+  - Yes, RVOL is above 3
+  - No, RVOL is about 1, so the move is ordinary
+  - Not enough information
+  answer_choice: 1
+  explain: 'RVOL = 1,350,000 / 1,375,660 = 0.98. Few extra shares traded. This breakout failed: the close on February 19 was back inside the range.'
+- id: chrt-rsi-divergence
+  chart: 'data: 05-reading-charts/rsi-divergence.json
+
+    show: rsi 14
+
+    range: 2026-01-05 to 2026-03-16
+
+    '
+  q: The price made a high of 130.27 on February 13 (RSI 85) and a higher high of 134.88 on March 16. What is RSI doing at the second high?
+  type: choice
+  choices:
+  - 'RSI is lower (about 62): a bearish divergence'
+  - 'RSI is higher: the move is confirmed'
+  - RSI is the same
+  answer_choice: 0
+  explain: RSI is 61.6 at the second high against 85.2 at the first. A higher price high with a lower RSI high is a bearish divergence, a warning and not a signal by itself.
+- id: chrt-ma-cross
+  chart: 'data: 05-reading-charts/ma-cross.json
+
+    show: sma 20, sma 50
+
+    range: 2025-11-03 to 2026-01-15
+
+    '
+  q: Near December 4, 2025 the 20-day SMA crosses the 50-day SMA. Which way?
+  type: choice
+  choices:
+  - The 20 crosses above the 50 (buy signal under the crossover rule)
+  - The 20 crosses below the 50 (sell signal)
+  - No cross happens
+  answer_choice: 0
+  explain: On December 4 the SMA 20 (53.77) moves above the SMA 50 (53.70) with a close of 52.89. This crossover rule exits on April 1 at 62.81.
+- id: chrt-vwap-day
+  chart: 'data: 05-reading-charts/vwap-trend-day.json
+
+    show: vwap
+
+    '
+  q: Stock A, 5-minute bars with VWAP. What kind of day is this?
+  type: choice
+  choices:
+  - 'Trend day: the price stays above VWAP'
+  - 'Chop day: the price crosses VWAP often'
+  answer_choice: 0
+  explain: The close is above VWAP on 76 of 78 bars and the pullback at noon holds above it. The day ends at 82.40 against a VWAP of 81.24.
+- id: chrt-vwap-chop
+  chart: 'data: 05-reading-charts/vwap-chop-day.json
+
+    show: vwap
+
+    '
+  q: Stock A, 5-minute bars with VWAP. What kind of day is this?
+  type: choice
+  choices:
+  - 'Trend day: the price stays above VWAP'
+  - 'Chop day: the price crosses VWAP often'
+  answer_choice: 1
+  explain: The close is above VWAP on 45 of 78 bars and crosses it 23 times, in a range of 79.64 to 80.42.
+- id: chrt-atr-squeeze
+  chart: 'data: 05-reading-charts/squeeze.json
+
+    show: atr 14
+
+    range: 2026-02-02 to 2026-04-10
+
+    '
+  q: Read the ATR 14 panel. What is the ATR on April 3, 2026 (the quietest part of the chart)?
+  type: number
+  answer: 0.349
+  tolerance: 0.03
+  unit: US$
+  explain: ATR 14 on April 3 is 0.349, which is 0.68% of the 50.97 close. A stop 2 ATR away would be only 0.70 from the entry.
+- id: chrt-atr-wide
+  chart: 'data: 05-reading-charts/squeeze.json
+
+    show: atr 14
+
+    range: 2026-02-02 to 2026-04-10
+
+    '
+  q: What is the ATR 14 on February 13, 2026, in the volatile stretch before the squeeze?
+  type: number
+  answer: 1.21
+  tolerance: 0.08
+  unit: US$
+  explain: ATR 14 on February 13 is 1.210, about 3.5 times the April 3 value of 0.349. Volatility fell sharply into the squeeze.
+- id: chrt-rvol
+  chart: 'data: 05-reading-charts/breakout-volume.json
+
+    show: volume
+
+    range: 2026-01-05 to 2026-02-16
+
+    '
+  q: The volume on February 16 is 5,100,000 shares and the average of the previous 20 days is 1,531,450. What is relative volume?
+  type: number
+  answer: 3.33
+  tolerance: 0.1
+  explain: RVOL = 5,100,000 / 1,531,450 = 3.33.
+- id: chrt-r-flag
+  chart: 'data: 05-reading-charts/bull-flag.json
+
+    show: volume
+
+    range: 2026-02-02 to 2026-03-30
+
+    '
+  q: You bought the flag breakout at 46.30 with a stop at 44.40. The last close (March 30) is shown. What is the open profit in R (risk is 46.30 - 44.40 per share)?
+  type: number
+  answer: 2.47
+  tolerance: 0.1
+  unit: R
+  explain: The last close is 51.00. Profit = 51.00 - 46.30 = 4.70; risk = 1.90; R = 2.47.
+- id: chrt-r-retest
+  chart: 'data: 05-reading-charts/range-sr.json
+
+    show: volume
+
+    range: 2026-03-02 to 2026-04-07
+
+    '
+  q: You buy the retest at 107.98 with a stop at 106.90, aiming at the March 23 high of 111.83. What is the reward to risk in R?
+  type: number
+  answer: 3.56
+  tolerance: 0.15
+  unit: R
+  explain: Risk = 107.98 - 106.90 = 1.08. Reward = 111.83 - 107.98 = 3.85. R = 3.85 / 1.08 = 3.56.
+- id: chrt-gap-percent
+  chart: 'data: 05-reading-charts/gap-types.json
+
+    show: volume
+
+    range: 2026-02-12 to 2026-03-10
+
+    '
+  q: The February 23 close is 51.34 and the February 24 open is 53.91. What is the gap as a percentage of the previous close?
+  type: number
+  answer: 5.01
+  tolerance: 0.15
+  unit: '%'
+  explain: Gap = 53.91 - 51.34 = 2.57. 2.57 / 51.34 = 5.01%. With an ATR of 0.574 that is 4.5 ATR.

@@ -157,6 +157,19 @@ nav:
           - "Setting up paper trading": 04-psychology-journal-and-paper-trading/06-paper-trading-setup.md
           - "From paper to live trading": 04-psychology-journal-and-paper-trading/07-from-paper-to-live.md
   - "Trading":
+      - "Reading charts":
+          - 05-reading-charts/index.md
+          - "Candles, bars and timeframes": 05-reading-charts/01-candles-bars-and-timeframes.md
+          - "Trend and market structure": 05-reading-charts/02-trend-and-market-structure.md
+          - "Support and resistance": 05-reading-charts/03-support-and-resistance.md
+          - "Volume and relative volume": 05-reading-charts/04-volume-and-relative-volume.md
+          - "Moving averages": 05-reading-charts/05-moving-averages.md
+          - "Momentum indicators: RSI, MACD and stochastics": 05-reading-charts/06-momentum-indicators.md
+          - "Volatility indicators: ATR, Bollinger and Keltner": 05-reading-charts/07-volatility-indicators.md
+          - "VWAP and anchored VWAP": 05-reading-charts/08-vwap-and-anchored-vwap.md
+          - "Chart patterns and the evidence": 05-reading-charts/09-chart-patterns-and-the-evidence.md
+          - "Gaps": 05-reading-charts/10-gaps.md
+          - "Multiple timeframes and relative strength": 05-reading-charts/11-multi-timeframe-and-relative-strength.md
       - "ICT and smart money concepts, tested":
           - 06-ict-and-smart-money-tested/index.md
           - "What ICT and smart money concepts claim": 06-ict-and-smart-money-tested/01-what-ict-and-smc-claim.md

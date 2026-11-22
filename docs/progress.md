@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 44 of 201. New lessons appear here as they are added.
+Lessons written so far: 55 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -57,6 +57,20 @@ Lessons written so far: 44 of 201. New lessons appear here as they are added.
 - [ ] [From paper to live trading](04-psychology-journal-and-paper-trading/07-from-paper-to-live.md) (skill, review)
 
 ## Trading
+
+### Part 5: Reading charts
+
+- [ ] [Candles, bars and timeframes](05-reading-charts/01-candles-bars-and-timeframes.md) (skill)
+- [ ] [Trend and market structure](05-reading-charts/02-trend-and-market-structure.md) (skill)
+- [ ] [Support and resistance](05-reading-charts/03-support-and-resistance.md) (skill)
+- [ ] [Volume and relative volume](05-reading-charts/04-volume-and-relative-volume.md) (skill)
+- [ ] [Moving averages](05-reading-charts/05-moving-averages.md) (skill)
+- [ ] [Momentum indicators: RSI, MACD and stochastics](05-reading-charts/06-momentum-indicators.md) (skill)
+- [ ] [Volatility indicators: ATR, Bollinger and Keltner](05-reading-charts/07-volatility-indicators.md) (skill)
+- [ ] [VWAP and anchored VWAP](05-reading-charts/08-vwap-and-anchored-vwap.md) (skill)
+- [ ] [Chart patterns and the evidence](05-reading-charts/09-chart-patterns-and-the-evidence.md) (skill)
+- [ ] [Gaps](05-reading-charts/10-gaps.md) (skill)
+- [ ] [Multiple timeframes and relative strength](05-reading-charts/11-multi-timeframe-and-relative-strength.md) (skill, review)
 
 ### Part 6: ICT and smart money concepts, tested
 

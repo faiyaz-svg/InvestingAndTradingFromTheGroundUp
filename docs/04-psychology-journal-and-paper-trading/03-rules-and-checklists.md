@@ -91,7 +91,7 @@ When you break a rule, you record it as a rule break, with the reason. The recor
 
 ## Common mistakes
 
-- Writing rules that need judgment, such as "only trade strong stocks". Replace it with a test you can run, such as "the stock is above its 50-day average" (defined in Part 5, Moving averages<!-- link: ../05-reading-charts/05-moving-averages.md -->).
+- Writing rules that need judgment, such as "only trade strong stocks". Replace it with a test you can run, such as "the stock is above its 50-day average" (defined in Part 5, [Moving averages](../05-reading-charts/05-moving-averages.md)).
 - Changing a rule in the middle of a drawdown. Change rules only at the weekly review, after a loss streak is over.
 - Making the checklist so long that you skip it. Eight items are enough. Add one only when a mistake repeats.
 

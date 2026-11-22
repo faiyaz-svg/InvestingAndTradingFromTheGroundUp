@@ -19,7 +19,7 @@ The exact definition uses three consecutive bars, called bar 1, bar 2 and bar 3.
 
 Bar 2 is the middle bar, and teachers want it to be a **displacement**: a strong, fast move with a large body, which they read as a sign of aggressive orders. No teacher gives one number for "large". A testable version is a range of at least 3 times the average range of the previous 10 bars. Use your own number and write it down.
 
-One point is easy to miss. A fair value gap is not an empty price range like a daily gap (Gaps<!-- link: ../05-reading-charts/10-gaps.md -->). Bar 2 traded through the whole zone, so trades did happen there. Only bar 1 and bar 3 did not. The gap is a range where one candle did all the trading.
+One point is easy to miss. A fair value gap is not an empty price range like a daily gap ([Gaps](../05-reading-charts/10-gaps.md)). Bar 2 traded through the whole zone, so trades did happen there. Only bar 1 and bar 3 did not. The gap is a range where one candle did all the trading.
 
 ## How it works
 
@@ -77,7 +77,7 @@ caption: Bar 1 (February 18) has a low of 55.10 and bar 3 (February 20) has a hi
 
 ## What tests found
 
-We found no peer-reviewed study that tests ICT's three-bar fair value gap as defined here. Studies of price gaps exist, but they cover the jump between one session's close and the next open, which is a different thing (see Gaps<!-- link: ../05-reading-charts/10-gaps.md -->).
+We found no peer-reviewed study that tests ICT's three-bar fair value gap as defined here. Studies of price gaps exist, but they cover the jump between one session's close and the next open, which is a different thing (see [Gaps](../05-reading-charts/10-gaps.md)).
 
 The claim "price comes back to the gap" can be tested, and its weak point is the baseline. Price wanders, so it often revisits a recent price whether or not a gap was there. The code below counts bullish gaps in the made-up series [stock-b-daily.csv](../assets/data/stock-b-daily.csv) and checks how often the low of the following 10 bars reaches bar 3's low. It then asks the same question of every bar.
 

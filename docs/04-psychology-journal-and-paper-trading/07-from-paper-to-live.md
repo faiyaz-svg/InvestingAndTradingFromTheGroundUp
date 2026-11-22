@@ -195,4 +195,4 @@ The first real losses are felt differently from paper losses. At 0.25% (US$62.50
 - **Size ramp**: a schedule that raises risk per trade in stages, only when criteria hold.
 - **Paper block**: a set number of paper trades with a fixed purpose, done between parts of the book.
 
-Next: Candles, bars and timeframes<!-- link: ../05-reading-charts/01-candles-bars-and-timeframes.md -->
+Next: [Candles, bars and timeframes](../05-reading-charts/01-candles-bars-and-timeframes.md)

@@ -45,7 +45,7 @@ The **true range** of a bar is its full range including any gap from the day bef
 - \(H\) and \(L\) are the bar's high and low, and \(C_{\text{prev}}\) is the previous bar's close, all in US$.
 - The three terms are the bar's own range and the distance from the old close to each extreme. The largest wins, so a gap is counted.
 
-The **average true range** (ATR) is the mean of the last 14 true ranges. This lesson uses the plain average; Part 5 teaches the smoothed version traders usually plot (Volatility indicators<!-- link: ../05-reading-charts/07-volatility-indicators.md -->). The stop is
+The **average true range** (ATR) is the mean of the last 14 true ranges. This lesson uses the plain average; Part 5 teaches the smoothed version traders usually plot ([Volatility indicators](../05-reading-charts/07-volatility-indicators.md)). The stop is
 
 \[ S = E - k \times ATR \]
 

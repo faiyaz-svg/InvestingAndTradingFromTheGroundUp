@@ -51,7 +51,7 @@ In the 52-week range, (50.30 - 38.20) / (52.40 - 38.20) = 85.2%, so the price is
 
 \[ \text{Relative volume} = \frac{\text{Volume}}{\text{Average volume}} \]
 
-For Stock A: 2,100,000 / 1,500,000 = 1.4, so 40% busier than usual. Part 5 uses this in detail (Volume and relative volume<!-- link: ../05-reading-charts/04-volume-and-relative-volume.md -->). Check the time of day too, since 1.4 times average at 10 a.m. is a busier day than 1.4 times at 4 p.m.
+For Stock A: 2,100,000 / 1,500,000 = 1.4, so 40% busier than usual. Part 5 uses this in detail ([Volume and relative volume](../05-reading-charts/04-volume-and-relative-volume.md)). Check the time of day too, since 1.4 times average at 10 a.m. is a busier day than 1.4 times at 4 p.m.
 
 ## Company fields
 

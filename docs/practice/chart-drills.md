@@ -4,4 +4,4 @@ These drills show a chart and ask a question about it. For some questions you cl
 
 Cards you miss come back sooner. Cards you get right come back later. Your progress is kept in this browser only.
 
-<div class="tw-drills" data-tool="chart-drills" data-sets="05-reading-charts,06-ict-and-smart-money-tested"></div>
+<div class="tw-drills" data-tool="chart-drills" data-sets="05-reading-charts,06-ict-and-smart-money-tested,08-day-trading"></div>
