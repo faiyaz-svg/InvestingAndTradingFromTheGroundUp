@@ -106,7 +106,7 @@ The raw return on the split date is about -49.2%, and the adjusted return is a s
 
 ### Other corporate actions
 
-A **special dividend** is a one-off payment. A **spin-off** gives shareholders shares of a new company split from the old one. In a **merger** or acquisition, your shares may be exchanged for cash or for shares of the buyer. A **buyback** is the company buying its own shares, which reduces the share count (Part 9, Shares, EPS, dilution and buybacks<!-- link: ../09-company-financials/09-shares-eps-dilution-and-buybacks.md -->).
+A **special dividend** is a one-off payment. A **spin-off** gives shareholders shares of a new company split from the old one. In a **merger** or acquisition, your shares may be exchanged for cash or for shares of the buyer. A **buyback** is the company buying its own shares, which reduces the share count (Part 9, [Shares, EPS, dilution and buybacks](../09-company-financials/09-shares-eps-dilution-and-buybacks.md)).
 
 <div class="canada" markdown>
 

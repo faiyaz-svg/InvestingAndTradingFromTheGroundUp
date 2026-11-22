@@ -203,4 +203,4 @@ Risk amount = US$200. Risk-based shares = 200 / 0.50 = 400, worth US$16,000. Buy
 - **Trade count limit**: the most trades you take in a day.
 - **Buying power cap**: the limit on position size set by the money you can use, not by your risk.
 
-Next: Filings and EDGAR<!-- link: ../09-company-financials/01-filings-and-edgar.md -->
+Next: [Filings and EDGAR](../09-company-financials/01-filings-and-edgar.md)

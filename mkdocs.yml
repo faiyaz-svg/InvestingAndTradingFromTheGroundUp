@@ -189,6 +189,20 @@ nav:
           - "Level 2 and time and sales": 08-day-trading/07-level-2-and-time-and-sales.md
           - "Execution costs and scalping": 08-day-trading/08-execution-costs-and-scalping.md
           - "A day trading routine and limits": 08-day-trading/09-day-trading-routine-and-limits.md
+  - "Companies and economy":
+      - "Company financials":
+          - 09-company-financials/index.md
+          - "Filings and EDGAR": 09-company-financials/01-filings-and-edgar.md
+          - "The income statement": 09-company-financials/02-the-income-statement.md
+          - "The balance sheet": 09-company-financials/03-the-balance-sheet.md
+          - "The cash flow statement": 09-company-financials/04-the-cash-flow-statement.md
+          - "How the three statements connect": 09-company-financials/05-how-the-statements-connect.md
+          - "Margins and growth": 09-company-financials/06-margins-and-growth.md
+          - "Returns on capital": 09-company-financials/07-returns-on-capital.md
+          - "Debt, liquidity and solvency": 09-company-financials/08-debt-liquidity-and-solvency.md
+          - "Shares, EPS, dilution and buybacks": 09-company-financials/09-shares-eps-dilution-and-buybacks.md
+          - "GAAP, non-GAAP and earnings quality": 09-company-financials/10-gaap-non-gaap-and-earnings-quality.md
+          - "Earnings season and earnings calls": 09-company-financials/11-earnings-season-and-calls.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

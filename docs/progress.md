@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 64 of 201. New lessons appear here as they are added.
+Lessons written so far: 75 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -92,3 +92,19 @@ Lessons written so far: 64 of 201. New lessons appear here as they are added.
 - [ ] [Level 2 and time and sales](08-day-trading/07-level-2-and-time-and-sales.md) (skill)
 - [ ] [Execution costs and scalping](08-day-trading/08-execution-costs-and-scalping.md) (idea)
 - [ ] [A day trading routine and limits](08-day-trading/09-day-trading-routine-and-limits.md) (skill, review)
+
+## Companies and economy
+
+### Part 9: Company financials
+
+- [ ] [Filings and EDGAR](09-company-financials/01-filings-and-edgar.md) (data)
+- [ ] [The income statement](09-company-financials/02-the-income-statement.md) (data)
+- [ ] [The balance sheet](09-company-financials/03-the-balance-sheet.md) (data)
+- [ ] [The cash flow statement](09-company-financials/04-the-cash-flow-statement.md) (data)
+- [ ] [How the three statements connect](09-company-financials/05-how-the-statements-connect.md) (data)
+- [ ] [Margins and growth](09-company-financials/06-margins-and-growth.md) (data)
+- [ ] [Returns on capital](09-company-financials/07-returns-on-capital.md) (data)
+- [ ] [Debt, liquidity and solvency](09-company-financials/08-debt-liquidity-and-solvency.md) (data)
+- [ ] [Shares, EPS, dilution and buybacks](09-company-financials/09-shares-eps-dilution-and-buybacks.md) (data)
+- [ ] [GAAP, non-GAAP and earnings quality](09-company-financials/10-gaap-non-gaap-and-earnings-quality.md) (data)
+- [ ] [Earnings season and earnings calls](09-company-financials/11-earnings-season-and-calls.md) (data, review)
