@@ -22,7 +22,7 @@ Both markets close at 4 p.m. ET and both settle in one business day, so the orde
 
 The tax row is the one that surprises people. How the 15% works, the form you sign and which accounts it touches is in [US withholding tax and the W-8BEN](../02-accounts-currency-and-taxes/06-us-withholding-tax-and-w-8ben.md). This page does not say whether the 15% can be recovered in a TFSA or an FHSA, because we could not confirm that from an official page. That lesson covers it with sources.
 
-The two central banks are in part 11: The Fed and the FOMC<!-- link: ../11-macro-and-economic-data/02-the-fed-and-the-fomc.md --> and The Bank of Canada and a macro week<!-- link: ../11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md -->.
+The two central banks are in part 11: [The Fed and the FOMC](../11-macro-and-economic-data/02-the-fed-and-the-fomc.md) and [The Bank of Canada and a macro week](../11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md).
 
 ## The accounts you will use
 

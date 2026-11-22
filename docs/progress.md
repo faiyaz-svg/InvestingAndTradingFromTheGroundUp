@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 93 of 201. New lessons appear here as they are added.
+Lessons written so far: 104 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -132,3 +132,17 @@ Lessons written so far: 93 of 201. New lessons appear here as they are added.
 - [ ] [Comparables and industry KPIs](10-valuation-and-research/07-comparables-and-industry-kpis.md) (skill)
 - [ ] [Moats and qualitative research](10-valuation-and-research/08-moats-and-qualitative-research.md) (skill)
 - [ ] [Writing a stock pitch](10-valuation-and-research/09-writing-a-stock-pitch.md) (skill, review)
+
+### Part 11: Macro and economic data
+
+- [ ] [How the economy is measured](11-macro-and-economic-data/01-how-the-economy-is-measured.md) (data)
+- [ ] [The Fed and the FOMC](11-macro-and-economic-data/02-the-fed-and-the-fomc.md) (idea)
+- [ ] [Interest rates and asset prices](11-macro-and-economic-data/03-interest-rates-and-asset-prices.md) (idea)
+- [ ] [Inflation reports: CPI, PCE and PPI](11-macro-and-economic-data/04-inflation-reports.md) (data)
+- [ ] [The jobs report](11-macro-and-economic-data/05-the-jobs-report.md) (data)
+- [ ] [Growth data: GDP, retail sales and PMIs](11-macro-and-economic-data/06-growth-data.md) (data)
+- [ ] [The economic calendar](11-macro-and-economic-data/07-the-economic-calendar.md) (skill)
+- [ ] [How markets react to data](11-macro-and-economic-data/08-how-markets-react-to-data.md) (idea)
+- [ ] [The business cycle and sectors](11-macro-and-economic-data/09-the-business-cycle-and-sectors.md) (idea)
+- [ ] [QE, QT and liquidity](11-macro-and-economic-data/10-qe-qt-and-liquidity.md) (idea)
+- [ ] [The Bank of Canada and a macro week](11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md) (canada, review)

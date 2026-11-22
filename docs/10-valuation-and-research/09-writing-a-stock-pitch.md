@@ -186,4 +186,4 @@ Upside = 40 / 38 - 1 = 5.3%, below 9%. No. The target also reflects the analyst'
 - **Scenario analysis**: valuing a company under several sets of assumptions, with a probability on each.
 - **Margin of safety**: a gap between the value you estimate and the price you pay.
 
-Next: How the economy is measured<!-- link: ../11-macro-and-economic-data/01-how-the-economy-is-measured.md -->
+Next: [How the economy is measured](../11-macro-and-economic-data/01-how-the-economy-is-measured.md)

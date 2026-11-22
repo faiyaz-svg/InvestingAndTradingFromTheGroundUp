@@ -225,6 +225,19 @@ nav:
           - "Comparables and industry KPIs": 10-valuation-and-research/07-comparables-and-industry-kpis.md
           - "Moats and qualitative research": 10-valuation-and-research/08-moats-and-qualitative-research.md
           - "Writing a stock pitch": 10-valuation-and-research/09-writing-a-stock-pitch.md
+      - "Macro and economic data":
+          - 11-macro-and-economic-data/index.md
+          - "How the economy is measured": 11-macro-and-economic-data/01-how-the-economy-is-measured.md
+          - "The Fed and the FOMC": 11-macro-and-economic-data/02-the-fed-and-the-fomc.md
+          - "Interest rates and asset prices": 11-macro-and-economic-data/03-interest-rates-and-asset-prices.md
+          - "Inflation reports: CPI, PCE and PPI": 11-macro-and-economic-data/04-inflation-reports.md
+          - "The jobs report": 11-macro-and-economic-data/05-the-jobs-report.md
+          - "Growth data: GDP, retail sales and PMIs": 11-macro-and-economic-data/06-growth-data.md
+          - "The economic calendar": 11-macro-and-economic-data/07-the-economic-calendar.md
+          - "How markets react to data": 11-macro-and-economic-data/08-how-markets-react-to-data.md
+          - "The business cycle and sectors": 11-macro-and-economic-data/09-the-business-cycle-and-sectors.md
+          - "QE, QT and liquidity": 11-macro-and-economic-data/10-qe-qt-and-liquidity.md
+          - "The Bank of Canada and a macro week": 11-macro-and-economic-data/11-the-bank-of-canada-and-a-macro-week.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md
