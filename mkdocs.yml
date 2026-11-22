@@ -156,6 +156,15 @@ nav:
           - "Reviewing your trades": 04-psychology-journal-and-paper-trading/05-reviewing-your-trades.md
           - "Setting up paper trading": 04-psychology-journal-and-paper-trading/06-paper-trading-setup.md
           - "From paper to live trading": 04-psychology-journal-and-paper-trading/07-from-paper-to-live.md
+  - "Trading":
+      - "ICT and smart money concepts, tested":
+          - 06-ict-and-smart-money-tested/index.md
+          - "What ICT and smart money concepts claim": 06-ict-and-smart-money-tested/01-what-ict-and-smc-claim.md
+          - "Liquidity and stop runs": 06-ict-and-smart-money-tested/02-liquidity-and-stop-runs.md
+          - "Fair value gaps": 06-ict-and-smart-money-tested/03-fair-value-gaps.md
+          - "Order blocks and breakers": 06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md
+          - "Sessions, kill zones and premium and discount": 06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md
+          - "Testing smart money claims": 06-ict-and-smart-money-tested/06-testing-smc-claims.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

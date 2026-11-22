@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 38 of 201. New lessons appear here as they are added.
+Lessons written so far: 44 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -55,3 +55,14 @@ Lessons written so far: 38 of 201. New lessons appear here as they are added.
 - [ ] [Reviewing your trades](04-psychology-journal-and-paper-trading/05-reviewing-your-trades.md) (skill)
 - [ ] [Setting up paper trading](04-psychology-journal-and-paper-trading/06-paper-trading-setup.md) (skill)
 - [ ] [From paper to live trading](04-psychology-journal-and-paper-trading/07-from-paper-to-live.md) (skill, review)
+
+## Trading
+
+### Part 6: ICT and smart money concepts, tested
+
+- [ ] [What ICT and smart money concepts claim](06-ict-and-smart-money-tested/01-what-ict-and-smc-claim.md) (idea)
+- [ ] [Liquidity and stop runs](06-ict-and-smart-money-tested/02-liquidity-and-stop-runs.md) (strategy)
+- [ ] [Fair value gaps](06-ict-and-smart-money-tested/03-fair-value-gaps.md) (strategy)
+- [ ] [Order blocks and breakers](06-ict-and-smart-money-tested/04-order-blocks-and-breakers.md) (strategy)
+- [ ] [Sessions, kill zones and premium and discount](06-ict-and-smart-money-tested/05-sessions-kill-zones-and-premium-discount.md) (strategy)
+- [ ] [Testing smart money claims](06-ict-and-smart-money-tested/06-testing-smc-claims.md) (data, review)

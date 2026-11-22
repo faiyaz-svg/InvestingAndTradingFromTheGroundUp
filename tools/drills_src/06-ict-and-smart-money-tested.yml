@@ -1,0 +1,239 @@
+# Chart drills for part 6. Answers come from tools/make_charts.py output and the JSON files.
+- id: ict-eqh-level
+  chart: |
+    data: 06-ict-and-smart-money-tested/equal-highs-sweep.json
+    range: 2026-02-02 to 2026-02-25
+  q: "Two swing highs sit at nearly the same price. Click that level (the equal highs)."
+  type: level
+  answer: 55.01
+  tolerance: 0.3
+  explain: "The highs are 55.00 (February 16) and 55.02 (February 23), 0.04% apart. Stops from shorts and breakout buy orders rest just above them."
+  reveal: |
+    level: 55.02 | Equal highs
+
+- id: ict-swing-low-between
+  chart: |
+    data: 06-ict-and-smart-money-tested/equal-highs-sweep.json
+    range: 2026-02-09 to 2026-02-25
+  q: "Click the swing low between the two equal highs (the low of February 19)."
+  type: level
+  answer: 52.9
+  tolerance: 0.3
+  explain: "The low of February 19 is 52.90. A close below it, after the sweep, is the structure shift."
+  reveal: |
+    level: 52.90 | Swing low
+
+- id: ict-sweep-high
+  chart: |
+    data: 06-ict-and-smart-money-tested/equal-highs-sweep.json
+    marker: 2026-02-27 | above | Sweep bar
+  q: "How high did the bar of February 27 trade?"
+  type: number
+  answer: 55.4
+  tolerance: 0.05
+  unit: "US$"
+  explain: "The high is 55.40, 0.38 above the equal highs of 55.02. The close is 54.35."
+
+- id: ict-sweep-or-breakout
+  chart: |
+    data: 06-ict-and-smart-money-tested/equal-highs-sweep.json
+    level: 55.02 | Equal highs
+    marker: 2026-02-27 | above | Bar in question
+  q: "The February 27 bar trades to 55.40 and closes at 54.35. Is it a sweep or a breakout?"
+  type: choice
+  choices: ["A sweep: it traded through and closed back below", "A breakout: it traded through the highs", "Neither: it never reached the highs"]
+  answer_choice: 0
+  explain: "It traded above 55.02 and closed below it, which is the sweep rule. A close above 55.02 would have been a breakout."
+
+- id: ict-fvg-bull-bottom
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bullish.json
+    range: 2026-02-09 to 2026-02-27
+    marker: 2026-02-18 | below | Bar 1
+  q: "Three bars: bar 1 (February 18), a big bar 2, and bar 3 (February 20). Click the bottom edge of the gap, the high of bar 1."
+  type: level
+  answer: 50.9
+  tolerance: 0.3
+  explain: "Bar 1's high is 50.90. Bar 3's low is 52.30, so no other bar trades in that stretch except bar 2."
+  reveal: |
+    zone: 50.90-52.30 | 2026-02-18 to 2026-02-20 | Bullish FVG
+
+- id: ict-fvg-bull-top
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bullish.json
+    range: 2026-02-09 to 2026-02-27
+    marker: 2026-02-20 | below | Bar 3
+  q: "Click the top edge of the gap, the low of bar 3 (February 20)."
+  type: level
+  answer: 52.3
+  tolerance: 0.3
+  explain: "Bar 3's low is 52.30. The gap is 50.90 to 52.30."
+  reveal: |
+    zone: 50.90-52.30 | 2026-02-18 to 2026-02-20 | Bullish FVG
+
+- id: ict-fvg-bull-width
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bullish.json
+    range: 2026-02-09 to 2026-02-27
+  q: "Bar 1 has a high of 50.90 and bar 3 has a low of 52.30. How wide is the gap?"
+  type: number
+  answer: 1.4
+  tolerance: 0.05
+  unit: "US$"
+  explain: "52.30 - 50.90 = 1.40. The midpoint is 51.60."
+
+- id: ict-fvg-bear-top
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bearish.json
+    range: 2026-02-09 to 2026-02-27
+    marker: 2026-02-18 | above | Bar 1
+  q: "Click the top edge of this bearish gap, the low of bar 1 (February 18)."
+  type: level
+  answer: 55.1
+  tolerance: 0.3
+  explain: "Bar 1's low is 55.10. Bar 3's high is 53.60, so the gap is 53.60 to 55.10."
+  reveal: |
+    zone: 53.60-55.10 | 2026-02-18 to 2026-02-20 | Bearish FVG
+
+- id: ict-fvg-bear-bottom
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bearish.json
+    range: 2026-02-09 to 2026-02-27
+    marker: 2026-02-20 | above | Bar 3
+  q: "Click the bottom edge of the gap, the high of bar 3 (February 20)."
+  type: level
+  answer: 53.6
+  tolerance: 0.3
+  explain: "Bar 3's high is 53.60."
+  reveal: |
+    zone: 53.60-55.10 | 2026-02-18 to 2026-02-20 | Bearish FVG
+
+- id: ict-fvg-kind
+  chart: |
+    data: 06-ict-and-smart-money-tested/fvg-bearish.json
+    range: 2026-02-09 to 2026-02-27
+  q: "Bar 1 (February 18) has a low of 55.10 and bar 3 (February 20) has a high of 53.60. What kind of gap is it?"
+  type: choice
+  choices: ["Bullish: bar 1 high is below bar 3 low", "Bearish: bar 1 low is above bar 3 high", "No gap: the bars overlap"]
+  answer_choice: 1
+  explain: "Bar 1's low (55.10) is above bar 3's high (53.60), so it is bearish."
+
+- id: ict-ob-top
+  chart: |
+    data: 06-ict-and-smart-money-tested/order-block.json
+    range: 2026-02-02 to 2026-02-17
+  q: "The price jumps and breaks the swing high of 52.66. Click the top of the body of the last down candle before the jump (February 12)."
+  type: level
+  answer: 51.7
+  tolerance: 0.25
+  explain: "The February 12 candle opens at 51.70 and closes at 51.00. Its body is 51.00 to 51.70."
+  reveal: |
+    zone: 51.00-51.70 | 2026-02-12 to 2026-02-17 | Order block
+
+- id: ict-ob-which
+  chart: |
+    data: 06-ict-and-smart-money-tested/order-block.json
+    range: 2026-02-02 to 2026-02-17
+    level: 52.66 | Swing high
+  q: "Which candle is the bullish order block?"
+  type: choice
+  choices: ["February 10", "February 11", "February 12", "February 13"]
+  answer_choice: 2
+  explain: "February 12 is the last down candle before the displacement bar of February 13, which closes at 53.20, above 52.66."
+
+- id: ict-breaker-role
+  chart: |
+    data: 06-ict-and-smart-money-tested/breaker-block.json
+    range: 2026-02-09 to 2026-02-26
+    zone: 51.00-51.70 | 2026-02-12 to 2026-02-23 | Former bullish block
+  q: "On February 23 a bar closes at 49.80, below the block. What do teachers call the block now, and what role does it play?"
+  type: choice
+  choices: ["A breaker, treated as resistance", "A breaker, treated as support", "A fair value gap", "Nothing: it stays support"]
+  answer_choice: 0
+  explain: "A bullish block that price closes through is a breaker. It is treated as resistance when price returns from below."
+
+- id: ict-bos-level
+  chart: |
+    data: 06-ict-and-smart-money-tested/bos-choch.json
+    range: 2026-02-02 to 2026-02-23
+  q: "Click the first swing high (the high of February 11). A close above it is the first break of structure."
+  type: level
+  answer: 54.37
+  tolerance: 0.3
+  explain: "The swing high is 54.37. The first close above it is 54.57 on February 24."
+  reveal: |
+    level: 54.37 | Swing high 1
+
+- id: ict-choch-level
+  chart: |
+    data: 06-ict-and-smart-money-tested/bos-choch.json
+    range: 2026-02-16 to 2026-03-27
+  q: "The trend is up. Click the last higher low (the low of March 11). A close below it is a change of character."
+  type: level
+  answer: 54.59
+  tolerance: 0.3
+  explain: "The higher low is 54.59. On March 30 the close is 54.42, below it."
+  reveal: |
+    level: 54.59 | Higher low
+
+- id: ict-choch-or-bos
+  chart: |
+    data: 06-ict-and-smart-money-tested/bos-choch.json
+    range: 2026-02-16 to 2026-04-02
+    level: 54.59 | Higher low
+    marker: 2026-03-30 | above | Close 54.42
+  q: "In an uptrend, a bar closes at 54.42, below the last higher low of 54.59. What is it?"
+  type: choice
+  choices: ["Break of structure (with the trend)", "Change of character (against the trend)", "A sweep"]
+  answer_choice: 1
+  explain: "A close below the last higher low in an uptrend is the first break against the trend: a change of character."
+
+- id: ict-ny-range-low
+  chart: |
+    data: 06-ict-and-smart-money-tested/ny-open-5m.json
+    range: 2026-03-02 09:30 to 2026-03-02 10:05
+  q: "The first six bars (9:30 to 9:55) set the opening range. Click the low of that range."
+  type: level
+  answer: 99.7
+  tolerance: 0.15
+  explain: "The range is 99.70 to 100.90. The 10:10 bar later trades to 99.40, below the range low, and closes back at 99.50 then 99.90 inside."
+  reveal: |
+    level: 99.70 | Range low
+
+- id: ict-ny-range-width
+  chart: |
+    data: 06-ict-and-smart-money-tested/ny-open-5m.json
+    range: 2026-03-02 09:30 to 2026-03-02 10:05
+  q: "The opening range runs from its low to its high (100.90). How wide is it?"
+  type: number
+  answer: 1.2
+  tolerance: 0.05
+  unit: "US$"
+  explain: "100.90 - 99.70 = 1.20."
+
+- id: ict-pd-equilibrium
+  chart: |
+    data: 06-ict-and-smart-money-tested/premium-discount.json
+    range: 2026-02-02 to 2026-03-12
+    level: 60.00 | Swing high
+    level: 50.00 | Swing low
+  q: "The swing runs from 50.00 to 60.00. Click the equilibrium, the 50% level."
+  type: level
+  answer: 55
+  tolerance: 0.4
+  explain: "50.00 + 0.5 x 10.00 = 55.00. Above it is premium and below it is discount."
+  reveal: |
+    level: 55.00 | Equilibrium
+
+- id: ict-ote-62
+  chart: |
+    data: 06-ict-and-smart-money-tested/premium-discount.json
+    range: 2026-02-02 to 2026-03-12
+    level: 60.00 | Swing high
+    level: 50.00 | Swing low
+  q: "Where is the 62% retracement of the swing, measured down from 60.00?"
+  type: number
+  answer: 53.8
+  tolerance: 0.05
+  unit: "US$"
+  explain: "60.00 - 0.62 x 10.00 = 53.80. The 79% level is 52.10, so the OTE zone is 52.10 to 53.80."
