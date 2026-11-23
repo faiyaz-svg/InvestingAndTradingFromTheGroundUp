@@ -169,4 +169,4 @@ This sets paper block 4 of [paper trading](../practice/paper-trading.md): 10 mic
 - **SXM**: the mini S&P/TSX 60 index future, worth C$50 per index point.
 - **Canadian Derivatives Clearing Corporation**: the clearinghouse for Montreal Exchange contracts.
 
-Next: Calls and puts<!-- link: ../15-options/01-calls-and-puts.md -->
+Next: [Calls and puts](../15-options/01-calls-and-puts.md)

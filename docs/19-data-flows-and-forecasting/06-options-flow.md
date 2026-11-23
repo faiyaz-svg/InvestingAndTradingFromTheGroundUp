@@ -62,7 +62,7 @@ Every branch ends in an unknown, which is why a single print is weak evidence.
 
 ### For Canadians
 
-Flow screens cover US-listed options. Whether you can trade options in a TFSA, RRSP or FHSA, and which strategies your broker permits, is covered in part 15 (Options in Canadian accounts<!-- link: ../15-options/15-options-in-canadian-accounts.md -->).
+Flow screens cover US-listed options. Whether you can trade options in a TFSA, RRSP or FHSA, and which strategies your broker permits, is covered in part 15 ([Options in Canadian accounts](../15-options/15-options-in-canadian-accounts.md)).
 
 </div>
 

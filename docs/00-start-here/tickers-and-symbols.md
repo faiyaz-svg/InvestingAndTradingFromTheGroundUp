@@ -40,7 +40,7 @@ The format is described on [IBKR's symbology page](https://ibkb.interactivebroke
 
 The root is STKA plus two spaces, padding it to six characters. The expiry is 261218, which is December 18, 2026. The C means a call. The strike is 00050000, which is 50,000 divided by 1,000, so US$50.00. Many platforms drop the spaces and show STKA261218C00050000. A strike of US$12.50 would be 00012500.
 
-Options are taught in part 15, starting with The options chain and moneyness<!-- link: ../15-options/03-the-chain-and-moneyness.md -->.
+Options are taught in part 15, starting with [The options chain and moneyness](../15-options/03-the-chain-and-moneyness.md).
 
 ## Futures symbols
 

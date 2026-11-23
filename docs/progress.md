@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 153 of 201. New lessons appear here as they are added.
+Lessons written so far: 168 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -180,6 +180,24 @@ Lessons written so far: 153 of 201. New lessons appear here as they are added.
 - [ ] [Contango, backwardation and basis](14-futures/05-contango-backwardation-and-basis.md) (idea)
 - [ ] [Futures hours and sessions](14-futures/06-futures-hours-and-sessions.md) (skill)
 - [ ] [Futures in Canada](14-futures/07-futures-in-canada.md) (canada, review)
+
+### Part 15: Options
+
+- [ ] [Calls and puts](15-options/01-calls-and-puts.md) (idea)
+- [ ] [Payoff diagrams](15-options/02-payoff-diagrams.md) (skill)
+- [ ] [The options chain and moneyness](15-options/03-the-chain-and-moneyness.md) (skill)
+- [ ] [What sets an option's price](15-options/04-what-sets-an-option-price.md) (idea)
+- [ ] [Put-call parity](15-options/05-put-call-parity.md) (idea)
+- [ ] [Delta and gamma](15-options/06-delta-and-gamma.md) (idea)
+- [ ] [Theta, vega and rho](15-options/07-theta-vega-and-rho.md) (idea)
+- [ ] [Implied volatility](15-options/08-implied-volatility.md) (idea)
+- [ ] [Covered calls and cash-secured puts](15-options/09-covered-calls-and-cash-secured-puts.md) (strategy)
+- [ ] [Vertical spreads](15-options/10-vertical-spreads.md) (strategy)
+- [ ] [Straddles and strangles](15-options/11-straddles-and-strangles.md) (strategy)
+- [ ] [Iron condors and butterflies](15-options/12-iron-condors-and-butterflies.md) (strategy)
+- [ ] [Calendars and diagonals](15-options/13-calendars-and-diagonals.md) (strategy)
+- [ ] [Assignment, exercise and 0DTE](15-options/14-assignment-exercise-and-0dte.md) (skill)
+- [ ] [Options in Canadian accounts](15-options/15-options-in-canadian-accounts.md) (canada, review)
 
 ## Markets, data and quant
 

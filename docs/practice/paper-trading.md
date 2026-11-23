@@ -40,7 +40,7 @@ The book sets six paper blocks. Each is a fixed number of trades of one kind, wi
 | 2 | [A weekly swing routine](../07-swing-trading/09-weekly-swing-routine.md) (part 7) | 20 swing trades, one setup | Run the weekly routine and collect a by-setup record. |
 | 3 | [A day trading routine and limits](../08-day-trading/09-day-trading-routine-and-limits.md) (part 8) | 20 day trades, one setup | Add costs and slippage, and keep the daily loss limit. |
 | 4 | [Futures in Canada](../14-futures/07-futures-in-canada.md) (part 14) | 10 micro futures trades | Check tick value, margin and sizing before real contracts. |
-| 5 | Options in Canadian accounts<!-- link: ../15-options/15-options-in-canadian-accounts.md --> (part 15) | 10 defined-risk option trades | Size by maximum loss and follow each trade to exit or expiry. |
+| 5 | [Options in Canadian accounts](../15-options/15-options-in-canadian-accounts.md) (part 15) | 10 defined-risk option trades | Size by maximum loss and follow each trade to exit or expiry. |
 | 6 | Opex, gamma and index rebalances<!-- link: ../16-volatility-and-event-trading/06-opex-gamma-and-index-rebalances.md --> (part 16) | 10 event trades | Plan the event, the size and the exit before it happens. |
 
 The trade counts are the book's own example numbers, not tested standards. Block 1 is a first step: the go-live criteria below ask for 30 trades of one setup, so keep going past 20 if you are not there yet. Change them in your plan if you have a reason, and write the reason down.
