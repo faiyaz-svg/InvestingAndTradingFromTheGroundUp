@@ -1,0 +1,61 @@
+date,question,forecast,outcome
+2026-01-05,Stock A closes the week above its Monday open,0.2,0
+2026-01-09,Stock B reports revenue above the consensus figure,0.9,1
+2026-01-14,Stock A gaps up at the open after earnings,0.7,0
+2026-01-20,Stock B ends the month above its 50-day average,0.2,0
+2026-01-24,Stock A closes the week above its Monday open,0.6,1
+2026-01-29,Stock B reports revenue above the consensus figure,0.3,0
+2026-02-04,Stock A gaps up at the open after earnings,0.1,0
+2026-02-08,Stock B ends the month above its 50-day average,0.6,0
+2026-02-13,Stock A closes the week above its Monday open,0.3,1
+2026-02-19,Stock B reports revenue above the consensus figure,0.7,1
+2026-02-23,Stock A gaps up at the open after earnings,0.8,1
+2026-02-28,Stock B ends the month above its 50-day average,0.7,0
+2026-03-06,Stock A closes the week above its Monday open,0.1,0
+2026-03-10,Stock B reports revenue above the consensus figure,0.4,1
+2026-03-15,Stock A gaps up at the open after earnings,0.8,1
+2026-03-21,Stock B ends the month above its 50-day average,0.1,1
+2026-03-25,Stock A closes the week above its Monday open,0.9,0
+2026-03-30,Stock B reports revenue above the consensus figure,0.7,1
+2026-04-05,Stock A gaps up at the open after earnings,0.9,0
+2026-04-09,Stock B ends the month above its 50-day average,0.3,0
+2026-04-14,Stock A closes the week above its Monday open,0.1,0
+2026-04-20,Stock B reports revenue above the consensus figure,0.9,1
+2026-04-24,Stock A gaps up at the open after earnings,0.3,0
+2026-04-29,Stock B ends the month above its 50-day average,0.9,1
+2026-05-05,Stock A closes the week above its Monday open,0.7,0
+2026-05-09,Stock B reports revenue above the consensus figure,0.2,0
+2026-05-14,Stock A gaps up at the open after earnings,0.9,0
+2026-05-20,Stock B ends the month above its 50-day average,0.2,0
+2026-05-24,Stock A closes the week above its Monday open,0.6,1
+2026-05-29,Stock B reports revenue above the consensus figure,0.6,1
+2026-06-04,Stock A gaps up at the open after earnings,0.8,0
+2026-06-08,Stock B ends the month above its 50-day average,0.8,1
+2026-06-13,Stock A closes the week above its Monday open,0.7,0
+2026-06-19,Stock B reports revenue above the consensus figure,0.8,0
+2026-06-23,Stock A gaps up at the open after earnings,0.6,1
+2026-06-28,Stock B ends the month above its 50-day average,0.7,1
+2026-07-04,Stock A closes the week above its Monday open,0.3,0
+2026-07-08,Stock B reports revenue above the consensus figure,0.8,0
+2026-07-13,Stock A gaps up at the open after earnings,0.8,1
+2026-07-19,Stock B ends the month above its 50-day average,0.1,0
+2026-07-23,Stock A closes the week above its Monday open,0.1,0
+2026-07-28,Stock B reports revenue above the consensus figure,0.4,0
+2026-08-03,Stock A gaps up at the open after earnings,0.3,1
+2026-08-07,Stock B ends the month above its 50-day average,0.2,0
+2026-08-12,Stock A closes the week above its Monday open,0.8,1
+2026-08-18,Stock B reports revenue above the consensus figure,0.1,0
+2026-08-22,Stock A gaps up at the open after earnings,0.7,1
+2026-08-27,Stock B ends the month above its 50-day average,0.9,1
+2026-09-02,Stock A closes the week above its Monday open,0.1,0
+2026-09-06,Stock B reports revenue above the consensus figure,0.6,1
+2026-09-11,Stock A gaps up at the open after earnings,0.4,0
+2026-09-17,Stock B ends the month above its 50-day average,0.9,1
+2026-09-21,Stock A closes the week above its Monday open,0.9,1
+2026-09-26,Stock B reports revenue above the consensus figure,0.6,1
+2026-10-02,Stock A gaps up at the open after earnings,0.8,0
+2026-10-06,Stock B ends the month above its 50-day average,0.3,0
+2026-10-11,Stock A closes the week above its Monday open,0.1,1
+2026-10-17,Stock B reports revenue above the consensus figure,0.6,1
+2026-10-21,Stock A gaps up at the open after earnings,0.4,1
+2026-10-26,Stock B ends the month above its 50-day average,0.6,0

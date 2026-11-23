@@ -280,6 +280,16 @@ nav:
           - "REITs explained": 17-commodities-forex-and-reits/07-reits-explained.md
           - "REIT metrics: FFO and cap rates": 17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md
           - "Rates and real estate": 17-commodities-forex-and-reits/09-rates-and-real-estate.md
+      - "Data, flows and forecasting":
+          - 19-data-flows-and-forecasting/index.md
+          - "Free data sources and their licences": 19-data-flows-and-forecasting/01-free-data-sources.md
+          - "Insider trades and Form 4": 19-data-flows-and-forecasting/02-insider-trades-form-4.md
+          - "13F holdings": 19-data-flows-and-forecasting/03-13f-holdings.md
+          - "Short interest and borrow": 19-data-flows-and-forecasting/04-short-interest-and-borrow.md
+          - "The Commitments of Traders report": 19-data-flows-and-forecasting/05-commitments-of-traders.md
+          - "Options flow": 19-data-flows-and-forecasting/06-options-flow.md
+          - "Base rates, calibration and forecast logs": 19-data-flows-and-forecasting/07-base-rates-calibration-and-forecast-logs.md
+          - "Prediction markets": 19-data-flows-and-forecasting/08-prediction-markets.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

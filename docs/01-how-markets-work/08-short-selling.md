@@ -60,7 +60,7 @@ A long position can lose at most what you paid, because a stock cannot go below 
 
 The short's best case is US$5,000 (the price goes to zero), but its loss line keeps going.
 
-A **short squeeze** happens when a rising price forces shorts to cover. Covering is a purchase, and many purchases at once push the price up further, which forces more covering. **Short interest** is the number of shares sold short; dividing it by the stock's average daily volume gives **days to cover**, a rough measure of how long it would take shorts to exit. Part 19 covers the data (Short interest and borrow<!-- link: ../19-data-flows-and-forecasting/04-short-interest-and-borrow.md -->).
+A **short squeeze** happens when a rising price forces shorts to cover. Covering is a purchase, and many purchases at once push the price up further, which forces more covering. **Short interest** is the number of shares sold short; dividing it by the stock's average daily volume gives **days to cover**, a rough measure of how long it would take shorts to exit. Part 19 covers the data ([Short interest and borrow](../19-data-flows-and-forecasting/04-short-interest-and-borrow.md)).
 
 ### Rules that limit shorting
 

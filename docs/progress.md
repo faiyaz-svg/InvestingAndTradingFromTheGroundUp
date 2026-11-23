@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 136 of 201. New lessons appear here as they are added.
+Lessons written so far: 144 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -194,3 +194,14 @@ Lessons written so far: 136 of 201. New lessons appear here as they are added.
 - [ ] [REITs explained](17-commodities-forex-and-reits/07-reits-explained.md) (idea)
 - [ ] [REIT metrics: FFO and cap rates](17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md) (data)
 - [ ] [Rates and real estate](17-commodities-forex-and-reits/09-rates-and-real-estate.md) (idea, review)
+
+### Part 19: Data, flows and forecasting
+
+- [ ] [Free data sources and their licences](19-data-flows-and-forecasting/01-free-data-sources.md) (data)
+- [ ] [Insider trades and Form 4](19-data-flows-and-forecasting/02-insider-trades-form-4.md) (data)
+- [ ] [13F holdings](19-data-flows-and-forecasting/03-13f-holdings.md) (data)
+- [ ] [Short interest and borrow](19-data-flows-and-forecasting/04-short-interest-and-borrow.md) (data)
+- [ ] [The Commitments of Traders report](19-data-flows-and-forecasting/05-commitments-of-traders.md) (data)
+- [ ] [Options flow](19-data-flows-and-forecasting/06-options-flow.md) (data)
+- [ ] [Base rates, calibration and forecast logs](19-data-flows-and-forecasting/07-base-rates-calibration-and-forecast-logs.md) (skill)
+- [ ] [Prediction markets](19-data-flows-and-forecasting/08-prediction-markets.md) (idea, review)
