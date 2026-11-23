@@ -62,6 +62,7 @@ HEADING_OK = {
     "Coinbase", "Kraken", "Kalshi", "Polymarket", "Fama", "French", "Markowitz", "Sharpe", "Sortino",
     "Monte", "Carlo", "Taylor", "Phillips", "Sahm", "Beige", "Book", "Powell", "Volcker", "Lehman",
     "Brothers", "Bear", "Stearns", "Enron", "FTX", "Terra", "Luna", "Tether", "Circle", "Binance",
+    "US-listed", "Canadian-listed", "US-based", "Canadian-based",
     "Math", "From", "Ground", "Up", "VS", "Code", "Zensical", "Mermaid", "KaTeX", "Lightweight", "Charts",
     "Plex", "IBM", "Anki", "Windows", "Mac", "Linux", "Chrome", "Edge", "Firefox", "Android", "iPhone",
     "Yahoo", "Finance", "Investor's", "Business", "Daily", "Barron's", "Reuters", "Morningstar", "Vanguard",

@@ -342,7 +342,20 @@ nav:
           - "Quant interviews": 22-careers-interviews-and-ai/07-quant-interviews.md
           - "AI for market research": 22-careers-interviews-and-ai/08-ai-for-market-research.md
   - Practice:
+      - practice/index.md
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md
       - "Trade journal": practice/trade-journal.md
+  - Reference:
+      - reference/index.md
+      - "Glossary": reference/glossary.md
+      - "Formulas": reference/formulas.md
+      - "Ratios": reference/ratios.md
+      - "Order types": reference/order-types.md
+      - "Economic calendar": reference/economic-calendar.md
+      - "Options strategies": reference/options-strategies.md
+      - "Futures contract specs": reference/futures-contract-specs.md
+      - "Canadian tax quick reference": reference/canadian-tax-quick-reference.md
+      - "Data sources": reference/data-sources.md
+      - "Common mistakes": reference/common-mistakes.md
 # nav:end
