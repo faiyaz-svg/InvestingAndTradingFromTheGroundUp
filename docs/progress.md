@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 178 of 201. New lessons appear here as they are added.
+Lessons written so far: 186 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -248,3 +248,16 @@ Lessons written so far: 178 of 201. New lessons appear here as they are added.
 - [ ] [Backtesting concepts and biases](20-quant-track-in-python/08-backtesting-concepts-and-biases.md) (idea)
 - [ ] [Overfitting and out-of-sample testing](20-quant-track-in-python/09-overfitting-and-out-of-sample.md) (idea)
 - [ ] [Performance metrics](20-quant-track-in-python/10-performance-metrics.md) (code, review)
+
+## History and careers
+
+### Part 22: Careers, interviews and AI
+
+- [ ] [The map of finance jobs](22-careers-interviews-and-ai/01-the-map-of-finance-jobs.md) (career)
+- [ ] [Licences and designations](22-careers-interviews-and-ai/02-licences-and-designations.md) (career)
+- [ ] [Building a track record](22-careers-interviews-and-ai/03-building-a-track-record.md) (career)
+- [ ] [Market and stock pitch interviews](22-careers-interviews-and-ai/04-market-and-stock-pitch-interviews.md) (career)
+- [ ] [Accounting and valuation interview questions](22-careers-interviews-and-ai/05-accounting-and-valuation-questions.md) (career)
+- [ ] [Probability and mental math puzzles](22-careers-interviews-and-ai/06-probability-and-mental-math-puzzles.md) (career)
+- [ ] [Quant interviews](22-careers-interviews-and-ai/07-quant-interviews.md) (career)
+- [ ] [AI for market research](22-careers-interviews-and-ai/08-ai-for-market-research.md) (career, review)

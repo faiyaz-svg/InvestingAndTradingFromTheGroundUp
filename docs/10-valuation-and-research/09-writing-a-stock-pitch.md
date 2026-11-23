@@ -63,7 +63,7 @@ Conclusion. A good company at a price that already pays for the bull case. Pass 
 - The "change my mind" line has numbers and dates, and it is written before you buy. People rarely abandon an idea they own without a rule set in advance ([Rules and checklists](../04-psychology-journal-and-paper-trading/03-rules-and-checklists.md)).
 - It says what was assumed about the discount rate and the terminal value, since most of the value sits there (lesson 5).
 
-Pitches are also an interview task. Market and stock pitch interviews<!-- link: ../22-careers-interviews-and-ai/04-market-and-stock-pitch-interviews.md --> covers how to give one aloud.
+Pitches are also an interview task. [Market and stock pitch interviews](../22-careers-interviews-and-ai/04-market-and-stock-pitch-interviews.md) covers how to give one aloud.
 
 ## Common mistakes
 

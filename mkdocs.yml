@@ -330,6 +330,17 @@ nav:
           - "Backtesting concepts and biases": 20-quant-track-in-python/08-backtesting-concepts-and-biases.md
           - "Overfitting and out-of-sample testing": 20-quant-track-in-python/09-overfitting-and-out-of-sample.md
           - "Performance metrics": 20-quant-track-in-python/10-performance-metrics.md
+  - "History and careers":
+      - "Careers, interviews and AI":
+          - 22-careers-interviews-and-ai/index.md
+          - "The map of finance jobs": 22-careers-interviews-and-ai/01-the-map-of-finance-jobs.md
+          - "Licences and designations": 22-careers-interviews-and-ai/02-licences-and-designations.md
+          - "Building a track record": 22-careers-interviews-and-ai/03-building-a-track-record.md
+          - "Market and stock pitch interviews": 22-careers-interviews-and-ai/04-market-and-stock-pitch-interviews.md
+          - "Accounting and valuation interview questions": 22-careers-interviews-and-ai/05-accounting-and-valuation-questions.md
+          - "Probability and mental math puzzles": 22-careers-interviews-and-ai/06-probability-and-mental-math-puzzles.md
+          - "Quant interviews": 22-careers-interviews-and-ai/07-quant-interviews.md
+          - "AI for market research": 22-careers-interviews-and-ai/08-ai-for-market-research.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md
