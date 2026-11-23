@@ -318,6 +318,18 @@ nav:
           - "Options flow": 19-data-flows-and-forecasting/06-options-flow.md
           - "Base rates, calibration and forecast logs": 19-data-flows-and-forecasting/07-base-rates-calibration-and-forecast-logs.md
           - "Prediction markets": 19-data-flows-and-forecasting/08-prediction-markets.md
+      - "Quant track in Python":
+          - 20-quant-track-in-python/index.md
+          - "Python and pandas for prices": 20-quant-track-in-python/01-python-and-pandas-for-prices.md
+          - "Returns and volatility in pandas": 20-quant-track-in-python/02-returns-and-volatility.md
+          - "Indicators in pandas": 20-quant-track-in-python/03-indicators-in-pandas.md
+          - "Fundamentals from EDGAR": 20-quant-track-in-python/04-fundamentals-from-edgar.md
+          - "Macro data from FRED and Treasury": 20-quant-track-in-python/05-macro-data-from-fred-and-treasury.md
+          - "Correlation, beta and regression": 20-quant-track-in-python/06-correlation-beta-and-regression.md
+          - "Factor sorts": 20-quant-track-in-python/07-factor-sorts.md
+          - "Backtesting concepts and biases": 20-quant-track-in-python/08-backtesting-concepts-and-biases.md
+          - "Overfitting and out-of-sample testing": 20-quant-track-in-python/09-overfitting-and-out-of-sample.md
+          - "Performance metrics": 20-quant-track-in-python/10-performance-metrics.md
   - Practice:
       - "Chart drills": practice/chart-drills.md
       - "Paper trading": practice/paper-trading.md

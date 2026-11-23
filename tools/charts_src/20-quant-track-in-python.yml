@@ -1,0 +1,16 @@
+# Part 20, Quant track in Python. All prices are made up.
+# index-x-3y is the market for the made-up universe: tools/figures/20-quant-track-in-python/make_data.py
+# reads docs/assets/data/index-x-3y.csv and builds stock-01 to stock-10 from it (run make_charts.py first).
+- name: index-x-3y
+  seed: 2001
+  csv: index-x-3y
+  tf: D
+  start: 2023-01-02
+  price: 4000
+  volume: 3000000
+  segments:
+    - {kind: trend, bars: 250, drift: 0.0005, vol: 0.0085}
+    - {kind: trend, bars: 60, drift: -0.0016, vol: 0.0115}
+    - {kind: trend, bars: 200, drift: 0.0006, vol: 0.0085}
+    - {kind: trend, bars: 120, drift: -0.0002, vol: 0.0100}
+    - {kind: trend, bars: 152, drift: 0.0007, vol: 0.0085}

@@ -65,7 +65,7 @@ Two findings stand out. The Breakout setup lost money overall while Pullback mad
 
 Now the limit. With 20 trades the average of +0.31R has a standard deviation of 1.65R, so its standard error (the typical size of the gap between a sample average and the true average) is 1.65 / sqrt(20) = 0.37R. A rough 95% interval is 0.31 plus or minus 1.96 x 0.37, which runs from -0.42R to +1.04R. It includes zero. Ten trades per setup is a smaller sample still, so the Breakout result of -0.13R is not evidence that the setup is bad, and the Pullback result of +0.75R is not evidence that it is good. The math book covers [confidence intervals](https://faiyaz-svg.github.io/MathFromTheGroundUp/05-university-core/08-statistics/02-confidence-intervals/) if you want the formula.
 
-What the review can do with a sample this small is find mistakes of process: a stop that moved, an early exit, a trade taken with no setup. Those are visible in a few trades. Whether a setup has an edge needs more trades than a month of journaling gives you, and Part 20 covers testing as a concept (Backtesting concepts and biases<!-- link: ../20-quant-track-in-python/08-backtesting-concepts-and-biases.md -->).
+What the review can do with a sample this small is find mistakes of process: a stop that moved, an early exit, a trade taken with no setup. Those are visible in a few trades. Whether a setup has an edge needs more trades than a month of journaling gives you, and Part 20 covers testing as a concept ([Backtesting concepts and biases](../20-quant-track-in-python/08-backtesting-concepts-and-biases.md)).
 
 <details class="code" markdown>
 <summary>In code</summary>

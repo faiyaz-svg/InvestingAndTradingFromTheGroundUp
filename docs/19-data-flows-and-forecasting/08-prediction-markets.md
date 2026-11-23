@@ -187,4 +187,4 @@ All-in cost 0.42. EV = 0.50 - 0.42 = +US$0.08. The break-even probability is 42%
 - **Maker**: the trader who posts a resting order.
 - **Taker**: the trader who trades against a resting order and pays the spread.
 
-Next: Python and pandas for prices<!-- link: ../20-quant-track-in-python/01-python-and-pandas-for-prices.md -->
+Next: [Python and pandas for prices](../20-quant-track-in-python/01-python-and-pandas-for-prices.md)

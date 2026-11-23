@@ -68,7 +68,7 @@ A win rate measured on few trades is noisy. The standard error of a proportion i
 
 where \(n\) is the number of trades. For the journal above, SE = sqrt(0.45 x 0.55 / 40) = 0.0787, or 7.9 percentage points. A 95% confidence interval is about the win rate plus or minus 1.96 standard errors: 45% plus or minus 15.4 points, from 29.6% to 60.4%. That range includes the 33.3% break-even rate. Forty trades cannot tell you that the edge is real. The math book covers the idea in [confidence intervals](https://faiyaz-svg.github.io/MathFromTheGroundUp/05-university-core/08-statistics/02-confidence-intervals/).
 
-Expectancy also assumes the future looks like the past. A strategy that worked in a calm market can change its win rate and payoff when volatility changes. Treat expectancy as an estimate with error bars, not as a fact. Part 20 returns to how tests mislead (Backtesting concepts and biases<!-- link: ../20-quant-track-in-python/08-backtesting-concepts-and-biases.md -->).
+Expectancy also assumes the future looks like the past. A strategy that worked in a calm market can change its win rate and payoff when volatility changes. Treat expectancy as an estimate with error bars, not as a fact. Part 20 returns to how tests mislead ([Backtesting concepts and biases](../20-quant-track-in-python/08-backtesting-concepts-and-biases.md)).
 
 ## In code
 

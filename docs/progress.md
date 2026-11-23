@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 168 of 201. New lessons appear here as they are added.
+Lessons written so far: 178 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -235,3 +235,16 @@ Lessons written so far: 168 of 201. New lessons appear here as they are added.
 - [ ] [Options flow](19-data-flows-and-forecasting/06-options-flow.md) (data)
 - [ ] [Base rates, calibration and forecast logs](19-data-flows-and-forecasting/07-base-rates-calibration-and-forecast-logs.md) (skill)
 - [ ] [Prediction markets](19-data-flows-and-forecasting/08-prediction-markets.md) (idea, review)
+
+### Part 20: Quant track in Python
+
+- [ ] [Python and pandas for prices](20-quant-track-in-python/01-python-and-pandas-for-prices.md) (code)
+- [ ] [Returns and volatility in pandas](20-quant-track-in-python/02-returns-and-volatility.md) (code)
+- [ ] [Indicators in pandas](20-quant-track-in-python/03-indicators-in-pandas.md) (code)
+- [ ] [Fundamentals from EDGAR](20-quant-track-in-python/04-fundamentals-from-edgar.md) (code)
+- [ ] [Macro data from FRED and Treasury](20-quant-track-in-python/05-macro-data-from-fred-and-treasury.md) (code)
+- [ ] [Correlation, beta and regression](20-quant-track-in-python/06-correlation-beta-and-regression.md) (code)
+- [ ] [Factor sorts](20-quant-track-in-python/07-factor-sorts.md) (code)
+- [ ] [Backtesting concepts and biases](20-quant-track-in-python/08-backtesting-concepts-and-biases.md) (idea)
+- [ ] [Overfitting and out-of-sample testing](20-quant-track-in-python/09-overfitting-and-out-of-sample.md) (idea)
+- [ ] [Performance metrics](20-quant-track-in-python/10-performance-metrics.md) (code, review)

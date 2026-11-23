@@ -36,7 +36,7 @@ flowchart TD
 ```
 
 1. Write the rule before you look. Which bars count as a sweep, how large a displacement is, which candle is the block, which swing, which entry, stop and target. Every number is a parameter you must fix.
-2. Set aside the last part of the data (say the final third) and do not touch it until the rule is final. This is the out-of-sample period, covered in Overfitting and out-of-sample testing<!-- link: ../20-quant-track-in-python/09-overfitting-and-out-of-sample.md -->.
+2. Set aside the last part of the data (say the final third) and do not touch it until the rule is final. This is the out-of-sample period, covered in [Overfitting and out-of-sample testing](../20-quant-track-in-python/09-overfitting-and-out-of-sample.md).
 3. Count costs in R: spread, commission, and slippage on stop orders ([Slippage, gaps and costs](../03-risk-and-position-sizing/06-slippage-gaps-and-costs.md)).
 4. Compare with a baseline: the same entry, stop and target on random bars, on all bars, or the plain trend rule.
 5. Count every variant you tried, including the ones you dropped. With many rules tried, the best one looks good by chance. Sullivan, Timmermann and White (1999) used White's Reality Check, a method that adjusts a technical-rule result for the number of rules searched, on 100 years of Dow Jones data ([Journal of Finance 54(5), 1647-1691](https://doi.org/10.1111/0022-1082.00163)). Harvey, Liu and Zhu (2016, working-paper version 2014) argue that, because so many factors have been tried in research, a new one should clear a t-statistic of 3.0 and not the usual 2.0 ([NBER working paper 20592](https://nber.org/papers/w20592)).
@@ -47,7 +47,7 @@ The figure shows the fifth point with a simulation. Each rule is made-up noise w
 ![Best Sharpe ratio among N no-edge rules: 0.05 for one rule, 1.55 for 10, 2.48 for 100 and 3.28 for 1,000.](../assets/figures/06-ict-and-smart-money-tested/best-of-n-dark.svg#only-dark)
 ![Best Sharpe ratio among N no-edge rules: 0.05 for one rule, 1.55 for 10, 2.48 for 100 and 3.28 for 1,000.](../assets/figures/06-ict-and-smart-money-tested/best-of-n-light.svg#only-light)
 
-Trying 100 variants of a gap rule, a block rule and a session window is easy to do. The best of 100 no-edge rules has a Sharpe ratio near 2.5, which looks like skill. Part 20 covers this in more detail (Backtesting concepts and biases<!-- link: ../20-quant-track-in-python/08-backtesting-concepts-and-biases.md -->).
+Trying 100 variants of a gap rule, a block rule and a session window is easy to do. The best of 100 no-edge rules has a Sharpe ratio near 2.5, which looks like skill. Part 20 covers this in more detail ([Backtesting concepts and biases](../20-quant-track-in-python/08-backtesting-concepts-and-biases.md)).
 
 <div class="example" markdown>
 
