@@ -55,7 +55,7 @@ If yields fall 1.00 point instead, the estimate is +6.0% + 4.5% = +10.5%.
 
 </div>
 
-This is the lesson of 2022, when yields rose quickly and bond funds with long duration fell sharply. Part 21 covers it (The 2022 rate shock<!-- link: ../21-crashes-scams-and-case-studies/07-the-2022-rate-shock.md -->).
+This is the lesson of 2022, when yields rose quickly and bond funds with long duration fell sharply. Part 21 covers it ([The 2022 rate shock](../21-crashes-scams-and-case-studies/07-the-2022-rate-shock.md)).
 
 ### Rates against stocks
 

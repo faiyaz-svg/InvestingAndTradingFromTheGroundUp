@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 192 of 201. New lessons appear here as they are added.
+Lessons written so far: 201 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -259,6 +259,18 @@ Lessons written so far: 192 of 201. New lessons appear here as they are added.
 - [ ] [Performance metrics](20-quant-track-in-python/10-performance-metrics.md) (code, review)
 
 ## History and careers
+
+### Part 21: Crashes, scams and case studies
+
+- [ ] [1929 and 1987](21-crashes-scams-and-case-studies/01-1929-and-1987.md) (case study)
+- [ ] [LTCM and the dot-com bubble](21-crashes-scams-and-case-studies/02-ltcm-and-the-dot-com-bubble.md) (case study)
+- [ ] [The 2008 financial crisis](21-crashes-scams-and-case-studies/03-the-2008-crisis.md) (case study)
+- [ ] [The 2010 flash crash and the 2020 COVID crash](21-crashes-scams-and-case-studies/04-flash-crash-2010-and-covid-2020.md) (case study)
+- [ ] [GameStop and meme stocks](21-crashes-scams-and-case-studies/05-gamestop-and-meme-stocks.md) (case study)
+- [ ] [Archegos and SVB](21-crashes-scams-and-case-studies/06-archegos-and-svb.md) (case study)
+- [ ] [The 2022 rate shock](21-crashes-scams-and-case-studies/07-the-2022-rate-shock.md) (case study)
+- [ ] [Pump and dumps, finfluencers and signal groups](21-crashes-scams-and-case-studies/08-pump-and-dumps-finfluencers-and-signal-groups.md) (case study)
+- [ ] [Prop firms and checking registration](21-crashes-scams-and-case-studies/09-prop-firms-and-checking-registration.md) (canada, review)
 
 ### Part 22: Careers, interviews and AI
 

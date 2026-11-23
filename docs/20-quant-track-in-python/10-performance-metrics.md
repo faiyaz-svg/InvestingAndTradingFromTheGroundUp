@@ -231,4 +231,4 @@ Sharpe = (12 - 2) / 20 = 0.50. Calmar = 12 / 25 = 0.48.
 - **Calmar ratio**: CAGR divided by the size of the maximum drawdown.
 - **Hit rate**: the share of periods with a positive return.
 
-Next: 1929 and 1987<!-- link: ../21-crashes-scams-and-case-studies/01-1929-and-1987.md -->
+Next: [1929 and 1987](../21-crashes-scams-and-case-studies/01-1929-and-1987.md)

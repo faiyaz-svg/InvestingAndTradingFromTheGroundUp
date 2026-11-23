@@ -339,6 +339,17 @@ nav:
           - "Overfitting and out-of-sample testing": 20-quant-track-in-python/09-overfitting-and-out-of-sample.md
           - "Performance metrics": 20-quant-track-in-python/10-performance-metrics.md
   - "History and careers":
+      - "Crashes, scams and case studies":
+          - 21-crashes-scams-and-case-studies/index.md
+          - "1929 and 1987": 21-crashes-scams-and-case-studies/01-1929-and-1987.md
+          - "LTCM and the dot-com bubble": 21-crashes-scams-and-case-studies/02-ltcm-and-the-dot-com-bubble.md
+          - "The 2008 financial crisis": 21-crashes-scams-and-case-studies/03-the-2008-crisis.md
+          - "The 2010 flash crash and the 2020 COVID crash": 21-crashes-scams-and-case-studies/04-flash-crash-2010-and-covid-2020.md
+          - "GameStop and meme stocks": 21-crashes-scams-and-case-studies/05-gamestop-and-meme-stocks.md
+          - "Archegos and SVB": 21-crashes-scams-and-case-studies/06-archegos-and-svb.md
+          - "The 2022 rate shock": 21-crashes-scams-and-case-studies/07-the-2022-rate-shock.md
+          - "Pump and dumps, finfluencers and signal groups": 21-crashes-scams-and-case-studies/08-pump-and-dumps-finfluencers-and-signal-groups.md
+          - "Prop firms and checking registration": 21-crashes-scams-and-case-studies/09-prop-firms-and-checking-registration.md
       - "Careers, interviews and AI":
           - 22-careers-interviews-and-ai/index.md
           - "The map of finance jobs": 22-careers-interviews-and-ai/01-the-map-of-finance-jobs.md
@@ -365,5 +376,6 @@ nav:
       - "Futures contract specs": reference/futures-contract-specs.md
       - "Canadian tax quick reference": reference/canadian-tax-quick-reference.md
       - "Data sources": reference/data-sources.md
+      - "Case study timeline": reference/case-study-timeline.md
       - "Common mistakes": reference/common-mistakes.md
 # nav:end
