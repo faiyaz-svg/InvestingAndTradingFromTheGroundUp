@@ -178,4 +178,4 @@ This sets paper block 5 of [paper trading](../practice/paper-trading.md): 10 def
 - **Qualified investment**: an investment a registered plan such as a TFSA or RRSP may hold under the Income Tax Act.
 - **Uncovered option**: a short option with no shares, cash or long option behind it.
 
-Next: Realized and implied volatility<!-- link: ../16-volatility-and-event-trading/01-realized-vs-implied-volatility.md -->
+Next: [Realized and implied volatility](../16-volatility-and-event-trading/01-realized-vs-implied-volatility.md)

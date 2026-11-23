@@ -70,7 +70,7 @@ The stock closed that Thursday at 46.90, 6.2% below 50.00, on 4,050,000 shares a
 
 ### Why a beat can fall
 
-A price already holds what the market expects ([What a stock is and why prices move](../01-how-markets-work/01-what-a-stock-is.md)). The move is driven by everything new: the quarter, the guidance, margins, cash and the tone of the call. Here the guide mattered more than a three-cent beat. Some traders watch the **implied move**, the size of move that options prices suggest. Part 16 covers it (Earnings trades and IV crush<!-- link: ../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md -->).
+A price already holds what the market expects ([What a stock is and why prices move](../01-how-markets-work/01-what-a-stock-is.md)). The move is driven by everything new: the quarter, the guidance, margins, cash and the tone of the call. Here the guide mattered more than a three-cent beat. Some traders watch the **implied move**, the size of move that options prices suggest. Part 16 covers it ([Earnings trades and IV crush](../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md)).
 
 ### Listening to the call
 

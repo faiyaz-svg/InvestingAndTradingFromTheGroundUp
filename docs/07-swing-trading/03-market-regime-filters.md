@@ -45,7 +45,7 @@ The book's rule of thumb is: take pullback and breakout setups when more than ha
 
 ### Test 3: volatility
 
-Volatility is how much prices swing. The **VIX** is the Cboe's index of the market's expected 30-day volatility in the S&P 500, calculated from index option prices (part 16 explains it in The VIX and the term structure<!-- link: ../16-volatility-and-event-trading/02-the-vix-and-term-structure.md --> and builds the idea in Volatility regimes<!-- link: ../16-volatility-and-event-trading/03-volatility-regimes.md -->). A higher VIX means larger expected daily moves.
+Volatility is how much prices swing. The **VIX** is the Cboe's index of the market's expected 30-day volatility in the S&P 500, calculated from index option prices (part 16 explains it in [The VIX and the term structure](../16-volatility-and-event-trading/02-the-vix-and-term-structure.md) and builds the idea in [Volatility regimes](../16-volatility-and-event-trading/03-volatility-regimes.md)). A higher VIX means larger expected daily moves.
 
 You do not need a VIX cut-off. Position sizing already handles volatility: when ATR rises, your stop distance rises and your share count falls (part 3). The test adds a pause: when the index moves more than about 2% in a day several times in a week, wait before opening new trades.
 

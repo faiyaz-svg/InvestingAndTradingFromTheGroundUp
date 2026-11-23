@@ -285,6 +285,14 @@ nav:
           - "Calendars and diagonals": 15-options/13-calendars-and-diagonals.md
           - "Assignment, exercise and 0DTE": 15-options/14-assignment-exercise-and-0dte.md
           - "Options in Canadian accounts": 15-options/15-options-in-canadian-accounts.md
+      - "Volatility and event trading":
+          - 16-volatility-and-event-trading/index.md
+          - "Realized and implied volatility": 16-volatility-and-event-trading/01-realized-vs-implied-volatility.md
+          - "The VIX and the term structure": 16-volatility-and-event-trading/02-the-vix-and-term-structure.md
+          - "Volatility regimes": 16-volatility-and-event-trading/03-volatility-regimes.md
+          - "Earnings trades and IV crush": 16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md
+          - "FOMC, CPI and other data days": 16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md
+          - "Opex, gamma and index rebalances": 16-volatility-and-event-trading/06-opex-gamma-and-index-rebalances.md
   - "Markets, data and quant":
       - "Commodities, forex and REITs":
           - 17-commodities-forex-and-reits/index.md

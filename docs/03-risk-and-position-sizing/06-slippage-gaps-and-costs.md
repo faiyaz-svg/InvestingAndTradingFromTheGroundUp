@@ -46,7 +46,7 @@ range: 2026-03-23 to 2026-04-28
 caption: The close on April 15 was 48.20 and the open on April 16 was 45.10, which is 3.10 below the entry and 1.60 below the stop.
 ```
 
-A gap does not have to come from news, but news is the usual cause: an earnings report after the close, a rate decision, a lawsuit. If you hold through one, 1R is not your worst case. Part 16 covers trading around earnings (Earnings trades and IV crush<!-- link: ../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md -->).
+A gap does not have to come from news, but news is the usual cause: an earnings report after the close, a rate decision, a lawsuit. If you hold through one, 1R is not your worst case. Part 16 covers trading around earnings ([Earnings trades and IV crush](../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md)).
 
 To control gap risk, decide the loss you would take if a gap hit the stop, as well as the loss at the stop. If you think a stock can gap 2R through your stop, then risking 1% of the account can cost 2%. Risking 0.5% makes the gap loss 1%.
 

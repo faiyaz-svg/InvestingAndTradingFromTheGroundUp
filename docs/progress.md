@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 186 of 201. New lessons appear here as they are added.
+Lessons written so far: 192 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -198,6 +198,15 @@ Lessons written so far: 186 of 201. New lessons appear here as they are added.
 - [ ] [Calendars and diagonals](15-options/13-calendars-and-diagonals.md) (strategy)
 - [ ] [Assignment, exercise and 0DTE](15-options/14-assignment-exercise-and-0dte.md) (skill)
 - [ ] [Options in Canadian accounts](15-options/15-options-in-canadian-accounts.md) (canada, review)
+
+### Part 16: Volatility and event trading
+
+- [ ] [Realized and implied volatility](16-volatility-and-event-trading/01-realized-vs-implied-volatility.md) (idea)
+- [ ] [The VIX and the term structure](16-volatility-and-event-trading/02-the-vix-and-term-structure.md) (data)
+- [ ] [Volatility regimes](16-volatility-and-event-trading/03-volatility-regimes.md) (strategy)
+- [ ] [Earnings trades and IV crush](16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md) (strategy)
+- [ ] [FOMC, CPI and other data days](16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md) (strategy)
+- [ ] [Opex, gamma and index rebalances](16-volatility-and-event-trading/06-opex-gamma-and-index-rebalances.md) (strategy, review)
 
 ## Markets, data and quant
 

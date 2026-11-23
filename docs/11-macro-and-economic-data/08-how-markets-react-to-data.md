@@ -53,7 +53,7 @@ The bars show the odds before and after.
 
 ### What the first minutes look like
 
-Liquidity is thin around a release, spreads widen (Part 1, [Bid, ask and the order book](../01-how-markets-work/04-bid-ask-and-the-order-book.md)), and fills in a fast market can be far from the last price. The first move can reverse as traders read the details. Many traders wait until the details settle before acting, and some do not trade the release at all. That is a choice for your plan. Part 16 covers how options and volatility behave on these days (FOMC, CPI and other data days<!-- link: ../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md -->).
+Liquidity is thin around a release, spreads widen (Part 1, [Bid, ask and the order book](../01-how-markets-work/04-bid-ask-and-the-order-book.md)), and fills in a fast market can be far from the last price. The first move can reverse as traders read the details. Many traders wait until the details settle before acting, and some do not trade the release at all. That is a choice for your plan. Part 16 covers how options and volatility behave on these days ([FOMC, CPI and other data days](../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md)).
 
 ### Sorting a surprise
 

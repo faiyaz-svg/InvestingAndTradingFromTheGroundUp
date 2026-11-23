@@ -14,6 +14,7 @@ Look-up pages for the whole book. Each one summarises what the lessons teach and
 | [Futures contract specs](futures-contract-specs.md) | Multiplier, tick, months, settlement and hours for ES, MES, NQ, MNQ, SXF and SXM |
 | [Canadian tax quick reference](canadian-tax-quick-reference.md) | Accounts, limits, withholding, capital gains, ACB, superficial loss, T1135, options and crypto notes |
 | [Data sources](data-sources.md) | Free data sources, access rules and licence notes |
+| [Case study timeline](case-study-timeline.md) | The crashes, blow-ups and scams the book studies, in date order, with the risk lesson from each |
 
 Facts that change, such as limits, fees, specs and dates, are marked "as of 2026" with their source, as in the lesson they come from. Check the source before you act on one.
 

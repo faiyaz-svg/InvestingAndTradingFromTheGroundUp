@@ -104,7 +104,7 @@ The next figure draws the 20-day rolling volatility of stock-01 and of the index
 ![The 20-day annualised volatility of a made-up stock and a made-up index, with both rising in early 2024](../assets/figures/20-quant-track-in-python/rolling-volatility-dark.svg#only-dark)
 ![The 20-day annualised volatility of a made-up stock and a made-up index, with both rising in early 2024](../assets/figures/20-quant-track-in-python/rolling-volatility-light.svg#only-light)
 
-A single annual volatility number hides this. Volatility tends to come in clusters, so part 16 treats it as something that moves (see Realized and implied volatility<!-- link: ../16-volatility-and-event-trading/01-realized-vs-implied-volatility.md -->).
+A single annual volatility number hides this. Volatility tends to come in clusters, so part 16 treats it as something that moves (see [Realized and implied volatility](../16-volatility-and-event-trading/01-realized-vs-implied-volatility.md)).
 
 ## Common mistakes
 

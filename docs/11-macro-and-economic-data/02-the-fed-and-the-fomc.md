@@ -65,7 +65,7 @@ A higher futures price means a lower expected rate, so higher odds of a cut. At 
 
 </div>
 
-The next lesson shows why rate changes move stock prices. Part 16 covers trading around meeting days (FOMC, CPI and other data days<!-- link: ../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md -->).
+The next lesson shows why rate changes move stock prices. Part 16 covers trading around meeting days ([FOMC, CPI and other data days](../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md)).
 
 <div class="canada" markdown>
 

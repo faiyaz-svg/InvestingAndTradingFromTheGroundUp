@@ -77,7 +77,7 @@ Three choices before the report: sell, cut the position (a half position makes t
 
 </div>
 
-For the options side of an earnings trade, see Earnings trades and IV crush<!-- link: ../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md -->.
+For the options side of an earnings trade, see [Earnings trades and IV crush](../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md).
 
 ### Overnight and weekend holds
 

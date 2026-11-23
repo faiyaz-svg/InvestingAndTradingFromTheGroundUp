@@ -58,7 +58,7 @@ Stock A is US$50. Earnings are due tomorrow. The market prices a 30-day, 50-stri
 2. One day has passed, so 29 days are left. The call is now worth 2.0443.
 3. The change is 2.0443 - 3.5040 = -1.4597, a loss of US$145.97 per contract, with the stock exactly where it was.
 
-Most of that is vega (the volatility drop of 25 points) and a little is theta. Traders call this **IV crush**: implied volatility falls after a known event. Buying an option before the event means paying a high price for volatility and then watching it fall. Part 16 returns to it (Earnings trades and IV crush<!-- link: ../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md -->).
+Most of that is vega (the volatility drop of 25 points) and a little is theta. Traders call this **IV crush**: implied volatility falls after a known event. Buying an option before the event means paying a high price for volatility and then watching it fall. Part 16 returns to it ([Earnings trades and IV crush](../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md)).
 
 </div>
 

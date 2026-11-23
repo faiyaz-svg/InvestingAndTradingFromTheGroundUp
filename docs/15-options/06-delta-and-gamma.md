@@ -68,7 +68,7 @@ Delta alone understates the gain by about 0.23 per share (US$23 per contract), a
 
 </div>
 
-The cost of that benefit is theta, the daily decay in lesson 7. Short option positions are the reverse: they collect the decay and carry negative gamma, so a large move against them gets worse each dollar. Gamma risk is behind much of the trading around expiry (Opex, gamma and index rebalances<!-- link: ../16-volatility-and-event-trading/06-opex-gamma-and-index-rebalances.md -->).
+The cost of that benefit is theta, the daily decay in lesson 7. Short option positions are the reverse: they collect the decay and carry negative gamma, so a large move against them gets worse each dollar. Gamma risk is behind much of the trading around expiry ([Opex, gamma and index rebalances](../16-volatility-and-event-trading/06-opex-gamma-and-index-rebalances.md)).
 
 ## In code
 

@@ -62,7 +62,7 @@ In this data, headline CPI peaked at 9.1% in June 2022 and core at 6.6% in Septe
 
 ### How to read a release
 
-Check the headline m/m against the consensus, then core m/m against its consensus, then the pieces that moved the number (shelter, used cars, energy, services excluding housing). Markets care about core and services most because those are the sticky parts. Part 16 covers trading these days (FOMC, CPI and other data days<!-- link: ../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md -->).
+Check the headline m/m against the consensus, then core m/m against its consensus, then the pieces that moved the number (shelter, used cars, energy, services excluding housing). Markets care about core and services most because those are the sticky parts. Part 16 covers trading these days ([FOMC, CPI and other data days](../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md)).
 
 ## Common mistakes
 

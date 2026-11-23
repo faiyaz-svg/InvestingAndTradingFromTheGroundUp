@@ -1,0 +1,67 @@
+# Part 16, Volatility and event trading. All prices are made up. Times are New York time.
+- name: stock-a-earnings-gap
+  seed: 1601
+  csv: stock-a-earnings-daily
+  tf: D
+  start: '2026-08-17'
+  price: 62
+  volume: 1800000
+  segments:
+  - {kind: trend, bars: 45, drift: 0.0008, vol: 0.008}
+  - {kind: gap, pct: -0.094}
+  - {kind: bar, open: 0.0, high: -0.088, low: -0.115, close: -0.105, volume: 5.0}
+  - {kind: trend, bars: 10, drift: -0.0005, vol: 0.011, volume: 2.0}
+
+- name: stock-b-earnings-calm
+  seed: 1602
+  tf: D
+  start: '2026-08-17'
+  price: 48
+  volume: 1500000
+  segments:
+  - {kind: trend, bars: 45, drift: 0.0005, vol: 0.007}
+  - {kind: gap, pct: 0.018}
+  - {kind: bar, open: 0.0, high: 0.0275, low: 0.0125, close: 0.020, volume: 3.0}
+  - {kind: trend, bars: 10, drift: 0.0003, vol: 0.006, volume: 1.2}
+
+- name: index-x-regimes
+  seed: 1603
+  csv: index-x-regimes
+  tf: D
+  start: '2026-01-05'
+  price: 5000
+  volume: 2000000
+  segments:
+  - {kind: trend, bars: 70, drift: 0.0007, vol: 0.0045}
+  - {kind: trend, bars: 35, drift: -0.0028, vol: 0.015, volume: 1.6}
+  - {kind: trend, bars: 20, drift: 0.002, vol: 0.012, volume: 1.3}
+  - {kind: trend, bars: 35, drift: 0.001, vol: 0.0055}
+
+- name: index-x-fomc-5m
+  seed: 1604
+  csv: index-x-fomc-5m
+  tf: 5m
+  start: '2026-10-28 09:30'
+  price: 5000
+  volume: 1000000
+  segments:
+  - {kind: to, bars: 24, price: 5006, vol: 0.0005, volume: 1.0}
+  - {kind: range, bars: 30, low: 4998, high: 5010, vol: 0.0003, volume: 0.6}
+  - {kind: bar, open: 0.0, high: 0.0042, low: -0.0008, close: 0.0036, volume: 6.0}
+  - {kind: bar, open: 0.0, high: 0.0006, low: -0.0062, close: -0.0051, volume: 7.0}
+  - {kind: to, bars: 6, price: 4952, vol: 0.0012, volume: 3.0}
+  - {kind: to, bars: 16, price: 4962, vol: 0.0008, volume: 1.5}
+
+- name: stock-b-index-add
+  seed: 1605
+  tf: D
+  start: '2026-06-01'
+  price: 30
+  volume: 1200000
+  segments:
+  - {kind: trend, bars: 25, drift: 0.0004, vol: 0.008}
+  - {kind: gap, pct: 0.065}
+  - {kind: bar, open: 0.0, high: 0.07, low: 0.058, close: 0.062, volume: 4.0}
+  - {kind: trend, bars: 6, drift: 0.002, vol: 0.007, volume: 2.0}
+  - {kind: trend, bars: 12, drift: -0.004, vol: 0.008, volume: 1.5}
+  - {kind: trend, bars: 8, drift: 0.0, vol: 0.007}

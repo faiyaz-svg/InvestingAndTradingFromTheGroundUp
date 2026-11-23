@@ -1,0 +1,177 @@
+# Part 16 chart drills. Answers come from tools/make_charts.py 16-volatility-and-event-trading and the JSON files.
+- id: vol-regime-calm
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-regimes.json
+    show: atr 14
+    range: 2026-02-02 to 2026-04-10
+  q: "Index X, daily, with ATR 14 below. Its 20-day realized volatility is 6.9% and the ATR is 0.75% of the close. Which regime is it?"
+  type: choice
+  choices: ["Normal (calm)", "High volatility"]
+  answer_choice: 0
+  explain: "The ratio of 20-day volatility to its recent median is 0.84, below the 1.5 threshold. ATR 14 is 39.4 on April 10, which is 0.75% of the close."
+
+- id: vol-regime-turbulent
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-regimes.json
+    show: atr 14
+    range: 2026-04-13 to 2026-06-12
+  q: "The index has fallen from 5,234 to about 4,160 in this window and ATR 14 has more than doubled. Which regime is it?"
+  type: choice
+  choices: ["Normal (calm)", "High volatility"]
+  answer_choice: 1
+  explain: "By May 29, 20-day volatility is 25.0% against a median near 8.8%, a ratio of 2.84. The rule flagged the regime on April 15."
+
+- id: vol-regime-atr-pct
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-regimes.json
+    show: atr 14
+    range: 2026-03-02 to 2026-06-12
+  q: "On May 8 the close is 4,522.37 and ATR 14 is 95.0. What is the ATR as a percent of the close (one decimal)?"
+  type: number
+  answer: 2.1
+  tolerance: 0.06
+  unit: "%"
+  explain: "95.0 / 4,522.37 = 0.0210, so 2.1%. On April 10 it was 0.75%."
+
+- id: vol-regime-size
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-regimes.json
+    show: atr 14
+    range: 2026-04-13 to 2026-06-12
+  q: "High-volatility regime. Stock A is US$60.00 with ATR 1.26, the stop is 2 x ATR and risk is 0.5% of US$25,000. How many shares (round down)?"
+  type: number
+  answer: 49
+  tolerance: 0.5
+  explain: "Stop distance = 2.52. Risk = US$125. 125 / 2.52 = 49.6, so 49 shares."
+
+- id: vol-regime-target
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-regimes.json
+    range: 2026-04-13 to 2026-06-12
+  q: "Realized volatility is 25% and your target is 10%. What fraction of the normal position do you hold (two decimals)?"
+  type: number
+  answer: 0.40
+  tolerance: 0.006
+  explain: "w = 10 / 25 = 0.40."
+
+- id: vol-em-a
+  chart: |
+    data: 16-volatility-and-event-trading/stock-a-earnings-gap.json
+    range: 2026-09-14 to 2026-10-16
+  q: "Stock A closes at 60.51 before its report. The 60.50 straddle costs 3.675. What is the implied move in percent (one decimal)?"
+  type: number
+  answer: 6.1
+  tolerance: 0.06
+  unit: "%"
+  explain: "3.675 / 60.51 = 0.0607, so 6.1%."
+
+- id: vol-gap-a
+  chart: |
+    data: 16-volatility-and-event-trading/stock-a-earnings-gap.json
+    range: 2026-09-14 to 2026-11-02
+  q: "The implied move was 6.1%. Stock A opened at 54.82 after closing at 60.51. Compared with the implied move, the gap was:"
+  type: choice
+  choices: ["Larger", "Smaller", "About equal"]
+  answer_choice: 0
+  explain: "54.82 / 60.51 - 1 = -9.4%, which is about 1.5 times the implied 6.1%. A long straddle gained."
+
+- id: vol-gap-a-level
+  chart: |
+    data: 16-volatility-and-event-trading/stock-a-earnings-gap.json
+    range: 2026-09-14 to 2026-11-02
+  q: "Click the open of the report day, October 19."
+  type: level
+  answer: 54.82
+  tolerance: 0.4
+  explain: "The stock opened at 54.82, below the 60.51 close, a 9.4% gap down."
+  reveal: |
+    level: 54.82 | Open on the report day
+
+- id: vol-gap-b
+  chart: |
+    data: 16-volatility-and-event-trading/stock-b-earnings-calm.json
+    range: 2026-09-14 to 2026-11-02
+  q: "Stock B closed at 47.28 and opened at 48.13 after its report. The implied move was 5.5%. Was the gap larger or smaller than the implied move?"
+  type: choice
+  choices: ["Larger", "Smaller"]
+  answer_choice: 1
+  explain: "48.13 / 47.28 - 1 = +1.8%, inside the implied 5.5%. A long straddle lost to the IV crush."
+
+- id: vol-gap-b-ratio
+  chart: |
+    data: 16-volatility-and-event-trading/stock-b-earnings-calm.json
+    range: 2026-09-14 to 2026-11-02
+  q: "The gap was 1.8% and the implied move 5.5%. What fraction of the implied move did the stock gap (two decimals)?"
+  type: number
+  answer: 0.33
+  tolerance: 0.02
+  explain: "1.8 / 5.5 = 0.33."
+
+- id: vol-fomc-high
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-fomc-5m.json
+    show: volume
+    range: 2026-10-28 11:30 to 2026-10-28 15:55
+  q: "The FOMC statement comes at 2:00 p.m. Click the high of the 2:00 p.m. bar."
+  type: level
+  answer: 5025.53
+  tolerance: 3
+  explain: "The 2:00 p.m. bar ran from 5,000.51 to 5,025.53. A short that breaks the bar's low uses a stop just above the high."
+  reveal: |
+    level: 5025.53 | High of the 2:00 p.m. bar
+
+- id: vol-fomc-entry
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-fomc-5m.json
+    show: volume
+    range: 2026-10-28 11:30 to 2026-10-28 15:55
+  q: "You plan to sell on a break below the low of the 2:00 p.m. bar. Click the low."
+  type: level
+  answer: 5000.51
+  tolerance: 3
+  explain: "The low of the 2:00 p.m. bar is 5,000.51, so the sell trigger is 5,000.50."
+  reveal: |
+    level: 5000.51 | Low of the 2:00 p.m. bar
+
+- id: vol-fomc-risk
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-fomc-5m.json
+    range: 2026-10-28 13:00 to 2026-10-28 15:55
+  q: "A micro future is worth US$5 a point. You sell at 4,999.00 with a stop at 5,026.00. What is the risk per contract in US$?"
+  type: number
+  answer: 135
+  tolerance: 0.5
+  unit: "US$"
+  explain: "(5,026.00 - 4,999.00) x 5 = 27 x 5 = US$135."
+
+- id: vol-fomc-reversal
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-fomc-5m.json
+    range: 2026-10-28 13:00 to 2026-10-28 15:55
+  q: "The 2:00 p.m. bar rose to 5,025.53 and closed at 5,022.53. What did the 2:05 p.m. bar do?"
+  type: choice
+  choices: ["Fell through the 2:00 p.m. bar's low, to 4,991.39", "Rose above 5,030", "Stayed inside the 2:00 p.m. bar"]
+  answer_choice: 0
+  explain: "The 2:05 p.m. bar fell to 4,991.39, below the 5,000.51 low of the first bar. The first move did not hold."
+
+- id: vol-fomc-size
+  chart: |
+    data: 16-volatility-and-event-trading/index-x-fomc-5m.json
+    show: volume
+    range: 2026-10-28 09:30 to 2026-10-28 15:55
+  q: "The morning 5-minute bars average 3.06 points tall and the 2:00 p.m. bar is 25.02 points. How many times larger is it (one decimal)?"
+  type: number
+  answer: 8.2
+  tolerance: 0.1
+  explain: "25.02 / 3.06 = 8.2."
+
+- id: vol-index-add-gap
+  chart: |
+    data: 16-volatility-and-event-trading/stock-b-index-add.json
+    range: 2026-06-15 to 2026-08-11
+  q: "Stock B closed at 33.03 on July 3 and opened at 35.18 on July 6 on an index addition. What is the gap in percent (one decimal)?"
+  type: number
+  answer: 6.5
+  tolerance: 0.06
+  unit: "%"
+  explain: "35.18 / 33.03 - 1 = 0.0651, so 6.5%."
