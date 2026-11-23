@@ -859,6 +859,39 @@ This list is built from every lesson's Common mistakes section, grouped by part.
 - Sizing a same-day option below its true risk. The premium can go to zero in an hour, so 1R is the premium plus fees.
 
 
+## Part 16: Volatility and event trading
+
+### [Realized and implied volatility](../16-volatility-and-event-trading/01-realized-vs-implied-volatility.md)
+
+- Comparing windows that do not match. A 21-day realized figure answers a one-month question, and a one-week IV answers a one-week question.
+- Using 365 or 360 instead of 252 in \( \sqrt{252} \). Returns exist only on trading days.
+- Treating "IV above realized" as a sell signal. It is an average over many months, and the average hides the months when it flips.
+
+### [The VIX and the term structure](../16-volatility-and-event-trading/02-the-vix-and-term-structure.md)
+
+- Reading a VIX level as a forecast of direction. It prices the size of moves, up or down.
+- Assuming a volatility ETP follows the VIX. It follows futures, and the roll cost separates them.
+- Holding a volatility product as a long-term hedge. The sources above say it is built for short holding periods.
+
+### [Volatility regimes](../16-volatility-and-event-trading/03-volatility-regimes.md)
+
+- Cutting size by feel after a bad day. Write the rule and apply it the same way every time.
+- Keeping the same share count when volatility doubles. The dollar risk doubles with it.
+- Reading a calm regime as a reason to take more risk than your plan allows.
+
+### [Earnings trades and IV crush](../16-volatility-and-event-trading/04-earnings-trades-and-iv-crush.md)
+
+- Buying a straddle because the move "will be big". The price already holds a big move, so compare your estimate with the implied move.
+- Comparing the report move with an IV quoted for a month. Use the expiry that contains the report.
+- Sizing a short structure by the credit. Size it by the maximum loss.
+
+### [FOMC, CPI and other data days](../16-volatility-and-event-trading/05-fomc-cpi-and-data-days.md)
+
+- Placing a market order in the first minute after a release. Spreads are widest then.
+- Sizing a release trade as if the stop will fill exactly. Add the slippage you expect to the risk.
+- Deciding what to do when the number prints. Decide the night before.
+
+
 ## Part 17: Commodities, forex and REITs
 
 ### [Commodity markets](../17-commodities-forex-and-reits/01-commodity-markets.md)
@@ -1082,6 +1115,63 @@ This list is built from every lesson's Common mistakes section, grouped by part.
 
 - Annualising a monthly series with 252. Use 12 and \(\sqrt{12}\) for monthly data.
 - Comparing CAGRs without the drawdowns. Pair every return number with a risk number.
+
+
+## Part 21: Crashes, scams and case studies
+
+### [1929 and 1987](../21-crashes-scams-and-case-studies/01-1929-and-1987.md)
+
+- Reading "10% down" as "10% risk". With a loan of 90% of the price, a 10% fall is a 100% loss of your own money.
+- Treating a stop order as a guarantee. In a crash many stops trigger together and fill far from the stop price ([Order types](../01-how-markets-work/05-order-types.md)).
+- Assuming a hedging rule is safe because each user hedges. Many hedgers selling at once is itself a trade.
+
+### [LTCM and the dot-com bubble](../21-crashes-scams-and-case-studies/02-ltcm-and-the-dot-com-bubble.md)
+
+- Judging risk from a convergence trade's average return. Small steady gains hide a rare large loss.
+- Reading "the Fed rescued LTCM" as a taxpayer bailout. The Fed's role was convening the lenders, who supplied the capital.
+- Buying more because a high multiple keeps rising. The multiple is the thing to explain.
+
+### [The 2008 financial crisis](../21-crashes-scams-and-case-studies/03-the-2008-crisis.md)
+
+- Blaming one cause. The FCIC and the Fed's history both describe a chain: lending standards, bond ratings, leverage, short-term funding and a run.
+- Treating a safe label as safe. A money market fund, a highly rated bond and a bank deposit are different promises; check what backs each.
+- Looking only at the asset side. A firm's survival depends on how it is funded.
+
+### [The 2010 flash crash and the 2020 COVID crash](../21-crashes-scams-and-case-studies/04-flash-crash-2010-and-covid-2020.md)
+
+- Using a market order in a fast market. The fill can be far from the last price.
+- Expecting a circuit breaker to stop the fall. It gives time to take stock; the price can reopen lower.
+- Assuming a safe asset keeps its price in a crisis. Treasuries are safe from default, not from price swings.
+
+### [GameStop and meme stocks](../21-crashes-scams-and-case-studies/05-gamestop-and-meme-stocks.md)
+
+- Reading a high short interest as a signal that a squeeze is coming. The report found the squeeze was not the main driver, and short interest above 100% reflects re-lending as well.
+- Selling short a stock with a high borrow cost without adding the fee. At 25% a year it is a large part of a trade's cost.
+- Averaging into a position because the price looks too high or too low. Margin calls do not wait for you to be right.
+
+### [Archegos and SVB](../21-crashes-scams-and-case-studies/06-archegos-and-svb.md)
+
+- Reading allegations as findings. The SEC's complaint is an allegation; the verdict and sentence are the court's findings.
+- Calling a bond risk-free because it pays at maturity. It can lose value before then, and a forced sale makes the loss real.
+- Counting only the account balance. Exposure divided by capital is the number to know.
+
+### [The 2022 rate shock](../21-crashes-scams-and-case-studies/07-the-2022-rate-shock.md)
+
+- Treating a rise in yield as a gain because new bonds pay more. The price fall is immediate; the extra income arrives over years.
+- Using the 10-year yield for every bond. A 2-year and a 10-year bond move by different amounts for the same yield change.
+- Assuming a bond fund has no price risk because the bonds are government bonds. Default risk is low; duration risk is not.
+
+### [Pump and dumps, finfluencers and signal groups](../21-crashes-scams-and-case-studies/08-pump-and-dumps-finfluencers-and-signal-groups.md)
+
+- Judging a group by its screenshots of wins. Screenshots show the wins someone chose to post.
+- Treating a rising price as proof. In a pump the price rises because the promoters' followers are buying.
+- Believing a friendship or relationship that started online and leads to a stock tip. The CSA lists it as a step in the scheme.
+
+### [Prop firms and checking registration](../21-crashes-scams-and-case-studies/09-prop-firms-and-checking-registration.md)
+
+- Judging a program by its best payout. Ask for the pass rate.
+- Reading "I found no complaint" as "it is registered". Registration is a list lookup.
+- Assuming CIPF protects every fee. It covers property at member firms, not market losses.
 
 
 ## Part 22: Careers, interviews and AI
