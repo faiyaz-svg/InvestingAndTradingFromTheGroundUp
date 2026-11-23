@@ -199,4 +199,4 @@ FFO = 20.0 + 35.0 - 5.0 = US$50.0 million, or US$2.00 per share. Payout = 1.60 /
 - **Refinancing**: replacing maturing debt with new debt at the current rate.
 - **Leverage (real estate)**: the use of borrowed money so that equity is a small share of a property's value.
 
-Next: What bitcoin is<!-- link: ../18-crypto/01-what-bitcoin-is.md -->
+Next: [What bitcoin is](../18-crypto/01-what-bitcoin-is.md)

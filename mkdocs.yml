@@ -280,6 +280,17 @@ nav:
           - "REITs explained": 17-commodities-forex-and-reits/07-reits-explained.md
           - "REIT metrics: FFO and cap rates": 17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md
           - "Rates and real estate": 17-commodities-forex-and-reits/09-rates-and-real-estate.md
+      - "Crypto":
+          - 18-crypto/index.md
+          - "What bitcoin is": 18-crypto/01-what-bitcoin-is.md
+          - "Blockchains, keys and wallets": 18-crypto/02-blockchains-keys-and-wallets.md
+          - "Ethereum, stablecoins and DeFi": 18-crypto/03-ethereum-stablecoins-and-defi.md
+          - "Buying crypto in Canada": 18-crypto/04-buying-crypto-in-canada.md
+          - "Crypto ETFs": 18-crypto/05-crypto-etfs.md
+          - "Crypto market structure: perps, funding and liquidations": 18-crypto/06-crypto-market-structure.md
+          - "On-chain data and crypto cycles": 18-crypto/07-on-chain-data-and-cycles.md
+          - "Hacks and collapses": 18-crypto/08-hacks-and-collapses.md
+          - "Crypto taxes and position sizing": 18-crypto/09-crypto-taxes-and-sizing.md
       - "Data, flows and forecasting":
           - 19-data-flows-and-forecasting/index.md
           - "Free data sources and their licences": 19-data-flows-and-forecasting/01-free-data-sources.md

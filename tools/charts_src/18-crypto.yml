@@ -1,0 +1,29 @@
+# Part 18, Crypto. All prices are made up. "Coin A" is a made-up coin.
+# The generator's daily timeframe skips weekends, so daily charts show weekdays only
+# (real crypto trades 7 days a week; lesson 6 says so).
+- name: coin-a-cascade
+  seed: 1801
+  csv: coin-a-daily
+  tf: D
+  start: 2026-03-02
+  price: 20.00
+  volume: 9000000
+  segments:
+    - {kind: trend, bars: 25, drift: 0.006, vol: 0.03}
+    - {kind: to, bars: 8, price: 27.50, vol: 0.025, volume: 1.2}
+    - {kind: bar, open: 0.0, high: 0.01, low: -0.17, close: -0.14, volume: 4.0}
+    - {kind: bar, open: -0.02, high: 0.04, low: -0.09, close: -0.03, volume: 2.5}
+    - {kind: range, bars: 12, low: 21.00, high: 24.50, vol: 0.025, volume: 1.0}
+    - {kind: trend, bars: 20, drift: 0.001, vol: 0.028}
+
+- name: coin-a-cycle
+  seed: 1802
+  tf: W
+  start: 2023-01-02
+  price: 4.00
+  volume: 50000000
+  segments:
+    - {kind: to, bars: 30, price: 7.00, vol: 0.05}
+    - {kind: to, bars: 40, price: 31.00, vol: 0.07, volume: 1.6}
+    - {kind: to, bars: 45, price: 9.50, vol: 0.07, volume: 1.0}
+    - {kind: to, bars: 30, price: 6.80, vol: 0.05, volume: 0.6}

@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list, and the DONE column on the home page fills in too. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 144 of 201. New lessons appear here as they are added.
+Lessons written so far: 153 of 201. New lessons appear here as they are added.
 
 ## Foundations
 
@@ -194,6 +194,18 @@ Lessons written so far: 144 of 201. New lessons appear here as they are added.
 - [ ] [REITs explained](17-commodities-forex-and-reits/07-reits-explained.md) (idea)
 - [ ] [REIT metrics: FFO and cap rates](17-commodities-forex-and-reits/08-reit-metrics-ffo-and-cap-rates.md) (data)
 - [ ] [Rates and real estate](17-commodities-forex-and-reits/09-rates-and-real-estate.md) (idea, review)
+
+### Part 18: Crypto
+
+- [ ] [What bitcoin is](18-crypto/01-what-bitcoin-is.md) (idea)
+- [ ] [Blockchains, keys and wallets](18-crypto/02-blockchains-keys-and-wallets.md) (idea)
+- [ ] [Ethereum, stablecoins and DeFi](18-crypto/03-ethereum-stablecoins-and-defi.md) (idea)
+- [ ] [Buying crypto in Canada](18-crypto/04-buying-crypto-in-canada.md) (canada)
+- [ ] [Crypto ETFs](18-crypto/05-crypto-etfs.md) (idea)
+- [ ] [Crypto market structure: perps, funding and liquidations](18-crypto/06-crypto-market-structure.md) (idea)
+- [ ] [On-chain data and crypto cycles](18-crypto/07-on-chain-data-and-cycles.md) (data)
+- [ ] [Hacks and collapses](18-crypto/08-hacks-and-collapses.md) (case study)
+- [ ] [Crypto taxes and position sizing](18-crypto/09-crypto-taxes-and-sizing.md) (canada, review)
 
 ### Part 19: Data, flows and forecasting
 

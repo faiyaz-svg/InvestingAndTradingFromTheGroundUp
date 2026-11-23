@@ -34,11 +34,11 @@ An option symbol follows the Options Symbology Initiative format, which has 21 c
 | Type | 1 | C for a call, P for a put |
 | Strike | 8 | The strike price times 1,000, padded with zeros on the left |
 
-The format is described on [IBKR's symbology page](https://ibkb.interactivebrokers.com/article/972). Take a made-up example with a made-up underlying, ABC:
+The format is described on [IBKR's symbology page](https://ibkb.interactivebrokers.com/article/972). Take a made-up example with a made-up underlying, STKA:
 
-`ABC   261218C00050000`
+`STKA  261218C00050000`
 
-The root is ABC plus three spaces. The expiry is 261218, which is December 18, 2026. The C means a call. The strike is 00050000, which is 50,000 divided by 1,000, so US$50.00. Many platforms drop the spaces and show ABC261218C00050000. A strike of US$12.50 would be 00012500.
+The root is STKA plus two spaces, padding it to six characters. The expiry is 261218, which is December 18, 2026. The C means a call. The strike is 00050000, which is 50,000 divided by 1,000, so US$50.00. Many platforms drop the spaces and show STKA261218C00050000. A strike of US$12.50 would be 00012500.
 
 Options are taught in part 15, starting with The options chain and moneyness<!-- link: ../15-options/03-the-chain-and-moneyness.md -->.
 
@@ -54,7 +54,7 @@ ESZ6 is the ES product (the E-mini S&P 500 future), expiring in December (Z), in
 
 ## Crypto pairs and currency pairs
 
-A crypto pair names the coin and the currency it is priced in: BTC-USD is the price of one bitcoin in US dollars. Some platforms write BTC/USD or BTCUSD. Crypto is covered in What bitcoin is<!-- link: ../18-crypto/01-what-bitcoin-is.md -->.
+A crypto pair names the coin and the currency it is priced in: BTC-USD is the price of one bitcoin in US dollars. Some platforms write BTC/USD or BTCUSD. Crypto is covered in [What bitcoin is](../18-crypto/01-what-bitcoin-is.md).
 
 A currency pair is written base/quote. USD/CAD tells you how many Canadian dollars one US dollar costs. If USD/CAD is 1.40 (a made-up number), then US$1 buys C$1.40, and C$1 buys 1/1.40 = US$0.714. When USD/CAD rises, the US dollar gets stronger against the Canadian dollar. See [Forex basics](../17-commodities-forex-and-reits/04-forex-basics.md).
 
